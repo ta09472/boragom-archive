@@ -5,5 +5,9 @@ upload-state.jsonl
 media-verification.json
 build-verification.json
 preparation-verification.json
+/local-link-verification.json
+/deployment-verification.json
+/live-*
+/배포결과.md
 .env*
 *.log
