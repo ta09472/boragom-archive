@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 site/
 upload-state.json
 upload-state.jsonl

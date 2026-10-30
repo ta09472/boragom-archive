@@ -10,8 +10,8 @@
 
 ## 복구 파일
 
-- `https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg`: 150×150, 6,573바이트. 기존 참조는 100×100이므로 확보한 공개 표시본이 더 큽니다.
-- `https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-1.jpg`: 공개 OG의 100×100, 3,699바이트. 함께 보존했습니다.
+- `media/recovered/instagram-original-profile-0.jpg`: 150×150, 6,573바이트. 기존 참조는 100×100이므로 확보한 공개 표시본이 더 큽니다.
+- `media/recovered/instagram-original-profile-1.jpg`: 공개 OG의 100×100, 3,699바이트. 함께 보존했습니다.
 - 원문 동일성은 정확히 일치하는 `294355572_479730100637979_3237889373688027522_n.jpg` 이미지 식별자로 확인했습니다. 현재 다른 프로필 그림으로 대체하지 않았습니다.
 
 ## 미복구 자료 추가 추적
@@ -20,7 +20,7 @@
 
 두 URL의 Wayback CDX 정확 경로 조회는 빈 결과였습니다. 별도 availability API는 429를 반환하여 추가 재시도를 중단했습니다. Common Crawl 최신 인덱스는 modoo 사이트 조회 404, 나머지 두 검색 504로 완전한 부재를 입증하지 못했습니다.
 
-공개 [boragom-admin 저장소](https://github.com/ta09472/boragom-admin)에서 1378×1372 브랜드 로고 PNG를 발견했습니다. `https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/github-brand-logo-unverified.png`로 별도 보존했지만, 두 실패 URL의 과거 이미지와 같은 파일이라는 증거는 없습니다. **복구 수량에 넣거나 기존 썸네일을 대체하지 않았습니다.** 이 파일은 2023-08-27 커밋에서 추가된 Next.js 관리 화면의 이미지이며, 기록된 Vercel 배포의 해당 파일은 현재 404입니다. 공개 legacy 저장소의 현재/직전 커밋에도 대응 PNG가 없었습니다.
+공개 [boragom-admin 저장소](https://github.com/ta09472/boragom-admin)에서 1378×1372 브랜드 로고 PNG를 발견했습니다. `media/recovered/github-brand-logo-unverified.png`로 별도 보존했지만, 두 실패 URL의 과거 이미지와 같은 파일이라는 증거는 없습니다. **복구 수량에 넣거나 기존 썸네일을 대체하지 않았습니다.** 이 파일은 2023-08-27 커밋에서 추가된 Next.js 관리 화면의 이미지이며, 기록된 Vercel 배포의 해당 파일은 현재 404입니다. 공개 legacy 저장소의 현재/직전 커밋에도 대응 PNG가 없었습니다.
 
 원본 웹사이트 소스·과거 배포 파일 또는 종료 전 modoo 백업이 있으면 남은 두 파일을 추가 대조할 수 있습니다.
 

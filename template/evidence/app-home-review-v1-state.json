@@ -11,15 +11,15 @@
     "http://127.0.0.1:8765/assets/app.js",
     "http://127.0.0.1:8765/outputs/boragom-archive/evidence/map-background.png",
     "http://127.0.0.1:8765/evidence/map-background.png",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/46eb54e65e6e2503039d.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a53ed7ac3b83531c7516.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/23109957cc904ddd1d1f.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/2051c931f8374a7e03bd.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/7f8eba0df57d7ad3fe0e.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/15006503039f71348cc3.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/6dd9b736e4574eb021f3.jpg",
-    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a040c1d06c28a2f87a54.jpg"
+    "http://127.0.0.1:8765/media/images/46eb54e65e6e2503039d.jpg",
+    "http://127.0.0.1:8765/media/images/a53ed7ac3b83531c7516.jpg",
+    "http://127.0.0.1:8765/media/images/23109957cc904ddd1d1f.jpg",
+    "http://127.0.0.1:8765/media/images/2051c931f8374a7e03bd.jpg",
+    "http://127.0.0.1:8765/media/images/7f8eba0df57d7ad3fe0e.jpg",
+    "http://127.0.0.1:8765/media/images/15006503039f71348cc3.jpg",
+    "http://127.0.0.1:8765/media/images/06364c2e84fe125a3df6.jpg",
+    "http://127.0.0.1:8765/media/images/6dd9b736e4574eb021f3.jpg",
+    "http://127.0.0.1:8765/media/images/a040c1d06c28a2f87a54.jpg"
   ],
   "scrollY": 0,
   "elements": [
@@ -308,7 +308,7 @@
         "left": 79
       },
       "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif",
-      "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a53ed7ac3b83531c7516.jpg"
+      "src": "http://127.0.0.1:8765/media/images/a53ed7ac3b83531c7516.jpg"
     },
     {
       "tag": "BUTTON",
@@ -339,7 +339,7 @@
         "left": 295
       },
       "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif",
-      "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/46eb54e65e6e2503039d.jpg"
+      "src": "http://127.0.0.1:8765/media/images/46eb54e65e6e2503039d.jpg"
     },
     {
       "tag": "BUTTON",

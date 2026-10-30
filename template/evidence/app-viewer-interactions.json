@@ -4,7 +4,7 @@
     "open": true,
     "images": [
       {
-        "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg",
+        "src": "http://127.0.0.1:8765/media/images/06364c2e84fe125a3df6.jpg",
         "bounds": {
           "x": 484,
           "y": 161.5,
@@ -23,7 +23,7 @@
     "open": true,
     "images": [
       {
-        "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg",
+        "src": "http://127.0.0.1:8765/media/images/06364c2e84fe125a3df6.jpg",
         "bounds": {
           "x": 461,
           "y": 138.5,

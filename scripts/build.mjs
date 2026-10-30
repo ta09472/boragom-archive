@@ -17,19 +17,22 @@ const referenced = new Set();
 const missing = new Set();
 const site = path.join(root, 'site');
 await rm(site, { recursive: true, force: true });
-await cp(path.join(root, 'template'), site, { recursive: true });
+await cp(path.join(root, 'template'), site, { recursive: true, dereference: true });
 async function rewrite(dir) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
     const file = path.join(dir, entry.name);
     if (entry.isDirectory()) { await rewrite(file); continue; }
     if (!/\.(js|css|html|json|csv|md|txt)$/i.test(entry.name)) continue;
     const original = await readFile(file, 'utf8');
-    const transformed = original.replace(/(?:\.\.\/|\.\/)*media\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|gif|webp|svg|avif|ico|mp4|webm|mov)/gi, (match) => {
+    const transformed = original.replace(/(?<![A-Za-z0-9_:/.-])(?:\.\.\/|\.\/)*media\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|gif|webp|svg|avif|ico|mp4|webm|mov)/gi, (match) => {
       const relative = match.replace(/^(?:\.\.\/|\.\/)+/, '');
       if (!known.has(relative)) { missing.add(relative); return match; }
       referenced.add(relative);
       return base + relative;
     });
+    if (transformed.includes('/boragom-archive/https:') || transformed.includes('ik.imagekit.io/validation-only')) {
+      throw new Error(`Invalid media URL in ${path.relative(site, file)}`);
+    }
     if (transformed !== original) await writeFile(file, transformed);
   }
 }

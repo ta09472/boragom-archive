@@ -25,15 +25,15 @@
           "Azure1129"
         ],
         "photos": [
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/8563159a3899487b6f21.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f231f7637dd5df2b2acb.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/5a5a77b8e26dfc5b052c.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a46d24a93faa75cd42a2.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/0b2a32eebd704ffdee18.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/cd424c8ada0fba8197d4.jpg",
-          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f778b2d71759781f434b.jpg"
+          "media/images/038820f23f196c83358c.jpg",
+          "media/images/9a3d1699da314eeed9ff.jpg",
+          "media/images/8563159a3899487b6f21.jpg",
+          "media/images/f231f7637dd5df2b2acb.jpg",
+          "media/images/5a5a77b8e26dfc5b052c.jpg",
+          "media/images/a46d24a93faa75cd42a2.jpg",
+          "media/images/0b2a32eebd704ffdee18.jpg",
+          "media/images/cd424c8ada0fba8197d4.jpg",
+          "media/images/f778b2d71759781f434b.jpg"
         ],
         "blogs": 3,
         "related": 2
@@ -44,17 +44,17 @@
       "pass": true,
       "observed": {
         "first": {
-          "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg",
+          "src": "media/images/038820f23f196c83358c.jpg",
           "counter": "1 / 9"
         },
-        "second": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg"
+        "second": "media/images/9a3d1699da314eeed9ff.jpg"
       }
     },
     {
       "name": "Home clip plays local full video",
       "pass": true,
       "observed": {
-        "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/videos/clip-90004EE37D46166DDFF2DEE11D67F75BD088-1080p.mp4",
+        "src": "media/videos/clip-90004EE37D46166DDFF2DEE11D67F75BD088-1080p.mp4",
         "duration": 27.021995,
         "currentTime": 3.80701,
         "width": 1080,
@@ -87,7 +87,7 @@
         "hash": "#/menu/NmkLQKMzFzCq7gL79WFH",
         "open": true,
         "title": "2호(18cm)-인물케이크",
-        "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg"
+        "src": "media/images/06364c2e84fe125a3df6.jpg"
       },
       "pass": true
     },
@@ -95,7 +95,7 @@
       "name": "All 9 menu entries and menu-board image",
       "observed": {
         "menus": 9,
-        "board": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/70ddfa74ace1c0c6a990.png"
+        "board": "media/images/70ddfa74ace1c0c6a990.png"
       },
       "pass": true
     },
