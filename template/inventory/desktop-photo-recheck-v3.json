@@ -1,0 +1,269 @@
+{
+  "checked_at": "2026-10-28T23:54:01.186475+00:00",
+  "status": "enumeration_exhausted",
+  "source": "raw/audit-v3/desktop-photo-network.json",
+  "source_sha256": "53d5583479e9a06981d3f9f0f99f5ff9e143dbcabcaf23baa26f8a6be1f91996",
+  "method": "Desktop photo tab Review filter and successive scrolling; observed public UI requests only.",
+  "pages": 11,
+  "photos": 438,
+  "unique_original_urls": 438,
+  "by_view_id_prefix": {
+    "blog": 12,
+    "userimage": 426
+  },
+  "terminal_cursors": [
+    {
+      "id": "placeReview",
+      "startIndex": 438,
+      "hasNext": false,
+      "lastCursor": null,
+      "__typename": "PhotoViewerCursor"
+    }
+  ],
+  "new_urls_vs_previous_gallery": [],
+  "previous_urls_not_seen": [],
+  "gallery_order_matches_previous": true,
+  "missing_saved_files": [],
+  "visitor_images_only_in_review_bodies": 6,
+  "declared_total": 462,
+  "visitor_review_body_media": 432,
+  "unresolved_difference": 30,
+  "cursor_chain": [
+    {
+      "requested": [
+        {
+          "id": "biz"
+        },
+        {
+          "id": "clip"
+        },
+        {
+          "id": "cp0"
+        },
+        {
+          "id": "aiView"
+        },
+        {
+          "id": "placeReview"
+        },
+        {
+          "id": "cp"
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 40,
+          "hasNext": true,
+          "lastCursor": "^^^R0hOQmdqaGZIcHZiNkhWK3pMUS85NVEyWlJsaFAxZVFxa2ZvWXo4alFROXpDUll6YWh1VDdFUHFUSVBFekJkQy9rSUlrSFMwRFQwanZOZktFVnNEay8vK2swSkFyM3Z1NXViVDk0akNUZ0YwNzZYOVAxRjl4R1ZXUEw3ek5ScHpDVElqdnhBbXZHVEVlcHVEWm9mZWhzL3hYWWY4QWFJNTN3PT0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 40,
+          "hasNext": true,
+          "lastCursor": "^^^R0hOQmdqaGZIcHZiNkhWK3pMUS85NVEyWlJsaFAxZVFxa2ZvWXo4alFROXpDUll6YWh1VDdFUHFUSVBFekJkQy9rSUlrSFMwRFQwanZOZktFVnNEay8vK2swSkFyM3Z1NXViVDk0akNUZ0YwNzZYOVAxRjl4R1ZXUEw3ek5ScHpDVElqdnhBbXZHVEVlcHVEWm9mZWhzL3hYWWY4QWFJNTN3PT0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 80,
+          "hasNext": true,
+          "lastCursor": "^^^QW83S1doTE1ORDl5ajdxdkdKeHpFd2RLYTUrOGMxaGxGRWxWc2NmUGRGODI3eEFTNW51VmJNYWZ2WlRzN0NzeGZueENJbG5YLytoOU5sWkhScCtlSUhPVWxHcEtYV0IwYzAzZWJYd2l2Nmt4dEMvVWtxbnhzUzZKM3J4UDhLTmhLMXh6OHE1QkE3eSthTU50dEdzM0FwNXFuMlZzQ1hac3dBPT0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 80,
+          "hasNext": true,
+          "lastCursor": "^^^QW83S1doTE1ORDl5ajdxdkdKeHpFd2RLYTUrOGMxaGxGRWxWc2NmUGRGODI3eEFTNW51VmJNYWZ2WlRzN0NzeGZueENJbG5YLytoOU5sWkhScCtlSUhPVWxHcEtYV0IwYzAzZWJYd2l2Nmt4dEMvVWtxbnhzUzZKM3J4UDhLTmhLMXh6OHE1QkE3eSthTU50dEdzM0FwNXFuMlZzQ1hac3dBPT0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 120,
+          "hasNext": true,
+          "lastCursor": "^^^QkpvamhYWWdFYWFQM0MwaTM0THpJN3NZQjdYNmlOMlZ4bGxyVUxVUHZySkJiOVZZcERWNmJkd0RGRGN0d2tob0NrOFNlaWdiUnQ1ZG9TVUY3M1pMbWpEWTZVTlVQQm1zMTZueERYeEdjTUkvZDBONzk0S0htRmZhQzIvRjc1NWhKN1YraEd2N0hmL3M0MnNuNW5Na1ZUUENrd1p6MC9YNU9ERT0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 120,
+          "hasNext": true,
+          "lastCursor": "^^^QkpvamhYWWdFYWFQM0MwaTM0THpJN3NZQjdYNmlOMlZ4bGxyVUxVUHZySkJiOVZZcERWNmJkd0RGRGN0d2tob0NrOFNlaWdiUnQ1ZG9TVUY3M1pMbWpEWTZVTlVQQm1zMTZueERYeEdjTUkvZDBONzk0S0htRmZhQzIvRjc1NWhKN1YraEd2N0hmL3M0MnNuNW5Na1ZUUENrd1p6MC9YNU9ERT0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 160,
+          "hasNext": true,
+          "lastCursor": "^^^T1U1RmRXMjB2ZEd2bitCL0U1R2RyVTNBZm4yaURvMGJPNE90bDQ1R252cmg0TWNEQVVKMGUvMEtiaTRYZ1NYMFJ5cU9Hb0xRV25RK052WTFYNkY4cTg4a2pORWpUOEFlNVpDOE1VTzByK1JaRk5GTFBzVVEva2JaYkE4OGt6QWZTNVF2LzRyaGlYc1JDVG81NjhZdEhDZHlCM1hRTTdXVnVzST0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 160,
+          "hasNext": true,
+          "lastCursor": "^^^T1U1RmRXMjB2ZEd2bitCL0U1R2RyVTNBZm4yaURvMGJPNE90bDQ1R252cmg0TWNEQVVKMGUvMEtiaTRYZ1NYMFJ5cU9Hb0xRV25RK052WTFYNkY4cTg4a2pORWpUOEFlNVpDOE1VTzByK1JaRk5GTFBzVVEva2JaYkE4OGt6QWZTNVF2LzRyaGlYc1JDVG81NjhZdEhDZHlCM1hRTTdXVnVzST0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 200,
+          "hasNext": true,
+          "lastCursor": "^^^RERTbklJY2JGaTBVSkZiWStRc2lFK243RnZVR0pCQmxWbE9VUlVWTzI3dmUzNEpsTFFpQ2lYVXBPVE1NM1pRc3A5WUduLzhybVVCVlVRRVQ5cEp2Z0Ztc2hLS2xDbHBYUHBXTlI5UlhJR2ZJZTE5cWxpaExCcnVLSFN3ZDlzbzJhTmlydWZPSHdiQ2MwS1JMQUpveFI0ejZUY05rMGVCdXVFVT0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 200,
+          "hasNext": true,
+          "lastCursor": "^^^RERTbklJY2JGaTBVSkZiWStRc2lFK243RnZVR0pCQmxWbE9VUlVWTzI3dmUzNEpsTFFpQ2lYVXBPVE1NM1pRc3A5WUduLzhybVVCVlVRRVQ5cEp2Z0Ztc2hLS2xDbHBYUHBXTlI5UlhJR2ZJZTE5cWxpaExCcnVLSFN3ZDlzbzJhTmlydWZPSHdiQ2MwS1JMQUpveFI0ejZUY05rMGVCdXVFVT0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 240,
+          "hasNext": true,
+          "lastCursor": "^^^UWJGV3YvQ2gyUDZwZ1ZkSkpFMVZGTStSdDZqRDlZakVrSU05UmU2V1ZWOWcrd3o4c2w5ZEQyWlIyV0xMNkdHYVRUcy9VQzVxcVRXWGkxeE5aWVMvcVlwNUwxcElRTDVqVTJIck9CQXhZQU5hZzR1eG5ONGs1WWVRcVB2bEpoOTdheEtzRjZ1UjdOL2JnNXRJREVTYmRGd1Njck02Z2RNWTVQYz0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 240,
+          "hasNext": true,
+          "lastCursor": "^^^UWJGV3YvQ2gyUDZwZ1ZkSkpFMVZGTStSdDZqRDlZakVrSU05UmU2V1ZWOWcrd3o4c2w5ZEQyWlIyV0xMNkdHYVRUcy9VQzVxcVRXWGkxeE5aWVMvcVlwNUwxcElRTDVqVTJIck9CQXhZQU5hZzR1eG5ONGs1WWVRcVB2bEpoOTdheEtzRjZ1UjdOL2JnNXRJREVTYmRGd1Njck02Z2RNWTVQYz0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 280,
+          "hasNext": true,
+          "lastCursor": "^^^Z1dVZEdGRVhOSXlUSzBPZ1ZLQUVKOW8vQ1RKak04WXpWWHhTY3VOeFNJbXFyV0xJLzFFeUdLWWxvaW50SnZPTStZbmcwb2l5eVQ2YUZ5QnNZYnlsbjVOVnc3MXlFLzdqT2JwenlzN1k2WnFRclFBOUVIaDBGbVI5eFF6SjM4NHhIeWpFSDF6UTl3UUxxRGtRNUtLR1hHU3p4MnROR2pIMGwwST0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 280,
+          "hasNext": true,
+          "lastCursor": "^^^Z1dVZEdGRVhOSXlUSzBPZ1ZLQUVKOW8vQ1RKak04WXpWWHhTY3VOeFNJbXFyV0xJLzFFeUdLWWxvaW50SnZPTStZbmcwb2l5eVQ2YUZ5QnNZYnlsbjVOVnc3MXlFLzdqT2JwenlzN1k2WnFRclFBOUVIaDBGbVI5eFF6SjM4NHhIeWpFSDF6UTl3UUxxRGtRNUtLR1hHU3p4MnROR2pIMGwwST0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 320,
+          "hasNext": true,
+          "lastCursor": "^^^d3ZoOGIzVDFYSmF1QkFKSDMxUmFVVVNPa1VPem1kTkROeThJVzRFZ3N1clJvRnBuemJLd3NPWFJ1M3E1QURkZW1ObGFMWXF0UXNnNGc0YkFHbjkzd2NpOVpVbG1JVnE1YnhJNzBDd1Y0b0VhZnNtRW1HbDhYUXIyUUlZb1dhT2pvYTNKTFltUG92bTFxakhwM1pYYzVFakVORlNKVjFvL3ZCYz0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 320,
+          "hasNext": true,
+          "lastCursor": "^^^d3ZoOGIzVDFYSmF1QkFKSDMxUmFVVVNPa1VPem1kTkROeThJVzRFZ3N1clJvRnBuemJLd3NPWFJ1M3E1QURkZW1ObGFMWXF0UXNnNGc0YkFHbjkzd2NpOVpVbG1JVnE1YnhJNzBDd1Y0b0VhZnNtRW1HbDhYUXIyUUlZb1dhT2pvYTNKTFltUG92bTFxakhwM1pYYzVFakVORlNKVjFvL3ZCYz0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 360,
+          "hasNext": true,
+          "lastCursor": "^^^emp1QVlPS1NzMm5UN2Z6SmZTeGJCZUVSU3VMd0V5aTJNSWdPb0tra0ZJUktiN1krOGJJVG5CWUR1bVVISWhtc3c5Q1MveUFlQ0RpMXRNY0pTbG1zaitxR25xREgyQnNZSkZDc0Q1emhCREF2Rmd3dHlQU041YVRLQUNGcnY3YWErZXQ2OEpJUXZSbnVsZlJKRmZSS0RDMUJ0OGc3L0VKTlUzUT0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 360,
+          "hasNext": true,
+          "lastCursor": "^^^emp1QVlPS1NzMm5UN2Z6SmZTeGJCZUVSU3VMd0V5aTJNSWdPb0tra0ZJUktiN1krOGJJVG5CWUR1bVVISWhtc3c5Q1MveUFlQ0RpMXRNY0pTbG1zaitxR25xREgyQnNZSkZDc0Q1emhCREF2Rmd3dHlQU041YVRLQUNGcnY3YWErZXQ2OEpJUXZSbnVsZlJKRmZSS0RDMUJ0OGc3L0VKTlUzUT0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 400,
+          "hasNext": true,
+          "lastCursor": "^^^YXY4SGR2d0VaOWNicXdPT1NESGZySyt5VUZvMmNVL2pxc2hZM2VxaE5uekF4YkJyNEdsQnRYSzdibEJqQnIrcTJYM1JyRU1uWkN3Z3FLcWJCMzZtRXhSR1ltZlRKdVM0SUVMb2JZc3c1QW5jVEQ1WVNUZWlQUXlpaXJnNkxWcUJYV3ovNTJBdVpNZDRwc2xhWGZ3eUpaN3Y3ZkhJaWhMYW53UT0=",
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 40
+    },
+    {
+      "requested": [
+        {
+          "id": "placeReview",
+          "startIndex": 400,
+          "hasNext": true,
+          "lastCursor": "^^^YXY4SGR2d0VaOWNicXdPT1NESGZySyt5VUZvMmNVL2pxc2hZM2VxaE5uekF4YkJyNEdsQnRYSzdibEJqQnIrcTJYM1JyRU1uWkN3Z3FLcWJCMzZtRXhSR1ltZlRKdVM0SUVMb2JZc3c1QW5jVEQ1WVNUZWlQUXlpaXJnNkxWcUJYV3ovNTJBdVpNZDRwc2xhWGZ3eUpaN3Y3ZkhJaWhMYW53UT0="
+        }
+      ],
+      "returned": [
+        {
+          "id": "placeReview",
+          "startIndex": 438,
+          "hasNext": false,
+          "lastCursor": null,
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "count": 38
+    }
+  ],
+  "limitations": [
+    "Terminal desktop gallery does not explain the different scope of visitorReviewMediasTotal. Difference30 remains unresolved.",
+    "Mobile recheck ended in a source network error; this is a separate successful desktop enumeration."
+  ]
+}

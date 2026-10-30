@@ -1,0 +1,84 @@
+{
+  "tool": "rea-agents 6.7.0",
+  "status": "different",
+  "threshold": 0,
+  "captureViewport": {
+    "width": 1440,
+    "height": 764,
+    "devicePixelRatio": 1
+  },
+  "state": "home tab, scrollTop 0, overlays closed",
+  "panelCrop": {
+    "x": 63,
+    "y": 76,
+    "width": 390,
+    "height": 688,
+    "method": "integer RGB/RGBA pixel extraction; no resizing or color correction"
+  },
+  "inputs": {
+    "naver-map-original.png": "3a3e6f6d6f07a529e352b586d096e71904ba25b9c9deb50621c2f67e14b2c44a",
+    "app-home-freeze.png": "509934f4760c0a9837cf0d85189cb340dae833118ca16815a39dd11f286839c4"
+  },
+  "comparisons": {
+    "full": {
+      "evidenceId": "ev_5695227f54aa36875cbc3fca4cc75bb2782400fb1be47657abca8b9bc1fc0e44",
+      "before": {
+        "width": 1440,
+        "height": 764
+      },
+      "after": {
+        "width": 1440,
+        "height": 764
+      },
+      "channel_threshold": 0,
+      "limitations": [
+        "Pixel comparison does not perform OCR, semantic layout analysis, or perceptual color correction.",
+        "Only non-interlaced 8-bit RGB and RGBA PNG screenshots are accepted.",
+        "PNG tRNS transparency is accepted only as a six-byte RGB color key; tRNS on RGBA or with another length is rejected."
+      ],
+      "status": "different",
+      "compared_pixels": 1100160,
+      "changed_pixels": 262721,
+      "changed_ratio": 0.2388025378126818,
+      "maximum_channel_delta": 255,
+      "mean_absolute_channel_delta": 2.2079263470767887
+    },
+    "panel": {
+      "evidenceId": "ev_9660b1adbc0cbd5e0010e9e4af4093db3d97053ba078cebc3fc4233ad687f4f6",
+      "before": {
+        "width": 390,
+        "height": 688
+      },
+      "after": {
+        "width": 390,
+        "height": 688
+      },
+      "channel_threshold": 0,
+      "limitations": [
+        "Pixel comparison does not perform OCR, semantic layout analysis, or perceptual color correction.",
+        "Only non-interlaced 8-bit RGB and RGBA PNG screenshots are accepted.",
+        "PNG tRNS transparency is accepted only as a six-byte RGB color key; tRNS on RGBA or with another length is rejected."
+      ],
+      "status": "different",
+      "compared_pixels": 268320,
+      "changed_pixels": 113539,
+      "changed_ratio": 0.42314773404889683,
+      "maximum_channel_delta": 255,
+      "mean_absolute_channel_delta": 5.581878913237925
+    }
+  },
+  "limitations": [
+    "Changed-pixel ratio is not a UI similarity score or UX equivalence measurement.",
+    "The map background is a saved original-region image; full-screen score is not independent reconstruction coverage.",
+    "Actual React place panel is measured separately.",
+    "Naver displayed resized/sharpened remote proxies; archive displays local high-resolution source media. Different raster sampling and icon paths remain.",
+    "Live map services, login actions and dynamic advertisements are not reproduced as live services."
+  ],
+  "verifiedInteractions": [
+    "menu tab scroll and item-specific hash route",
+    "menu detail image opens full-screen media viewer",
+    "photo zoom 460 to 506 pixels and Escape closes viewer",
+    "review More to Collapse toggles aria-expanded without URL change",
+    "first menu related review opens saved full blog article ugogirl96/223768432873"
+  ]
+}

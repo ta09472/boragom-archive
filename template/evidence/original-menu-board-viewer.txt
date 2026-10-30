@@ -1,0 +1,255 @@
+[p4 "보라곰 주문제작&레터링케이크 - 네이버지도" | space "케이크 가게 네이버 플레이스 보관"(2): 4 managed, 0 untracked — p1 "보라곰 주문제작&레터링케이크 - 네이버지도", p2 "보라곰 수집 목록", p3 "네이버 플레이스", p4* "보라곰 주문제작&레터링케이크 - 네이버지도"]
+root
+  container
+    anchor [ref=806, loc=href:/p/#section_content, url=https://map.naver.com/p/#section_content]
+      text "본문 바로가기"
+    anchor [ref=807, loc=href:/p/#header, url=https://map.naver.com/p/#header]
+      text "주 메뉴 바로가기"
+    container
+      heading
+        anchor [ref=808, loc=href:https://www.naver.com/, url=https://www.naver.com/]
+          text "네이버지도"
+      unordered_list
+        list_item
+          button [ref=809]
+            svg_root
+            text "지도 홈"
+        list_item
+          button [ref=810]
+            svg_root
+            text "길찾기"
+        list_item
+          button [ref=811]
+            svg_root
+            text "버스"
+        list_item
+          button [ref=812]
+            svg_root
+            text "지하철"
+        list_item
+          button [ref=813]
+            svg_root
+            text "기차"
+        list_item
+          button [ref=814]
+            text "new"
+            svg_root
+            text "저장"
+        list_item
+          button [ref=815]
+            svg_root
+            text "더보기"
+      container
+        text "사용자 링크"
+        unordered_list
+          list_item
+            anchor [ref=816, loc=href:https://nid.naver.com/nidlogin.login, url=https://nid.naver.com/nidlogin.login]
+              text "로그인"
+          list_item
+            anchor [ref=817, url=javascript:;]
+              text "서비스 더보기"
+    application [ref=818]
+      container
+        region "Map"
+        container
+          image
+          text "보라곰 주문제작&레터링케이크"
+      container
+        image
+        text "100m"
+    container
+      container
+        button [ref=820]
+          text "검색"
+        container
+          text "네이버지도 검색"
+          comboboxgrouping [ref=821]
+      iframe [ref=822]
+        root
+          container
+            svg_root
+            container
+              banner
+                button [ref=877, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                  svg_root
+                  text "이전 페이지"
+                heading
+                  text "보라곰 주문제작&레터링케이크"
+                button [ref=878, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                  svg_root
+                  text "저장"
+                button [ref=823, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                  svg_root
+                  text "페이지 닫기"
+              main
+                container
+                  text "보라곰 주문제작&레터링케이크"
+                  text "케이크전문"
+                  button [ref=824, loc=href:https://pcmap.place.naver.com/restaurant/1581469411/review/visitor, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor]
+                    text "리뷰 266"
+                  text "영업 종료"
+                  text "11:00에 영업 시작"
+                  text "친절함으로 완성되는 완벽한 생일 선물"
+                  button [ref=825, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                    text "AI 요약"
+                    svg_root
+                  unordered_list [ref=826]
+                    list_item
+                      button [ref=827, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                        image
+                    list_item
+                      button [ref=828, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                        image
+                    list_item
+                      button [ref=829, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%ED%81%B4%EB%A6%BD]
+                        image
+                        image
+                        text "Asha Life"
+                    list_item
+                      button [ref=830, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                        image
+                    list_item
+                      button [ref=831, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                        image
+                    list_item
+                      button [ref=832, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EB%A6%AC%EB%B7%B0]
+                        image
+                        image
+                        text "심체리"
+                    list_item
+                      button [ref=833, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EB%A6%AC%EB%B7%B0]
+                        image
+                        image
+                        text "심체리"
+                    list_item
+                      button [ref=834, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EB%A6%AC%EB%B7%B0]
+                        image
+                        image
+                        text "심체리"
+                    list_item
+                      button [ref=835, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EB%A6%AC%EB%B7%B0]
+                        image
+                        image
+                        text "심체리"
+                    list_item
+                      button [ref=836, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EB%A6%AC%EB%B7%B0]
+                        image
+                        image
+                        text "심체리"
+                    list_item
+                      button [ref=837, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                        svg_root
+                        text "더보기"
+                  container [ref=838]
+                    button [ref=839, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                      text "출발"
+                    button [ref=840, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                      text "도착"
+                    button [ref=841, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                      svg_root
+                      text "거리뷰"
+                    anchor [ref=842, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                      svg_root
+                      text "공유"
+                    button [ref=843, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                      svg_root
+                      text "알림받기"
+                tablist
+                  container
+                    tab [ref=844, url=https://pcmap.place.naver.com/restaurant/1581469411/home?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                      text "홈"
+                    tab [ref=845, url=https://pcmap.place.naver.com/restaurant/1581469411/feed?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                      text "소식"
+                    tab [ref=846, url=https://pcmap.place.naver.com/restaurant/1581469411/menu?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                      text "메뉴"
+                    tab [ref=847, url=https://pcmap.place.naver.com/restaurant/1581469411/review?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                      text "리뷰"
+                    tab [ref=848, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                      text "사진"
+                    tab [ref=849, url=https://pcmap.place.naver.com/restaurant/1581469411/information?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4]
+                      text "정보"
+                container
+                  iframe [ref=902]
+                    root
+                      button [ref=903]
+                        text "광고 옵션"
+                      anchor [ref=904, url=https://ader.naver.com/collection/gfa/EcUISNYR6ATx57K7T2dH2sht6wkIOGrhZkQx059eBveXzjRaR-PrO9UJBCsZMVsJKUfF2bLlfo0iAkg_KvQtJhjIDGJfeR3HXxnPm_B6pVEhAB2AcUVLZJ4tIgcW1keDj_GW06qQ6v3coNYIMtHy27TNrW0KIUU2HLfVoW1qsqj-1mxlA1bsVzk0UyqVhxwOzFTOiTDJPZUygZzZN6Y7iWEt0XwI3GgnBdCJ8zYtznlVoN5ZkopYWqGEiXC7hnniu_PHJ3LHKMrNwgrD-fxlk704MiLfRWZWHJB-DsAWgeA6AKjkqiuU_2ecl2F_rya23Tw1tPS04iOz3BnOIutHM7wk8ShIB2LbKRHtXlOo_gU=]
+                        text "새 창"
+                        container
+                          image
+                          container
+                            text "2027-1학기 신입생 모집"
+                            paragraph
+                              text "10/26~11/25 글로벌 언어전문가 양성"
+                  container
+                    heading
+                      text "메뉴판 이미지로 보기"
+                      text "1"
+                    unordered_list
+                      list_item
+                        button [ref=905, url=https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290024&locale=ko&svcName=map_pcv5&filterType=%EC%97%85%EC%B2%B4#]
+                          image
+              contentinfo
+                container
+                  button [ref=855, loc=href:https://policy.naver.com/policy/service.html, url=https://policy.naver.com/policy/service.html]
+                    text "이용약관"
+                  button [ref=856, loc=href:https://help.naver.com/alias/NSP_M/NSPM_1.naver, url=https://help.naver.com/alias/NSP_M/NSPM_1.naver]
+                    text "고객센터"
+                  button [ref=857, loc=href:https://m.place.naver.com/my/policy/visitorReview, url=https://m.place.naver.com/my/policy/visitorReview]
+                    text "리뷰운영정책"
+                  button [ref=858, loc=href:https://help.naver.com/alias/myplace/myplace_70.naver, url=https://help.naver.com/alias/myplace/myplace_70.naver]
+                    text "신고센터"
+                button [ref=859, loc=href:https://naver.com/, url=https://naver.com/]
+                  text "네이버"
+                  svg_root
+      button [ref=860]
+        text "패널 접기"
+    container
+      button [ref=861]
+        text "일반지도"
+      button [ref=862]
+        text "위성지도"
+      button [ref=863]
+        text "지형지도"
+    container
+      button [ref=864]
+        text "테마"
+      button [ref=865]
+        text "저장"
+      button [ref=866]
+        text "지적편집도"
+      button [ref=867]
+        text "거리뷰"
+    container
+      button [ref=868]
+        text "반경측정"
+      button [ref=869]
+        text "면적측정"
+      button [ref=870]
+        text "거리측정"
+    container
+      button [ref=871]
+        text "다운로드"
+      button [ref=872]
+        text "인쇄"
+      button [ref=873]
+        text "공유하기"
+    button [ref=874]
+      text "접속위치"
+      svg_root
+    container
+      button [ref=875]
+        text "확대"
+      button [ref=876]
+        text "축소"
+  heading
+    text "포토 뷰어"
+  button [ref=906]
+    text "loading"
+    button [ref=907]
+      text "닫기"
+    container
+      button [ref=908]
+        text "확대"
+      button [ref=909]
+        text "축소"

@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-10-28T23:34:10.954397+00:00",
+  "scope": "UI raster/SVG files under assets/ui; source SVG markup stored separately in source-icons.json. Original media URL counts are not increased by these display variants.",
+  "physical_image_files": 22,
+  "rows": [
+    {
+      "path": "assets/ui/common@2x.png",
+      "bytes": 118431,
+      "sha256": "da81f2e60ab20c70160dbb47762525c99e9f935a22ad54872b12c5a4b10f11cc",
+      "source_urls": [
+        "https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/common@2x.png"
+      ],
+      "evidence": [
+        "evidence/naver-map-original.mhtml"
+      ],
+      "archived_originals": [],
+      "note": "화면 리소스. 출처가 없는 항목은 수집 당시 정보 화면 캡처 참조."
+    },
+    {
+      "path": "assets/ui/home-171bad6d372c09fcea51.jpg",
+      "bytes": 1964,
+      "sha256": "171bad6d372c09fcea513144ef2cb311940fd615e9b6d9a59413c81f9982d6f1",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f48_48&src=http%3A%2F%2Fblogpfthumb.phinf.naver.net%2FMjAxNzA1MDNfMjUw%2FMDAxNDkzNzQyMzIzNzYy.bCs9xwZI_DzPr3aBf_OQPX1twX-K4vpSfqv6iuT86T4g.gGS8lvDW2JaApc2D5nM5eThwQpCLqW3x7I9PxVpUwd0g.JPEG.ch2000s%2FprofileImage.jpg"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/support-assets/7d3a86e56540de49a408.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home-23f996cc9068bf594fc7.jpg",
+      "bytes": 19510,
+      "sha256": "23f996cc9068bf594fc7717966ab85463dbac5598d0d857424bf0c4a67b60b48",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f180_180&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMjhfNDQg%2FMDAxNzQwNzUxMzU5ODA2.-nTHK1GaFpRxxDsEwSvELqEzqFofUz-SGpyGQWCfUJsg.HZC5Yz4PPbTCVTO9_UWdvDH-u6c1nA9J1urilWS4CqEg.JPEG%2F20250228_131239.jpg%233024x4032"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/19ca52696980e05b3767.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home-560dec92496411d7eb48.png",
+      "bytes": 4783,
+      "sha256": "560dec92496411d7eb48a20d7cc2111dc743bc5e338bf1369d3eca4698202977",
+      "source_urls": [
+        "inline data URI in original DOM"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [],
+      "note": "화면 리소스. 출처가 없는 항목은 수집 당시 정보 화면 캡처 참조."
+    },
+    {
+      "path": "assets/ui/home-7dd2143c35217e303d38.jpg",
+      "bytes": 18418,
+      "sha256": "7dd2143c35217e303d385ccd1bdaf425d73cdb2eacbbf37acf02cbb47be8220a",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f180_180&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MDZfMjEg%2FMDAxNjgwNzcyNzk1MzMz.Hht_6t9d1XaNxVdYFMbso5yZ3YUY2yWgSE4FAAlhctcg.8gwAgdzpIJKTCmrulqeS696w_CaSvmRWQDJYSNnZAD4g.JPEG.fresh102%2FKakaoTalk_20230406_162244566.jpg%23774x483"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f9cfb5f976df8a1c1d43.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home-87a162e6cf61697d409b.jpg",
+      "bytes": 1786,
+      "sha256": "87a162e6cf61697d409bf6ecb90ffb6914f738c265d5c67ffb080cd2c38ae81c",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f48_48&src=http%3A%2F%2Fblogpfthumb.phinf.naver.net%2F20130314_258%2Ffresh102_1363248905501d3B3C_JPEG%2FIMG_2063.JPG"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/support-assets/2cb8846800bebfffd100.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home-936cc7d936f2f856b05b.jpg",
+      "bytes": 13657,
+      "sha256": "936cc7d936f2f856b05b78202d441639ed00262a0edecd84b82bf264cd0bacce",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f180_180&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAxMjVfMTEy%2FMDAxNzM3Nzc4NTkxMzMz.03dEiy9ZyShdvDyz_1wXc7AxySp3Z939KArB8_ge55Eg.S-AP4wM6UqltqvPRaaozpj_HQdJC6SC2_O_eG3wK5Jkg.JPEG%2F900%25A3%25DF1737778587454.jpg%23900x1200"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/4c9bcd0920a66bc3185f.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home-e911ee8011e05f0cf2ae.jpg",
+      "bytes": 1494,
+      "sha256": "e911ee8011e05f0cf2ae54bae9e4227d7597093c86cbb554f8842e3a60057a66",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f48_48&src=http%3A%2F%2Fblogpfthumb.phinf.naver.net%2FMjAyNjA4MjNfMTA4%2FMDAxNzg3NDU5MTAyMjUw.luYVMDHWaashyKvrrZ7aHxd9zvooshYE21YU0dwQrMQg.Z5pes3FLE6AhxpZYOtBSYrNq_UgZzSRG7NpyUe3Srr0g.JPEG%2FprofileImage.jpg"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/support-assets/8c514c785eedbcfa695d.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home-f12bdd78ca8bbbf098f5.jpg",
+      "bytes": 1515,
+      "sha256": "f12bdd78ca8bbbf098f5f66caedbfb275ab9706222520516b42d2a5b12ad9263",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f48_48&src=https%3A%2F%2Fphinf.pstatic.net%2Fcontact%2F20220221_97%2F1645409851520nYgDu_PNG%2Favatar_profile.png"
+      ],
+      "evidence": [
+        "evidence/rea-v3/source-home-scroll-1800.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/support-assets/9720288b025b981c5812.png"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/home@2x.png",
+      "bytes": 99275,
+      "sha256": "b9e668f5e50717692bf3d47f3425053713fd4204591b3c48d3f42d978f53be97",
+      "source_urls": [
+        "https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/home@2x.png"
+      ],
+      "evidence": [
+        "evidence/naver-map-original.mhtml"
+      ],
+      "archived_originals": [],
+      "note": "화면 리소스. 출처가 없는 항목은 수집 당시 정보 화면 캡처 참조."
+    },
+    {
+      "path": "assets/ui/information-owner.png",
+      "bytes": 3465,
+      "sha256": "d4c3dae4e978a5f64171e99d5ea7b86b12bed86c316a7eec4b210ebe00ceca94",
+      "source_urls": [],
+      "evidence": [],
+      "archived_originals": [],
+      "note": "화면 리소스. 출처가 없는 항목은 수집 당시 정보 화면 캡처 참조."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/12b5ef0054393b2127d5.jpg",
+      "bytes": 55987,
+      "sha256": "12b5ef0054393b2127d5a822b54d74c89ceeb0021a90adb543af8d00244a74c6",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250123_127%2F1737587172826Vu0pn_JPEG%2FIMG_5514.jpeg"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a53ed7ac3b83531c7516.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/3ae5f14e04ae314272c7.jpg",
+      "bytes": 31573,
+      "sha256": "3ae5f14e04ae314272c7f198d4c3bd54e8eb34d7b54ebf9b5da54ded6d9358de",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA2MDdfMTA4%2FMDAxNzgwODM5ODMxODEz.E1QJPXd-GI--VPwK201aDPJJavLt75S3tXOvbmB2e4Mg.NqnkT0Th0hmO7UHLGA2LYhqx8P4Ti8O6CIEgw424J0Qg.JPEG%2FIMG%25EF%25BC%25BF4648.JPG%2F900x1200"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/2e6b5de3f3e0e40667f2.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/6540fbf244d1fae7a616.jpg",
+      "bytes": 24862,
+      "sha256": "6540fbf244d1fae7a616f94a5d0432a87dc4246f3ecedf19cacac284a2457bfb",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA2MDdfMjMg%2FMDAxNzgwODM5ODMyNDI2.4_yO6af0OrmQRbypRK2nXVfqBrLGghJflce5H-5TO4og.om4tpyFVx8Cy05SXntx5_58cQasurlymioLDV1DHtJcg.JPEG%2FIMG%25EF%25BC%25BF4680.JPG%2F900x1200"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/d16faeb887df8745a858.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/6b84009fbb88f7b32227.jpg",
+      "bytes": 82080,
+      "sha256": "6b84009fbb88f7b32227bf31c727e972c73b3e4b2511d50684daa6a910d36ce0",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241028_143%2F17300780794660GVuY_JPEG%2FIMG_3936.jpeg"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/46eb54e65e6e2503039d.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/6c01100f76979033cb03.jpg",
+      "bytes": 28211,
+      "sha256": "6c01100f76979033cb038d90fedc04cf73634293a5b58a88142c118fd1bd9adb",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA2MDdfMTMx%2FMDAxNzgwODM5ODMyNjMy.vPJLso9rv1Ky9UZvPnUvdTjY3GHXt6yb2Z8PQs3_ZqUg.BhosVgc4Qj7X9wugI7coa7aiIhBrJericaGncLFPtKwg.JPEG%2FIMG%25EF%25BC%25BF4679.JPG%2F900x1200"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9fff78a4b59c8f6f4fc6.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/8ee5568d1a837af558d0.jpg",
+      "bytes": 35836,
+      "sha256": "8ee5568d1a837af558d0e2d29fbf56a43bc04c6234d3ca09d37561203468a394",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA2MDdfMTM1%2FMDAxNzgwODM5ODMyNDYw.VT-QZW7f1R_5AYt_XgIzsLWIR2PEHCq10xe-96b_G30g.tA7b9A6O5VjJAoXvw9pogx71myC3Q1nO_EeKIzazwwQg.JPEG%2FIMG%25EF%25BC%25BF4682.JPG%2F900x1200"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/6b38055f890d4ee8007c.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/96b6f2d736f0ebafdc51.jpg",
+      "bytes": 65776,
+      "sha256": "96b6f2d736f0ebafdc51c1b1741fb5b5ec74eae897d42fccf081135b364fb078",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyNjA2MDdfMjMg%2FMDAxNzgwODQwNDc2NzQ0.T6J7CfVtKTO2FQ526QLwvsdLqWXzhV8qITaIW27m98Ag.dDWlYuIUU9MIpCl-hDMsyBDNCLZcTKOoBWihIZ6cFWMg.JPEG%2FIMG%25EF%25BC%25BF4647.JPG%2F900x1200"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/76a4a6958b087c1bfcce.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/ac917ea1050d229463fd.jpg",
+      "bytes": 42166,
+      "sha256": "ac917ea1050d229463fd9f519c327a6d37a2f6b64fb389ed01cb7d6d35123e0c",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fclip-service-phinf.pstatic.net%2FMjAyNjAxMTRfMzkg%2FMDAxNzY4Mzk4NDIzNDM5.g5HC-CGq4O_wib2vjJMgO7fchps4L-Wj7_5opIFhjqUg.ItnykNbCz1eRCNhNkrMrd2RjdqdTRi-1SvQepZPqM78g.JPEG%2FPublishThumb_20260114_224607_372.jpg"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/23109957cc904ddd1d1f.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/bf215ba64a08aea2370b.jpg",
+      "bytes": 71061,
+      "sha256": "bf215ba64a08aea2370b5e89cb8403b6207b9d736f5dea46abd60c03c5dad169",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241017_96%2F17291527994043lxpD_JPEG%2FIMG_3372.jpeg"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/2051c931f8374a7e03bd.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/reference-thumbnails/e4d9e77d39b8413c86ad.jpg",
+      "bytes": 70712,
+      "sha256": "e4d9e77d39b8413c86ad436f8c7da4fef3c5bb23e9ea9aa813ce7f93d7630b7c",
+      "source_urls": [
+        "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230805_214%2F1691161261563iBeDa_JPEG%2FIMG_2192.jpeg"
+      ],
+      "evidence": [
+        "evidence/rea-v2/source-home.json"
+      ],
+      "archived_originals": [
+        "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/7f8eba0df57d7ad3fe0e.jpg"
+      ],
+      "note": "화면 표시용 사본. 별도 고화질 원본은 원본 파일 열에 연결."
+    },
+    {
+      "path": "assets/ui/search@2x.png",
+      "bytes": 15005,
+      "sha256": "3f6123077fb120da83609c850d57d13b46973824bfc12b5d08cad86a3a8630bf",
+      "source_urls": [
+        "https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/search@2x.png"
+      ],
+      "evidence": [
+        "evidence/naver-map-original.mhtml"
+      ],
+      "archived_originals": [],
+      "note": "화면 리소스. 출처가 없는 항목은 수집 당시 정보 화면 캡처 참조."
+    }
+  ],
+  "svg_markup": "assets/ui/source-icons.json"
+}

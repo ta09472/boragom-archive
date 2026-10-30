@@ -1,0 +1,9 @@
+{
+  "status": "passed_parent_final_runtime_qa",
+  "localAttempt": "First Input.dispatchMouseEvent timed out; no success asserted; stopped further pointer actions to prevent cross-tab pointer contention",
+  "parentExpectedReport": "Parent final runtime QA against app hash b74ee81a47e2be11cc1235bc69ccd269d51a007ea77bb1eae7b1782093ad9d5d",
+  "parentReport": "inventory/app-browser-verification-v3.json",
+  "passedChecks": 13,
+  "bundle_sha256": "b74ee81a47e2be11cc1235bc69ccd269d51a007ea77bb1eae7b1782093ad9d5d",
+  "css_sha256": "7ae6133cb7ec91bcded7bbc39b1153665961a42989d663efd659270acb9f207c"
+}

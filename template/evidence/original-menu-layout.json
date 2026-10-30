@@ -1,0 +1,252 @@
+{
+  "url": "https://pcmap.place.naver.com/restaurant/1581469411/menu/list?fromPanelNum=1&additionalHeight=76&timestamp=202610290015&locale=ko&svcName=map_pcv5",
+  "viewport": {
+    "width": 390,
+    "height": 688
+  },
+  "scrollY": 398,
+  "controls": [
+    {
+      "tag": "A",
+      "text": "이전 페이지",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 44,
+        "height": 50,
+        "top": 0,
+        "right": 44,
+        "bottom": 50,
+        "left": 0
+      }
+    },
+    {
+      "tag": "A",
+      "text": "저장",
+      "bounds": {
+        "x": 294,
+        "y": 6,
+        "width": 40,
+        "height": 40,
+        "top": 6,
+        "right": 334,
+        "bottom": 46,
+        "left": 294
+      }
+    },
+    {
+      "tag": "A",
+      "text": "페이지 닫기",
+      "bounds": {
+        "x": 342,
+        "y": 10,
+        "width": 30,
+        "height": 30,
+        "top": 10,
+        "right": 372,
+        "bottom": 40,
+        "left": 342
+      }
+    },
+    {
+      "tag": "A",
+      "text": "홈",
+      "bounds": {
+        "x": 0,
+        "y": 50,
+        "width": 64.6640625,
+        "height": 46,
+        "top": 50,
+        "right": 64.6640625,
+        "bottom": 96,
+        "left": 0
+      }
+    },
+    {
+      "tag": "A",
+      "text": "소식",
+      "bounds": {
+        "x": 64.6640625,
+        "y": 50,
+        "width": 63.671875,
+        "height": 46,
+        "top": 50,
+        "right": 128.3359375,
+        "bottom": 96,
+        "left": 64.6640625
+      }
+    },
+    {
+      "tag": "A",
+      "text": "메뉴",
+      "bounds": {
+        "x": 128.3359375,
+        "y": 50,
+        "width": 63.6640625,
+        "height": 46,
+        "top": 50,
+        "right": 192,
+        "bottom": 96,
+        "left": 128.3359375
+      }
+    },
+    {
+      "tag": "A",
+      "text": "리뷰",
+      "bounds": {
+        "x": 192,
+        "y": 50,
+        "width": 63.671875,
+        "height": 46,
+        "top": 50,
+        "right": 255.671875,
+        "bottom": 96,
+        "left": 192
+      }
+    },
+    {
+      "tag": "A",
+      "text": "사진",
+      "bounds": {
+        "x": 255.671875,
+        "y": 50,
+        "width": 63.6640625,
+        "height": 46,
+        "top": 50,
+        "right": 319.3359375,
+        "bottom": 96,
+        "left": 255.671875
+      }
+    },
+    {
+      "tag": "A",
+      "text": "정보",
+      "bounds": {
+        "x": 319.3359375,
+        "y": 50,
+        "width": 64.6640625,
+        "height": 46,
+        "top": 50,
+        "right": 384,
+        "bottom": 96,
+        "left": 319.3359375
+      }
+    },
+    {
+      "tag": "A",
+      "text": "2호(18cm)-인물케이크\n평균가 : 7만~(데코 추가시 8-10) -디자인에따라 다릅니다\n가격 변동",
+      "bounds": {
+        "x": 16,
+        "y": 203,
+        "width": 352,
+        "height": 104,
+        "top": 203,
+        "right": 368,
+        "bottom": 307,
+        "left": 16
+      }
+    },
+    {
+      "tag": "IMG",
+      "text": "",
+      "src": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f320_320&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250108_42%2F1736330406809UT12f_JPEG%2FIMG_6155.jpeg",
+      "bounds": {
+        "x": 264,
+        "y": 203,
+        "width": 104,
+        "height": 104,
+        "top": 203,
+        "right": 368,
+        "bottom": 307,
+        "left": 264
+      }
+    },
+    {
+      "tag": "A",
+      "text": "1호(15cm)-인물케이크\n1,2인그림추천 평균가 : 5후-6만 (데코 추가시 7-8만)\n가격 변동",
+      "bounds": {
+        "x": 16,
+        "y": 340,
+        "width": 352,
+        "height": 104,
+        "top": 340,
+        "right": 368,
+        "bottom": 444,
+        "left": 16
+      }
+    },
+    {
+      "tag": "IMG",
+      "text": "",
+      "src": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f320_320&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250108_14%2F1736329967737gPHsu_JPEG%2FIMG_6154.jpeg",
+      "bounds": {
+        "x": 264,
+        "y": 340,
+        "width": 104,
+        "height": 104,
+        "top": 340,
+        "right": 368,
+        "bottom": 444,
+        "left": 264
+      }
+    },
+    {
+      "tag": "A",
+      "text": "1호(15cm)-캐릭터\n평균가 : 5후-6만(데코 추가시 7-8)\n가격 변동",
+      "bounds": {
+        "x": 16,
+        "y": 477,
+        "width": 352,
+        "height": 104,
+        "top": 477,
+        "right": 368,
+        "bottom": 581,
+        "left": 16
+      }
+    },
+    {
+      "tag": "IMG",
+      "text": "",
+      "src": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f320_320&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250108_246%2F17363300786026X6sJ_JPEG%2FIMG_6137.jpeg",
+      "bounds": {
+        "x": 264,
+        "y": 477,
+        "width": 104,
+        "height": 104,
+        "top": 477,
+        "right": 368,
+        "bottom": 581,
+        "left": 264
+      }
+    },
+    {
+      "tag": "A",
+      "text": "1호(15cm)-2인케이크\n평균가 : 5후-6만 (데코 추가시 7-8만)\n가격 변동",
+      "bounds": {
+        "x": 16,
+        "y": 614,
+        "width": 352,
+        "height": 104,
+        "top": 614,
+        "right": 368,
+        "bottom": 718,
+        "left": 16
+      }
+    },
+    {
+      "tag": "IMG",
+      "text": "",
+      "src": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f320_320&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250108_169%2F1736340062624iOshn_JPEG%2FIMG_5514.jpeg",
+      "bounds": {
+        "x": 264,
+        "y": 614,
+        "width": 104,
+        "height": 104,
+        "top": 614,
+        "right": 368,
+        "bottom": 718,
+        "left": 264
+      }
+    }
+  ]
+}

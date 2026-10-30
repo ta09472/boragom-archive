@@ -1,0 +1,2893 @@
+[
+  {
+    "url": "https://pcmap-api.place.naver.com/graphql",
+    "request": {
+      "operationName": "getVisitorReviews",
+      "variables": {
+        "input": {
+          "businessId": "1581469411",
+          "businessType": "restaurant",
+          "item": "0",
+          "bookingBusinessId": null,
+          "size": 10,
+          "isPhotoUsed": false,
+          "includeContent": true,
+          "getUserStats": true,
+          "includeReceiptPhotos": true,
+          "cidList": [
+            "220036",
+            "220052",
+            "220565",
+            "221177"
+          ],
+          "getReactions": true,
+          "getTrailer": true
+        }
+      },
+      "query": "query getVisitorReviews($input: VisitorReviewsInput) {\n  visitorReviews(input: $input) {\n    items {\n      id\n      cursor\n      reviewId\n      rating\n      author {\n        isMe\n        id\n        nickname\n        from\n        imageUrl\n        borderImageUrl\n        objectId\n        url\n        review {\n          totalCount\n          imageCount\n          avgRating\n          __typename\n        }\n        theme {\n          totalCount\n          __typename\n        }\n        isFollowing\n        followerCount\n        followRequested\n        __typename\n      }\n      body\n      thumbnail\n      media {\n        type\n        thumbnail\n        thumbnailRatio\n        class\n        videoId\n        videoUrl\n        trailerUrl\n        __typename\n      }\n      tags\n      status\n      visitCount\n      viewCount\n      visited\n      created\n      reply {\n        editUrl\n        body\n        editedBy\n        created\n        date\n        replyTitle\n        isReported\n        isSuspended\n        status\n        __typename\n      }\n      originType\n      item {\n        name\n        code\n        options\n        __typename\n      }\n      language\n      highlightRanges {\n        start\n        end\n        __typename\n      }\n      apolloCacheId\n      translatedText\n      businessName\n      showBookingItemName\n      bookingItemName\n      votedKeywords {\n        code\n        iconUrl\n        iconCode\n        name\n        __typename\n      }\n      receiptInfoUrl\n      reactionStat {\n        id\n        typeCount {\n          name\n          count\n          __typename\n        }\n        totalCount\n        __typename\n      }\n      hasViewerReacted {\n        id\n        reacted\n        __typename\n      }\n      nickname\n      showPaymentInfo\n      visitCategories {\n        code\n        name\n        keywords {\n          code\n          name\n          __typename\n        }\n        __typename\n      }\n      representativeVisitDateTime\n      showRepresentativeVisitDateTime\n      __typename\n    }\n    starDistribution {\n      score\n      count\n      __typename\n    }\n    hideProductSelectBox\n    total\n    showRecommendationSort\n    itemReviewStats {\n      score\n      count\n      itemId\n      starDistribution {\n        score\n        count\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}"
+    },
+    "response": {
+      "data": {
+        "visitorReviews": {
+          "items": [
+            {
+              "id": "6934450122b54fc9e956e155",
+              "cursor": "RXRGSmhzYXZ6VHNZbzFQZEVjVTlrbVNIWTRwSU04RGRxVDMyS0xiWTJQa1U1YWlGTHZ3eXNBOVNuN2ZOL0N4Wjk0WHI4ZlpSNnhlQWlHa29lVGR3Zjc5dmh3QW56NHVRVCtNT0FSTy8rV3BEK3NkK0lvYlNyUTVkL0dHaHlYQ1F5L2JSNnc9PQ==",
+              "reviewId": "6934450122b54fc9e956e1d9",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~Y4z5tTC5fCukmw5bT4DLEw",
+                "nickname": "민교이캉",
+                "from": "NAVER",
+                "imageUrl": "https://phinf.pstatic.net/contact/20220221_97/1645409851520nYgDu_PNG/avatar_profile.png",
+                "borderImageUrl": null,
+                "objectId": "5d424c2587dd4055c2142f5a",
+                "url": "https://m.place.naver.com/my/5d424c2587dd4055c2142f5a/review?v=2",
+                "review": {
+                  "totalCount": 79,
+                  "imageCount": 89,
+                  "avgRating": 5,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "1",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "너무너무 이쁜 케이크였습니다....\n어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...\n사장님은 그저 갓.. 능력치 무엇입니까\n너무 감사해요 ㅎㅎ",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNTkg/MDAxNzY1MDMzMjExNTQ1.XL2piy5B3ox_3zekqme9HJnL0klzocHSjwHSrP7Z5-Ug.W5erUyMHKWywkNExBv0QoG3_XZfZ8S8S3xPS3iA-mk0g.JPEG/52C180DF-2E2B-4E76-A6B2-1534024AC1FD.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNTkg/MDAxNzY1MDMzMjExNTQ1.XL2piy5B3ox_3zekqme9HJnL0klzocHSjwHSrP7Z5-Ug.W5erUyMHKWywkNExBv0QoG3_XZfZ8S8S3xPS3iA-mk0g.JPEG/52C180DF-2E2B-4E76-A6B2-1534024AC1FD.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNDIg/MDAxNzY1MDMzMjE0NDky.wlK3rASUygTId5Wl195hdQ1CptfGL0NYQy9-MUcXvBYg.xJMej_oLvBNZui56kmTT7IpnXnqzvCN_j2CnaY2QrUgg.JPEG/933CC8EA-8EBC-4DCE-89E4-1F85F8C1B907.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 5983,
+              "visited": "25.11.22.토",
+              "created": "25.12.7.일",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/booking/1246612/reviews/6934450122b54fc9e956e155?type=booking",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "예약",
+              "item": {
+                "name": "네이버페이 전용 결제창",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰케이크",
+              "showBookingItemName": true,
+              "bookingItemName": "네이버페이 전용 결제창",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/6934450122b54fc9e956e155/paymentInfo",
+              "reactionStat": {
+                "id": "6934450122b54fc9e956e155",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "6934450122b54fc9e956e155",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": false,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_significant_other",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "연인・배우자",
+                      "name": "연인・배우자",
+                      "__typename": "VisitCategoryKeyword"
+                    },
+                    {
+                      "code": "부모님",
+                      "name": "부모님",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-11-22T02:00:00.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "6900736d0401f2d4da6ad44c",
+              "cursor": "SWYxMTNCTEZFNTU5MmUwNUhQdCtJTHJhUkcrTHZYZ3VrcWdxbXBBMjZMM1FsWk9pbzdRSmlwU241SU1FT0Juc25IOUIvVlZ1cGNtNmwyTm5HZ0dpcENBMWtIVW5EUnhNOFJGVXEvS3dIWFpFRlJZanc5VlJlTk1OY2dZcW9rN0IvWGZ2cGc9PQ==",
+              "reviewId": "6900736d0401f2d4da6ad45b",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~RvkXUqXzJ0Z9ElPW9xVP9w",
+                "nickname": "아보카도새싹",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "5c28bf29f2e4e88e450c3784",
+                "url": "https://m.place.naver.com/my/5c28bf29f2e4e88e450c3784/review?v=2",
+                "review": {
+                  "totalCount": 54,
+                  "imageCount": 52,
+                  "avgRating": 5,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "친구 결혼 축하케이크로 주문했어요~~ 원래 아카자 대사이긴 하지만 칭구가 렌고쿠를 좋아해서 렌고쿠 사진으로 주문했는데, 친구가 정말 좋아했어요 ㅎㅎ🩵\n디자인 설명두 개떡(?)같이 했는데… 사장님이 찰떡같이 알아들으시고 짱예쁜 케이크 만들어주십니다🥹🩵 \n금손 사장님 감사합니다~~~",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMjhfMjQz/MDAxNzYxNjM3MjI4MDUz.Z8-k7ygBO9_oV3PSqCLNAqLY9DPXkmSXoN54KFreoY8g.up0_IshJCwCzGJKNrkRFJSE2oUzgHmcc0_9uazVB5nIg.JPEG/C5C29D71-D6C1-41FF-813F-CF2382E60494.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMjhfMjQz/MDAxNzYxNjM3MjI4MDUz.Z8-k7ygBO9_oV3PSqCLNAqLY9DPXkmSXoN54KFreoY8g.up0_IshJCwCzGJKNrkRFJSE2oUzgHmcc0_9uazVB5nIg.JPEG/C5C29D71-D6C1-41FF-813F-CF2382E60494.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMjhfOTQg/MDAxNzYxNjM3MjI3ODgx.RcqFfewmV1fhBpPO9hpfiIlHBmjrEMMVv82GtqjKcE4g.p7vJ2iATxdXqA2GGNr9Gxx4z1DhMpz7_VdXcMd6LP3gg.JPEG/F9F8D3AF-D8F3-4651-8F04-35F6B764B9DC.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 7437,
+              "visited": "25.10.25.토",
+              "created": "25.10.28.화",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/booking/1246612/reviews/6900736d0401f2d4da6ad44c?type=booking",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "예약",
+              "item": {
+                "name": "네이버페이 전용 결제창",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰케이크",
+              "showBookingItemName": true,
+              "bookingItemName": "네이버페이 전용 결제창",
+              "votedKeywords": [
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "gift_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/wrapped_gift20220119222229.png",
+                  "iconCode": "wrapped_gift",
+                  "name": "선물하기 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/6900736d0401f2d4da6ad44c/paymentInfo",
+              "reactionStat": {
+                "id": "6900736d0401f2d4da6ad44c",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "6900736d0401f2d4da6ad44c",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": false,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_social_bonding",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친목",
+                      "name": "친목",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_friend",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친구",
+                      "name": "친구",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-10-25T05:00:00.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "68f1f68d3f43d74566b402cd",
+              "cursor": "UWRxdVNQWHNQZThiRVpQcm9mblZLUUFFb3FFanpXMitxdEZ4WitVcHcxY1orV2Yyc0NUL3FGQVF4WHVKM3JpMDNXU2NOWnJFMFZWTCtUK1NBclplc21kelZicS9XdG83eE1rZXZ2NVNtWUJMU09DamZrSTRqWExPWlZadkNkazJqS2VJ",
+              "reviewId": "68f1f68d3f43d74566b402d4",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~5F2gjYSXAHEafQHdrb3MVw",
+                "nickname": "Azure1129",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "5efecebe493ad9a9a0ec3d55",
+                "url": "https://m.place.naver.com/my/5efecebe493ad9a9a0ec3d55/review?v=2",
+                "review": {
+                  "totalCount": 27,
+                  "imageCount": 35,
+                  "avgRating": 5,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "제 단골 주문제작 케이크 가게,,진짜 너무너무 이쁘게 만들어주세요ㅜㅜㅜ캐릭터 사진이랑 원하는 느낌 인스타계정에서 찾아가지구 예시 사진 드리면 상상했던 것보다 백배정도 예쁘게 나와요!!!초코맛이랑 오레오맛 둘 다 맛있어요 초코맛에 빅파이처럼 딸기잼있는게 진짜 최고,,항상 정성 다해서 만들어 주셔서 감사합니당 ㅎㅎㅎ",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTdfNDUg/MDAxNzYwNjg3NzU0Njgy.SbsX0f8EUj1FwmAvxpQBmLILFQ7Qt94Wjv1FHWfbrt8g.tvhAsMP6feJH9B0WELqGNKDMUfOG2XrbQFRavWkKTPsg.JPEG/E03BC091-1E66-4217-9358-7FA1144A63F9.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTdfNDUg/MDAxNzYwNjg3NzU0Njgy.SbsX0f8EUj1FwmAvxpQBmLILFQ7Qt94Wjv1FHWfbrt8g.tvhAsMP6feJH9B0WELqGNKDMUfOG2XrbQFRavWkKTPsg.JPEG/E03BC091-1E66-4217-9358-7FA1144A63F9.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTdfNjgg/MDAxNzYwNjg3NzU1NDMw.Qr0Txv80-T8p9geZlmWOXnG9UGYzEgq7F-yrYyDBNVog.azc4qimEIi6wCi5KLaShUc9lArc8GM7fSdyd2_2RJR8g.JPEG/A8837B6F-8AA2-497B-A4EE-FF481D4361BE.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTdfMTcx/MDAxNzYwNjg3NzU1MDE4.wTjPHHhAO9k3Xqo81ElI4TgZGefd1cDYuV0NMdgxmkEg.mr2nk04cz6DXHhYJhhhYY7AlaiNWW9vRWkS6ZCjpfM0g.JPEG/6145A8E2-8E21-45C4-96EC-04080ED9ED5B.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 7274,
+              "visited": "25.10.16.목",
+              "created": "25.10.17.금",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/68f1f68d3f43d74566b402cd",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": null,
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_day",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/bouquet20220119222223.png",
+                  "iconCode": "bouquet",
+                  "name": "특별한 날 가기 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/68f1f68d3f43d74566b402cd/paymentInfo",
+              "reactionStat": {
+                "id": "68f1f68d3f43d74566b402cd",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "68f1f68d3f43d74566b402cd",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_special_event",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "기념일",
+                      "name": "기념일",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_solo",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "혼자",
+                      "name": "혼자",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-10-16T01:56:33.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "6918ad07cbb8ecc8b07e6e06",
+              "cursor": "YVQ4QVErelJSczlNajFKNnJWRHNZM0s4NUNoclRVeXFteG9iN0tjaTJCa2k1S1ZvTnB2YmpjOFlKREFzNVRsZy9ra0NyblUyenhGSktMK2syTEYvOS9qOHU2Ykpqd2JNWVRyZHVBMUhoSFNUR1VrL1A4eGkwZ2E3NTRNN3hhbTQwUFYv",
+              "reviewId": "6918ad08cbb8ecc8b07e6e0f",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~-Lfuem5kxQdLSWuXMCk03w",
+                "nickname": "23s****",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "64c4e0511438fc3a9c463552",
+                "url": "https://m.place.naver.com/my/64c4e0511438fc3a9c463552/review?v=2",
+                "review": {
+                  "totalCount": 58,
+                  "imageCount": 128,
+                  "avgRating": 4.9,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "친구 생일이라 주문제작 했어요!\n초록색을 좋아하고 춤 추는걸 좋아하는 친구라고 말씀드리니 알아서 예쁘게 잘 만들어 주셨어요\n덕분에 파티 잘 끝냈습니다 감사합니다~",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfODQg/MDAxNzYzMjI0ODM4NTEw.Ldnke79STDpB1bGjMDkxOQ9eDua2XsKc1aKIxvHg1-Ig.Np-W7FvhQOoh_x9N3L1XjXAgACvx56UaHR7-3SfVQLwg.JPEG/B07AE0A9-EA2A-46F3-9ECE-AD1D0C147671.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfODQg/MDAxNzYzMjI0ODM4NTEw.Ldnke79STDpB1bGjMDkxOQ9eDua2XsKc1aKIxvHg1-Ig.Np-W7FvhQOoh_x9N3L1XjXAgACvx56UaHR7-3SfVQLwg.JPEG/B07AE0A9-EA2A-46F3-9ECE-AD1D0C147671.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMTY2/MDAxNzYzMjI0ODM3OTc4.O-aQ-HvqxvoE6YXh40xciaVuCPb-jS4MMh6viGwQoVcg.XPWact5WxvQePUM2BmbdbVACXJ5tj9rMLFfTaCnUSRYg.JPEG/9CF67977-6F85-4769-A795-F488C72AE0E6.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMTgy/MDAxNzYzMjI0ODM3Mjc4.XiOCSLmpyu6CZkC3kIq2x1eeZcaRhy5Aso_l01GCmB4g.hdV8AhIz-4FOmuPL37Oh7PBUH_DKkScU5NN6oP2BemUg.JPEG/F8BBDE48-C4B8-4F7A-9E51-7A772D3D39D7.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 4734,
+              "visited": "25.11.14.금",
+              "created": "25.11.16.일",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/6918ad07cbb8ecc8b07e6e06",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": {
+                "name": "미니",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/6918ad07cbb8ecc8b07e6e06/paymentInfo",
+              "reactionStat": {
+                "id": "6918ad07cbb8ecc8b07e6e06",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "6918ad07cbb8ecc8b07e6e06",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_for_pickup",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "포장·배달 이용",
+                      "name": "포장·배달 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_social_bonding",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친목",
+                      "name": "친목",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_friend",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친구",
+                      "name": "친구",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-11-13T17:44:25.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "690b254378f1054d838727fe",
+              "cursor": "MTZwT0tNbHFlczJmUENCd01jaDRXNmxUeS96WFF3OE0wZ1RtNk9qOWY1ZitZRWs2UGVEMXhMZ0Q0S1p2T254ZnJwN0s2NHJldHRLRzZkZHU2R3Q1K0FJbitQS21Kd3hqT09JNVBCMXNTbjl0YWJHMldXQXBvWWIxaDk5a3lWMDF3SDV0bXc9PQ==",
+              "reviewId": "690b254378f1054d8387281a",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~OaTDIH2nIP2i0OSPoVmBqA",
+                "nickname": "반가워어엉",
+                "from": "NAVER",
+                "imageUrl": "https://phinf.pstatic.net/contact/20191128_294/1574897893251zl2FM_JPEG/image.jpg",
+                "borderImageUrl": null,
+                "objectId": "5da44f0b8f87a842bcf1c9fe",
+                "url": "https://m.place.naver.com/my/5da44f0b8f87a842bcf1c9fe/review?v=2",
+                "review": {
+                  "totalCount": 58,
+                  "imageCount": 48,
+                  "avgRating": 4.9,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "친한 언니 생일 기념해서 언니네 고양이로 케이크를 제작하였는데 생각했던 것보다 더더 이쁘게 나와서 너무 만족스러웟고 맛있었습니다!! 다음에도 또 방문할 의향이 있을 정도로 퀄리티가 너무 좋았어요🥰",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDVfMTI2/MDAxNzYyMzM4MTEzMjc2.z-7dZ0NJEqMLQPhYiFrth6Bb2U_c9UTcPRDOmZ38OvEg.uJwtmCP3JsZQewBtx0zRbjZvtUjidOaVVx3S0U9KWaUg.JPEG/1762338020786.jpg.jpg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDVfMTI2/MDAxNzYyMzM4MTEzMjc2.z-7dZ0NJEqMLQPhYiFrth6Bb2U_c9UTcPRDOmZ38OvEg.uJwtmCP3JsZQewBtx0zRbjZvtUjidOaVVx3S0U9KWaUg.JPEG/1762338020786.jpg.jpg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 4858,
+              "visited": "25.11.2.일",
+              "created": "25.11.5.수",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/690b254378f1054d838727fe",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": {
+                "name": "케이크 1호",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "food_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+                  "iconCode": "face_savoring_food",
+                  "name": "음식이 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/690b254378f1054d838727fe/paymentInfo",
+              "reactionStat": {
+                "id": "690b254378f1054d838727fe",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "690b254378f1054d838727fe",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_social_bonding",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친목",
+                      "name": "친목",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_friend",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친구",
+                      "name": "친구",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-11-02T04:00:00.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "690ddd5d58563c92db41d212",
+              "cursor": "VFBRQkZQUzFZb3gyMldDWFhRZVc2SkJHOExJZFF0dVdyR0hrTllrQldVY2g4a3A2V3BRZURTRVpyaFJkc0s5Q1dUNkdMcEYvVjBSWmV2Snd5bmxxbHV1UWRJWWU3Mm8xeGR3emJ3Z3JKQ1FMYXVpangxL3Fsc3NINmRpUFg1d1BDdnMv",
+              "reviewId": "690ddd5d58563c92db41d223",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~YjUQL2xg74I_StHNamE63A",
+                "nickname": "민초딩로딩",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "5eae43308f87a842bc68520c",
+                "url": "https://m.place.naver.com/my/5eae43308f87a842bc68520c/review?v=2",
+                "review": {
+                  "totalCount": 13,
+                  "imageCount": 24,
+                  "avgRating": 5,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "1",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "덕분에 케이크 받은 분과 가족들이 엄청 기뻐하셨습니다~~!! 퀄도 너무 좋고 친절하셔서 너무 감사했어요!! 역이랑도 가깝고 앞으로도 레터링 케잌 필요하면 애용할 것 같습니다!!",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDdfOTgg/MDAxNzYyNTE2MzE1NjI0.23vb_qCfMDON3jcWHkbf-6NP6K_6J8NCk_F6MrCOCcUg.f5Ayoe4rVITkPgdlhlONjvocE2nWL70r6fT55mfEKcog.JPEG/D86F0F37-FFF4-4D95-A66C-48FAFB454DD3.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDdfOTgg/MDAxNzYyNTE2MzE1NjI0.23vb_qCfMDON3jcWHkbf-6NP6K_6J8NCk_F6MrCOCcUg.f5Ayoe4rVITkPgdlhlONjvocE2nWL70r6fT55mfEKcog.JPEG/D86F0F37-FFF4-4D95-A66C-48FAFB454DD3.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDdfOTkg/MDAxNzYyNTE2MzE1NjIw.a3dusaCmfg28po_HyoP1NwasfuAm_uNnIMuwhZ1GXUkg.TQ906J5o6_ibeG8-4cKNo5Lck884lnJpz89oCo_64ucg.JPEG/737F0254-D96F-4405-8D24-0AF850F6ED5B.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 4691,
+              "visited": "25.11.5.수",
+              "created": "25.11.7.금",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/690ddd5d58563c92db41d212",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": {
+                "name": "미니",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_day",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/bouquet20220119222223.png",
+                  "iconCode": "bouquet",
+                  "name": "특별한 날 가기 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/690ddd5d58563c92db41d212/paymentInfo",
+              "reactionStat": {
+                "id": "690ddd5d58563c92db41d212",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "690ddd5d58563c92db41d212",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_special_event",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "기념일",
+                      "name": "기념일",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_solo",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "혼자",
+                      "name": "혼자",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-11-05T10:20:00.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "69104f3a2dd02c8ed29a7824",
+              "cursor": "T1NKTXE1UTdBQlpSL2lhM2ZuNnhMczBGeEJPQkdzck53ZDlkL3B5WjU0WHhHVzQybDM0ckUrWUtwTXhOdk05akEwZUdVZ01PMmQ1ckIwRmdWSXphRVJ4aFZoZVcxQWErTGRzTXlXWlNwU1ZlWlczOURSMitYR0pXbG5tQmFEbWdWNWRlN0E9PQ==",
+              "reviewId": "69104f3a2dd02c8ed29a7831",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~FNFf1iiqp5LCdiVSU5zcFA",
+                "nickname": "ㅋㅇㅇㅇㅁㅁ",
+                "from": "NAVER",
+                "imageUrl": "https://phinf.pstatic.net/contact/20210405_113/1617576969231iJlzx_JPEG/profileImage.jpg",
+                "borderImageUrl": null,
+                "objectId": "5da3c58d8f87a842bc5c1f87",
+                "url": "https://m.place.naver.com/my/5da3c58d8f87a842bc5c1f87/review?v=2",
+                "review": {
+                  "totalCount": 20,
+                  "imageCount": 31,
+                  "avgRating": 5,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "도안까지 그려서 예약했는데 센스있게 도안 그대로 적용해서 더 이쁘게 만들어주셨어요 사장님도 친절하시고 친구 울릴정도로 이쁜 케이크였습니다!",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDlfMjc2/MDAxNzYyNjc2NTM3NDAy.1VXKa-Z5XoG20Df_8Hc2Ed14NpRyXSvX_XVITBKUfnIg.VJgXycr_wHVZxck6V4MRBqU7Oyc7MnHsyiLtmjFTFMQg.JPEG/3614BAA8-59C5-41A6-B39B-EDF5331B588F.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMDlfMjc2/MDAxNzYyNjc2NTM3NDAy.1VXKa-Z5XoG20Df_8Hc2Ed14NpRyXSvX_XVITBKUfnIg.VJgXycr_wHVZxck6V4MRBqU7Oyc7MnHsyiLtmjFTFMQg.JPEG/3614BAA8-59C5-41A6-B39B-EDF5331B588F.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 5,
+              "viewCount": 4650,
+              "visited": "25.11.7.금",
+              "created": "25.11.9.일",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/69104f3a2dd02c8ed29a7824",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": {
+                "name": "케이크 1호",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/69104f3a2dd02c8ed29a7824/paymentInfo",
+              "reactionStat": {
+                "id": "69104f3a2dd02c8ed29a7824",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "69104f3a2dd02c8ed29a7824",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_social_bonding",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친목",
+                      "name": "친목",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_friend",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친구",
+                      "name": "친구",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-11-07T10:00:23.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "68d60074113a0ad9e56c13c5",
+              "cursor": "VFZVOUdZV2hiTHBKR2ZUSVY0UGZUbHFGRmZyNFR4bUw3U3oxckprRmE2a2pkenpLNXdrQ3p6ZnlKUTRabnZuT0tlSFhhL29iRlJ0dXVBOXlaUlUwY1lDRkV5QndPeTcrbEd1TCtlSGcwVU5vTXg0QkxhdjdsQ3JWdmkxdUFKbzNEQ1Q1THc9PQ==",
+              "reviewId": "68d60074113a0ad9e56c13d3",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~jF4NeRuVfX7c4PgHdBCCJQ",
+                "nickname": "좽쟁",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "61652063004deb5b85ce94a4",
+                "url": "https://m.place.naver.com/my/61652063004deb5b85ce94a4/review?v=2",
+                "review": {
+                  "totalCount": 27,
+                  "imageCount": 26,
+                  "avgRating": 4.9,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "케이크 제작 주문은 처음이라 이상하면 어떡하지?했는데 받자마자 너무너무 이뻐서 놀랐구 너모 행복했습니다🥺💗 받기전에 카톡도 친절하게 답변해주시고 말투가 이쁘신 보라곰케이크님💗💗  금손이셔서 걱정 1도 안하셔도 됩니다",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTA5MjZfNDAg/MDAxNzU4ODU1MjgyNDU1.Oron-JUN46f-TFYrHRNANXBMflPSw1ih4TeLOJNzkG4g.Ua3kjMyVmDwrRZf5KD3wjxz9DhfUvkPxGnizyP0JtLMg.JPEG/744E4B4A-1F16-47DB-8251-0234B585CE25.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTA5MjZfNDAg/MDAxNzU4ODU1MjgyNDU1.Oron-JUN46f-TFYrHRNANXBMflPSw1ih4TeLOJNzkG4g.Ua3kjMyVmDwrRZf5KD3wjxz9DhfUvkPxGnizyP0JtLMg.JPEG/744E4B4A-1F16-47DB-8251-0234B585CE25.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTA5MjZfMjcw/MDAxNzU4ODU1MjgyNjM4.2NhmlvJr9LKLt3k23zPtYVLheKTj-Gp1DzJnsFx4mI8g.3LwKlqeGoF6lOFuwesh-Is2B4P2ksZz7Az7OdqnfNiAg.JPEG/3054B5D4-6472-4F03-BFAB-A1FC85606941.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 6064,
+              "visited": "25.9.25.목",
+              "created": "25.9.26.금",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/68d60074113a0ad9e56c13c5",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": null,
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "gift_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/wrapped_gift20220119222229.png",
+                  "iconCode": "wrapped_gift",
+                  "name": "선물하기 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/68d60074113a0ad9e56c13c5/paymentInfo",
+              "reactionStat": {
+                "id": "68d60074113a0ad9e56c13c5",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "68d60074113a0ad9e56c13c5",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_romantic_date",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "데이트",
+                      "name": "데이트",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_significant_other",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "연인・배우자",
+                      "name": "연인・배우자",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-09-25T02:14:58.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "6910bc980c3d8b35b5244ac6",
+              "cursor": "MjZCT0grN3V1VnJyaFhoN2FOdTNGRXZBbStDYUYyQkVwekczbXozUzBUeGw5RTVJdlp1cjVHeTUrcTd0dVZmcnhzQjIrVVJ4b3BZaWdkSThuY2lQZjhkd3NxNUxIdjdJcDRtWVpTWnpud2NVcU0wV0hsdzVZbXVUTlFMKzJ5RWtqL3hFS1E9PQ==",
+              "reviewId": "6910bc980c3d8b35b5244aca",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~kOnZWA1QZ7FmLac3mjR0yA",
+                "nickname": "htd****",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "5f0586542b24071c70655c90",
+                "url": "https://m.place.naver.com/my/5f0586542b24071c70655c90/review?v=2",
+                "review": {
+                  "totalCount": 43,
+                  "imageCount": 41,
+                  "avgRating": 4.8,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "여자친구가 너무너무 좋아했어요~ 주문제작 너무 예쁘게 해주시는거 같아요~!! 다음에 또 오겠습니다~",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMTk2/MDAxNzYyNzA0NTM0NzM3.9ABqrirNd0Y0TZIxaizS0BUKzqmAsPOKr47dvkbEZUwg._tfafYTcQT0Up3UbjINKFGBvXkOgO8-OzFMYwndodTQg.JPEG/9B2FDF06-1D72-4752-B925-3F42D53DDF5F.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMTk2/MDAxNzYyNzA0NTM0NzM3.9ABqrirNd0Y0TZIxaizS0BUKzqmAsPOKr47dvkbEZUwg._tfafYTcQT0Up3UbjINKFGBvXkOgO8-OzFMYwndodTQg.JPEG/9B2FDF06-1D72-4752-B925-3F42D53DDF5F.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                },
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMjA1/MDAxNzYyNzA0NTM0MjU0.LkKQVQjM6Mo8VgmzP3gb7fpYO3xIn7n1IO-Klig-tEMg.dZNUVDnAmuGNWsPsqlBGSuWV3AqGv38NHOJi4ORVGBMg.JPEG/7DFAAEDA-A88E-4F1F-889C-CB6044CCE695.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "portrait",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 4627,
+              "visited": "25.11.9.일",
+              "created": "25.11.10.월",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/place-id/1581469411/reviews/6910bc980c3d8b35b5244ac6",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "영수증",
+              "item": {
+                "name": "미니",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰 주문제작&레터링케이크",
+              "showBookingItemName": false,
+              "bookingItemName": "",
+              "votedKeywords": [
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/6910bc980c3d8b35b5244ac6/paymentInfo",
+              "reactionStat": {
+                "id": "6910bc980c3d8b35b5244ac6",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "6910bc980c3d8b35b5244ac6",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": true,
+              "visitCategories": [
+                {
+                  "code": "v_no_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 없이 이용",
+                      "name": "예약 없이 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_romantic_date",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "데이트",
+                      "name": "데이트",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_significant_other",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "연인・배우자",
+                      "name": "연인・배우자",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-11-09T04:07:31.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            },
+            {
+              "id": "68f4a07262d4a65af82a5a03",
+              "cursor": "bDhua1BuUU1yYXY0MHBrVVlCVFZjWkxPd05tZjI0bnhDZDhNK0JnelZEQ1d6Q1VMZkk2aFNXRy81eCsrS0w1d0pEZk5xV3BmcTNwYVprY0dYQVRyeDA4SUZTY3J4UGJoU3prUlUzWTJTTkc3bXJHaml0cXZmbDMvdFFzdFpaR0xPdHo1ZVE9PQ==",
+              "reviewId": "68f4a07262d4a65af82a5a0c",
+              "rating": null,
+              "author": {
+                "isMe": false,
+                "id": "~1~EJ4ZmgF0oGuSYRZfNuwmbA",
+                "nickname": "yongjin9712",
+                "from": "NAVER",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "objectId": "5b9d9558edd0d602ec5cdda7",
+                "url": "https://m.place.naver.com/my/5b9d9558edd0d602ec5cdda7/review?v=2",
+                "review": {
+                  "totalCount": 31,
+                  "imageCount": 39,
+                  "avgRating": 4.4,
+                  "__typename": "AuthorReview"
+                },
+                "theme": {
+                  "totalCount": 0,
+                  "__typename": "AuthorTheme"
+                },
+                "isFollowing": null,
+                "followerCount": "0",
+                "followRequested": null,
+                "__typename": "VisitorReviewAuthor"
+              },
+              "body": "친구들의 공연 기념 레터링 케이크를 제작하고 싶어서 찾아보던 중 알게된 곳입니다! Gpt로 시안을 만들어서 다소 부족했을 수도 있었는데 너무 친절하게 상담해주셔서 안심이 되었고 오늘 픽업 해보니 기대 그 이상으로 제작해주셔서 너무 만족스럽습니다 😄 \n그리고 다른 곳도 이용해보았지만 가격도 합리적이고 퀄리티도 너무 좋은거 같아요!\n친구들에게 선물해주었더니 너무 만족하네요! 다음에도 홍대-연남에서 픽업할 일 있으면 이용하겠습니다",
+              "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTlfMTAw/MDAxNzYwODYyMDg4MjI4.Pc9nMvJo1Czv7qenbdyox_R1lNYJ5HZSBqB7Ga1so2Eg.s-tRygUErX35E3hOSkKzl-bVsT1339JtmMf9COMArFQg.JPEG/IMG_0315.jpeg",
+              "media": [
+                {
+                  "type": "image",
+                  "thumbnail": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTlfMTAw/MDAxNzYwODYyMDg4MjI4.Pc9nMvJo1Czv7qenbdyox_R1lNYJ5HZSBqB7Ga1so2Eg.s-tRygUErX35E3hOSkKzl-bVsT1339JtmMf9COMArFQg.JPEG/IMG_0315.jpeg?type=w1500_60_sharpen",
+                  "thumbnailRatio": "square",
+                  "class": "notReceipt",
+                  "videoId": null,
+                  "videoUrl": null,
+                  "trailerUrl": null,
+                  "__typename": "VisitorReviewMedia"
+                }
+              ],
+              "tags": null,
+              "status": "ACTIVE",
+              "visitCount": 1,
+              "viewCount": 3883,
+              "visited": "25.10.19.일",
+              "created": "25.10.19.일",
+              "reply": {
+                "editUrl": "https://new-m.smartplace.naver.com/bizes/booking/1246612/reviews/68f4a07262d4a65af82a5a03?type=booking",
+                "body": null,
+                "editedBy": null,
+                "created": null,
+                "date": null,
+                "replyTitle": null,
+                "isReported": false,
+                "isSuspended": false,
+                "status": null,
+                "__typename": "VisitorReviewReply"
+              },
+              "originType": "예약",
+              "item": {
+                "name": "네이버페이 전용 결제창",
+                "code": null,
+                "options": null,
+                "__typename": "VisitorReviewItem"
+              },
+              "language": "ko",
+              "highlightRanges": null,
+              "apolloCacheId": "true",
+              "translatedText": null,
+              "businessName": "보라곰케이크",
+              "showBookingItemName": true,
+              "bookingItemName": "네이버페이 전용 결제창",
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "receiptInfoUrl": "https://m.place.naver.com/my/review/68f4a07262d4a65af82a5a03/paymentInfo",
+              "reactionStat": {
+                "id": "68f4a07262d4a65af82a5a03",
+                "typeCount": [
+                  {
+                    "name": "fun",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "helpful",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "wannago",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  },
+                  {
+                    "name": "cool",
+                    "count": 0,
+                    "__typename": "ReactionStatTypeCount"
+                  }
+                ],
+                "totalCount": 0,
+                "__typename": "ReactionStat"
+              },
+              "hasViewerReacted": {
+                "id": "68f4a07262d4a65af82a5a03",
+                "reacted": false,
+                "__typename": "HasViewerReacted"
+              },
+              "nickname": "",
+              "showPaymentInfo": false,
+              "visitCategories": [
+                {
+                  "code": "v_with_reservation",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "예약 후 이용",
+                      "name": "예약 후 이용",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_enter_immediately",
+                  "name": "대기 시간",
+                  "keywords": [
+                    {
+                      "code": "바로 입장",
+                      "name": "바로 입장",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_special_event",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "기념일",
+                      "name": "기념일",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                },
+                {
+                  "code": "v_friend",
+                  "name": "",
+                  "keywords": [
+                    {
+                      "code": "친구",
+                      "name": "친구",
+                      "__typename": "VisitCategoryKeyword"
+                    }
+                  ],
+                  "__typename": "VisitCategory"
+                }
+              ],
+              "representativeVisitDateTime": "2025-10-19T08:00:00.000Z",
+              "showRepresentativeVisitDateTime": true,
+              "__typename": "VisitorReview"
+            }
+          ],
+          "starDistribution": null,
+          "hideProductSelectBox": true,
+          "total": 238,
+          "showRecommendationSort": true,
+          "itemReviewStats": {
+            "score": 0,
+            "count": 0,
+            "itemId": null,
+            "starDistribution": [],
+            "__typename": "ItemReviewStats"
+          },
+          "__typename": "VisitorReviewsResult"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://pcmap-api.place.naver.com/graphql",
+    "request": {
+      "operationName": "getPhotoViewerItems",
+      "variables": {
+        "isNmap": false,
+        "input": {
+          "businessId": "1581469411",
+          "businessType": "restaurant",
+          "display": 6,
+          "cursors": {
+            "id": "clip"
+          }
+        }
+      },
+      "query": "query getPhotoViewerItems($input: PhotoViewerInput, $isNmap: Boolean = false) {\n  photoViewer(input: $input) {\n    cursors {\n      ...PhotoViewerCursorFragment\n      __typename\n    }\n    photos {\n      ...PhotoViewerImageFragment\n      ...PhotoViewerImageNmapExtraFragment @include(if: $isNmap)\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment PhotoViewerCursorFragment on PhotoViewerCursor {\n  id\n  startIndex\n  hasNext\n  lastCursor\n  __typename\n}\n\nfragment PhotoViewerImageFragment on PhotoViewerImage {\n  viewId\n  originalUrl\n  thumbnailUrl\n  width\n  height\n  title\n  date\n  linkUrl\n  description\n  mediaFormat\n  mediaSource\n  visitorReview {\n    visitCount\n    votedKeywords {\n      code\n      iconUrl\n      iconCode\n      name\n      __typename\n    }\n    isFollowing\n    rating\n    reviewGroupId\n    reviewId\n    __typename\n  }\n  option {\n    channelName\n    dateString\n    playCount\n    likeCount\n    __typename\n  }\n  author {\n    id\n    nickname\n    from\n    imageUrl\n    objectId\n    url\n    borderImageUrl\n    officialYn\n    __typename\n  }\n  externalLink {\n    title\n    url\n    __typename\n  }\n  sourceTitle\n  moment {\n    channelId\n    contentId\n    momentId\n    gdid\n    blogRelation\n    statAllowYn\n    category\n    docNo\n    __typename\n  }\n  video {\n    videoId\n    videoUrl\n    trailerUrl\n    contentType\n    __typename\n  }\n  music {\n    artists\n    title\n    __typename\n  }\n  clip {\n    serviceType\n    createdAt\n    contentType\n    __typename\n  }\n  originType\n  businessName\n  __typename\n}\n\nfragment PhotoViewerImageNmapExtraFragment on PhotoViewerImage {\n  visitorReview {\n    visitCategories {\n      code\n      name\n      keywords {\n        code\n        name\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  author {\n    followRequested\n    __typename\n  }\n  __typename\n}"
+    },
+    "response": {
+      "data": {
+        "photoViewer": {
+          "cursors": [
+            {
+              "id": "clip",
+              "startIndex": 1,
+              "hasNext": false,
+              "lastCursor": null,
+              "__typename": "PhotoViewerCursor"
+            }
+          ],
+          "photos": [
+            {
+              "viewId": "moment_90256fdb_0000000001671803",
+              "originalUrl": "https://clip-service-phinf.pstatic.net/MjAyNjAxMTRfMzkg/MDAxNzY4Mzk4NDIzNDM5.g5HC-CGq4O_wib2vjJMgO7fchps4L-Wj7_5opIFhjqUg.ItnykNbCz1eRCNhNkrMrd2RjdqdTRi-1SvQepZPqM78g.JPEG/PublishThumb_20260114_224607_372.jpg",
+              "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fclip-service-phinf.pstatic.net%2FMjAyNjAxMTRfMzkg%2FMDAxNzY4Mzk4NDIzNDM5.g5HC-CGq4O_wib2vjJMgO7fchps4L-Wj7_5opIFhjqUg.ItnykNbCz1eRCNhNkrMrd2RjdqdTRi-1SvQepZPqM78g.JPEG%2FPublishThumb_20260114_224607_372.jpg",
+              "width": null,
+              "height": null,
+              "title": "클립",
+              "date": "2026.10.29",
+              "linkUrl": null,
+              "description": "#오늘여기클립 #클립챌린저 #홍대케이크#애니메이션케이크#고죠사토루#주술회전#아들생일케이크#아들생일#생일케이크#주문제작케이크#보라곰케이크",
+              "mediaFormat": "video",
+              "mediaSource": "clip",
+              "visitorReview": null,
+              "option": {
+                "channelName": null,
+                "dateString": null,
+                "playCount": 206,
+                "likeCount": 3,
+                "__typename": "PhotoViewerItemOption"
+              },
+              "author": {
+                "id": "iLywcnL_gEWRy32tH9JJ",
+                "nickname": "Asha Life",
+                "from": null,
+                "imageUrl": "https://clip-service-phinf.pstatic.net/MjAyNjAzMzFfNjIg/MDAxNzc0OTY2NTEzMTg1.0bzJ6hVeGlhTu_FlqgUXGgBdRIzDofh1u9gb_gESFRUg.59Nd3Zpd4WUG2kzJerPLCNe4mfPLwbb2krlwaGDAtEgg.JPEG/image.jpg",
+                "objectId": null,
+                "url": "https://clip.naver.com/@ashabelly",
+                "borderImageUrl": null,
+                "officialYn": false,
+                "__typename": "PhotoViewerItemAuthor"
+              },
+              "externalLink": null,
+              "sourceTitle": "클립",
+              "moment": null,
+              "video": {
+                "videoId": "90004EE37D46166DDFF2DEE11D67F75BD088",
+                "videoUrl": "vod3://2040:V1232ea2f418a50c2321c6f94f91698c5fa36a886842296ab2e9a9ec6e2cdafd41de46f94f91698c5fa36@90004EE37D46166DDFF2DEE11D67F75BD088?env=real#track=720",
+                "trailerUrl": "https://a02-g-smp-vod.akamaized.net/clip-home/c/read/v2/VOD_ALPHA/clip-home/90004EE37D46166DDFF2DEE11D67F75BD088/trailer/1768398423435/8cb333c1-f14f-11f0-a6ca-48df3770351a.mp4?hdnts=exp%3D1793258405%7Eacl%3D%2Fclip-home%2Fc%2Fread%2Fv2%2FVOD_ALPHA%2Fclip-home%2F90004EE37D46166DDFF2DEE11D67F75BD088%2F*%7Ehmac%3D819d9d23104529ed316527e6c2c5a1f50d6d01052d0e3adc435020e5b5160de5",
+                "contentType": null,
+                "__typename": "VideoItemInfo"
+              },
+              "music": null,
+              "clip": {
+                "serviceType": "CLIP",
+                "createdAt": "2026-01-14T22:47:17+0900",
+                "contentType": "VOD",
+                "__typename": "ClipItemInfo"
+              },
+              "originType": null,
+              "businessName": null,
+              "__typename": "PhotoViewerImage"
+            }
+          ],
+          "__typename": "PhotoViewerResult"
+        }
+      }
+    }
+  },
+  {
+    "url": "https://pcmap-api.place.naver.com/graphql",
+    "request": {
+      "operationName": "getVisitorReviewPhotosForHomeSection",
+      "variables": {
+        "input": {
+          "businessId": "1581469411",
+          "businessType": "restaurant",
+          "type": "GRID"
+        }
+      },
+      "query": "query getVisitorReviewPhotosForHomeSection($input: VisitorReviewPhotosInput) {\n  visitorReviewPhotos(input: $input) {\n    ...PhotoViewerImageFragment\n    __typename\n  }\n}\n\nfragment PhotoViewerImageFragment on PhotoViewerImage {\n  viewId\n  originalUrl\n  thumbnailUrl\n  width\n  height\n  title\n  date\n  linkUrl\n  description\n  mediaFormat\n  mediaSource\n  visitorReview {\n    visitCount\n    votedKeywords {\n      code\n      iconUrl\n      iconCode\n      name\n      __typename\n    }\n    isFollowing\n    rating\n    reviewGroupId\n    reviewId\n    __typename\n  }\n  option {\n    channelName\n    dateString\n    playCount\n    likeCount\n    __typename\n  }\n  author {\n    id\n    nickname\n    from\n    imageUrl\n    objectId\n    url\n    borderImageUrl\n    officialYn\n    __typename\n  }\n  externalLink {\n    title\n    url\n    __typename\n  }\n  sourceTitle\n  moment {\n    channelId\n    contentId\n    momentId\n    gdid\n    blogRelation\n    statAllowYn\n    category\n    docNo\n    __typename\n  }\n  video {\n    videoId\n    videoUrl\n    trailerUrl\n    contentType\n    __typename\n  }\n  music {\n    artists\n    title\n    __typename\n  }\n  clip {\n    serviceType\n    createdAt\n    contentType\n    __typename\n  }\n  originType\n  businessName\n  __typename\n}"
+    },
+    "response": {
+      "data": {
+        "visitorReviewPhotos": [
+          {
+            "viewId": "userimage_69344502776f31df0a48199b",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNTkg/MDAxNzY1MDMzMjExNTQ1.XL2piy5B3ox_3zekqme9HJnL0klzocHSjwHSrP7Z5-Ug.W5erUyMHKWywkNExBv0QoG3_XZfZ8S8S3xPS3iA-mk0g.JPEG/52C180DF-2E2B-4E76-A6B2-1534024AC1FD.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMDdfNTkg%2FMDAxNzY1MDMzMjExNTQ1.XL2piy5B3ox_3zekqme9HJnL0klzocHSjwHSrP7Z5-Ug.W5erUyMHKWywkNExBv0QoG3_XZfZ8S8S3xPS3iA-mk0g.JPEG%2F52C180DF-2E2B-4E76-A6B2-1534024AC1FD.jpeg",
+            "width": 3024,
+            "height": 3024,
+            "title": "방문자리뷰",
+            "date": "2025.11.22",
+            "linkUrl": "",
+            "description": "너무너무 이쁜 케이크였습니다....\n어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...\n사장님은 그저 갓.. 능력치 무엇입니까\n너무 감사해요 ㅎㅎ",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6934450122b54fc9e956e155",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~Y4z5tTC5fCukmw5bT4DLEw",
+              "nickname": "민교이캉",
+              "from": "NAVER",
+              "imageUrl": "https://phinf.pstatic.net/contact/20220221_97/1645409851520nYgDu_PNG/avatar_profile.png",
+              "objectId": "5d424c2587dd4055c2142f5a",
+              "url": "https://m.place.naver.com/my/5d424c2587dd4055c2142f5a/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_69344502776f31df0a48199c",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNDIg/MDAxNzY1MDMzMjE0NDky.wlK3rASUygTId5Wl195hdQ1CptfGL0NYQy9-MUcXvBYg.xJMej_oLvBNZui56kmTT7IpnXnqzvCN_j2CnaY2QrUgg.JPEG/933CC8EA-8EBC-4DCE-89E4-1F85F8C1B907.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMDdfNDIg%2FMDAxNzY1MDMzMjE0NDky.wlK3rASUygTId5Wl195hdQ1CptfGL0NYQy9-MUcXvBYg.xJMej_oLvBNZui56kmTT7IpnXnqzvCN_j2CnaY2QrUgg.JPEG%2F933CC8EA-8EBC-4DCE-89E4-1F85F8C1B907.jpeg",
+            "width": 3024,
+            "height": 3024,
+            "title": "방문자리뷰",
+            "date": "2025.11.22",
+            "linkUrl": "",
+            "description": "너무너무 이쁜 케이크였습니다....\n어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...\n사장님은 그저 갓.. 능력치 무엇입니까\n너무 감사해요 ㅎㅎ",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6934450122b54fc9e956e155",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~Y4z5tTC5fCukmw5bT4DLEw",
+              "nickname": "민교이캉",
+              "from": "NAVER",
+              "imageUrl": "https://phinf.pstatic.net/contact/20220221_97/1645409851520nYgDu_PNG/avatar_profile.png",
+              "objectId": "5d424c2587dd4055c2142f5a",
+              "url": "https://m.place.naver.com/my/5d424c2587dd4055c2142f5a/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_6919bc40ace7461d191292fb",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMjUx/MDAxNzYzMjk0MjcwNTAz.OdUQLzi6frPPDz6yV26EWLmsZENItXS7ZpZ6bHETPAcg.TMdyt9B8lbN1tF3LaPBdwv4RS1KvmezCT7SNz4uNoEEg.JPEG/1763184206747.jpg.jpg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMTZfMjUx%2FMDAxNzYzMjk0MjcwNTAz.OdUQLzi6frPPDz6yV26EWLmsZENItXS7ZpZ6bHETPAcg.TMdyt9B8lbN1tF3LaPBdwv4RS1KvmezCT7SNz4uNoEEg.JPEG%2F1763184206747.jpg.jpg",
+            "width": 3024,
+            "height": 3024,
+            "title": "방문자리뷰",
+            "date": "2025.11.14",
+            "linkUrl": "",
+            "description": "요청사항 꼼꼼하게 다 반영해주시고 도안보다 더 완성도있게 만들어 주셔서 감사해요!!\n동생 결혼 기념으로 제작했는데 반응이좋아서 너무 뿌듯했어요\n다음에 또 이용하게 될 것 같습니다!",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6919bc3f8bf43e876fa67aa9",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~bj-qBb5-DPoId236tXwTPQ",
+              "nickname": "서미나2728",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "5c590a20ca498c7eee48b7ee",
+              "url": "https://m.place.naver.com/my/5c590a20ca498c7eee48b7ee/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_6918ad09d4ecc49b7c54d620",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMTgy/MDAxNzYzMjI0ODM3Mjc4.XiOCSLmpyu6CZkC3kIq2x1eeZcaRhy5Aso_l01GCmB4g.hdV8AhIz-4FOmuPL37Oh7PBUH_DKkScU5NN6oP2BemUg.JPEG/F8BBDE48-C4B8-4F7A-9E51-7A772D3D39D7.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMTZfMTgy%2FMDAxNzYzMjI0ODM3Mjc4.XiOCSLmpyu6CZkC3kIq2x1eeZcaRhy5Aso_l01GCmB4g.hdV8AhIz-4FOmuPL37Oh7PBUH_DKkScU5NN6oP2BemUg.JPEG%2FF8BBDE48-C4B8-4F7A-9E51-7A772D3D39D7.jpeg",
+            "width": 2304,
+            "height": 2884,
+            "title": "방문자리뷰",
+            "date": "2025.11.14",
+            "linkUrl": "",
+            "description": "친구 생일이라 주문제작 했어요!\n초록색을 좋아하고 춤 추는걸 좋아하는 친구라고 말씀드리니 알아서 예쁘게 잘 만들어 주셨어요\n덕분에 파티 잘 끝냈습니다 감사합니다~",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6918ad07cbb8ecc8b07e6e06",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~-Lfuem5kxQdLSWuXMCk03w",
+              "nickname": "23s****",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "64c4e0511438fc3a9c463552",
+              "url": "https://m.place.naver.com/my/64c4e0511438fc3a9c463552/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_6918ad09d4ecc49b7c54d61e",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfODQg/MDAxNzYzMjI0ODM4NTEw.Ldnke79STDpB1bGjMDkxOQ9eDua2XsKc1aKIxvHg1-Ig.Np-W7FvhQOoh_x9N3L1XjXAgACvx56UaHR7-3SfVQLwg.JPEG/B07AE0A9-EA2A-46F3-9ECE-AD1D0C147671.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMTZfODQg%2FMDAxNzYzMjI0ODM4NTEw.Ldnke79STDpB1bGjMDkxOQ9eDua2XsKc1aKIxvHg1-Ig.Np-W7FvhQOoh_x9N3L1XjXAgACvx56UaHR7-3SfVQLwg.JPEG%2FB07AE0A9-EA2A-46F3-9ECE-AD1D0C147671.jpeg",
+            "width": 2582,
+            "height": 2582,
+            "title": "방문자리뷰",
+            "date": "2025.11.14",
+            "linkUrl": "",
+            "description": "친구 생일이라 주문제작 했어요!\n초록색을 좋아하고 춤 추는걸 좋아하는 친구라고 말씀드리니 알아서 예쁘게 잘 만들어 주셨어요\n덕분에 파티 잘 끝냈습니다 감사합니다~",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6918ad07cbb8ecc8b07e6e06",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~-Lfuem5kxQdLSWuXMCk03w",
+              "nickname": "23s****",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "64c4e0511438fc3a9c463552",
+              "url": "https://m.place.naver.com/my/64c4e0511438fc3a9c463552/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_6918ad09d4ecc49b7c54d61f",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMTY2/MDAxNzYzMjI0ODM3OTc4.O-aQ-HvqxvoE6YXh40xciaVuCPb-jS4MMh6viGwQoVcg.XPWact5WxvQePUM2BmbdbVACXJ5tj9rMLFfTaCnUSRYg.JPEG/9CF67977-6F85-4769-A795-F488C72AE0E6.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMTZfMTY2%2FMDAxNzYzMjI0ODM3OTc4.O-aQ-HvqxvoE6YXh40xciaVuCPb-jS4MMh6viGwQoVcg.XPWact5WxvQePUM2BmbdbVACXJ5tj9rMLFfTaCnUSRYg.JPEG%2F9CF67977-6F85-4769-A795-F488C72AE0E6.jpeg",
+            "width": 2477,
+            "height": 2477,
+            "title": "방문자리뷰",
+            "date": "2025.11.14",
+            "linkUrl": "",
+            "description": "친구 생일이라 주문제작 했어요!\n초록색을 좋아하고 춤 추는걸 좋아하는 친구라고 말씀드리니 알아서 예쁘게 잘 만들어 주셨어요\n덕분에 파티 잘 끝냈습니다 감사합니다~",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6918ad07cbb8ecc8b07e6e06",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~-Lfuem5kxQdLSWuXMCk03w",
+              "nickname": "23s****",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "64c4e0511438fc3a9c463552",
+              "url": "https://m.place.naver.com/my/64c4e0511438fc3a9c463552/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_6910bc9936cb1f8c64f97516",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMjA1/MDAxNzYyNzA0NTM0MjU0.LkKQVQjM6Mo8VgmzP3gb7fpYO3xIn7n1IO-Klig-tEMg.dZNUVDnAmuGNWsPsqlBGSuWV3AqGv38NHOJi4ORVGBMg.JPEG/7DFAAEDA-A88E-4F1F-889C-CB6044CCE695.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMTBfMjA1%2FMDAxNzYyNzA0NTM0MjU0.LkKQVQjM6Mo8VgmzP3gb7fpYO3xIn7n1IO-Klig-tEMg.dZNUVDnAmuGNWsPsqlBGSuWV3AqGv38NHOJi4ORVGBMg.JPEG%2F7DFAAEDA-A88E-4F1F-889C-CB6044CCE695.jpeg",
+            "width": 2304,
+            "height": 2883,
+            "title": "방문자리뷰",
+            "date": "2025.11.09",
+            "linkUrl": "",
+            "description": "여자친구가 너무너무 좋아했어요~ 주문제작 너무 예쁘게 해주시는거 같아요~!! 다음에 또 오겠습니다~",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6910bc980c3d8b35b5244ac6",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~kOnZWA1QZ7FmLac3mjR0yA",
+              "nickname": "htd****",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "5f0586542b24071c70655c90",
+              "url": "https://m.place.naver.com/my/5f0586542b24071c70655c90/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_6910bc9936cb1f8c64f97515",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMTk2/MDAxNzYyNzA0NTM0NzM3.9ABqrirNd0Y0TZIxaizS0BUKzqmAsPOKr47dvkbEZUwg._tfafYTcQT0Up3UbjINKFGBvXkOgO8-OzFMYwndodTQg.JPEG/9B2FDF06-1D72-4752-B925-3F42D53DDF5F.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMTBfMTk2%2FMDAxNzYyNzA0NTM0NzM3.9ABqrirNd0Y0TZIxaizS0BUKzqmAsPOKr47dvkbEZUwg._tfafYTcQT0Up3UbjINKFGBvXkOgO8-OzFMYwndodTQg.JPEG%2F9B2FDF06-1D72-4752-B925-3F42D53DDF5F.jpeg",
+            "width": 3024,
+            "height": 3024,
+            "title": "방문자리뷰",
+            "date": "2025.11.09",
+            "linkUrl": "",
+            "description": "여자친구가 너무너무 좋아했어요~ 주문제작 너무 예쁘게 해주시는거 같아요~!! 다음에 또 오겠습니다~",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "price_cheap",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+                  "iconCode": "coin",
+                  "name": "가성비가 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "price_worthy",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+                  "iconCode": "gem_stone",
+                  "name": "비싼 만큼 가치있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "6910bc980c3d8b35b5244ac6",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~kOnZWA1QZ7FmLac3mjR0yA",
+              "nickname": "htd****",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "5f0586542b24071c70655c90",
+              "url": "https://m.place.naver.com/my/5f0586542b24071c70655c90/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_69104f3c51ea149e804e5b05",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMDlfMjc2/MDAxNzYyNjc2NTM3NDAy.1VXKa-Z5XoG20Df_8Hc2Ed14NpRyXSvX_XVITBKUfnIg.VJgXycr_wHVZxck6V4MRBqU7Oyc7MnHsyiLtmjFTFMQg.JPEG/3614BAA8-59C5-41A6-B39B-EDF5331B588F.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDlfMjc2%2FMDAxNzYyNjc2NTM3NDAy.1VXKa-Z5XoG20Df_8Hc2Ed14NpRyXSvX_XVITBKUfnIg.VJgXycr_wHVZxck6V4MRBqU7Oyc7MnHsyiLtmjFTFMQg.JPEG%2F3614BAA8-59C5-41A6-B39B-EDF5331B588F.jpeg",
+            "width": 659,
+            "height": 825,
+            "title": "방문자리뷰",
+            "date": "2025.11.07",
+            "linkUrl": "",
+            "description": "도안까지 그려서 예약했는데 센스있게 도안 그대로 적용해서 더 이쁘게 만들어주셨어요 사장님도 친절하시고 친구 울릴정도로 이쁜 케이크였습니다!",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 5,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "69104f3a2dd02c8ed29a7824",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~FNFf1iiqp5LCdiVSU5zcFA",
+              "nickname": "ㅋㅇㅇㅇㅁㅁ",
+              "from": "NAVER",
+              "imageUrl": "https://phinf.pstatic.net/contact/20210405_113/1617576969231iJlzx_JPEG/profileImage.jpg",
+              "objectId": "5da3c58d8f87a842bc5c1f87",
+              "url": "https://m.place.naver.com/my/5da3c58d8f87a842bc5c1f87/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          },
+          {
+            "viewId": "userimage_690ddd5e8d8dbbde2d82eb36",
+            "originalUrl": "https://pup-review-phinf.pstatic.net/MjAyNTExMDdfOTgg/MDAxNzYyNTE2MzE1NjI0.23vb_qCfMDON3jcWHkbf-6NP6K_6J8NCk_F6MrCOCcUg.f5Ayoe4rVITkPgdlhlONjvocE2nWL70r6fT55mfEKcog.JPEG/D86F0F37-FFF4-4D95-A66C-48FAFB454DD3.jpeg",
+            "thumbnailUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDdfOTgg%2FMDAxNzYyNTE2MzE1NjI0.23vb_qCfMDON3jcWHkbf-6NP6K_6J8NCk_F6MrCOCcUg.f5Ayoe4rVITkPgdlhlONjvocE2nWL70r6fT55mfEKcog.JPEG%2FD86F0F37-FFF4-4D95-A66C-48FAFB454DD3.jpeg",
+            "width": 3021,
+            "height": 3021,
+            "title": "방문자리뷰",
+            "date": "2025.11.05",
+            "linkUrl": "",
+            "description": "덕분에 케이크 받은 분과 가족들이 엄청 기뻐하셨습니다~~!! 퀄도 너무 좋고 친절하셔서 너무 감사했어요!! 역이랑도 가깝고 앞으로도 레터링 케잌 필요하면 애용할 것 같습니다!!",
+            "mediaFormat": "image",
+            "mediaSource": "visitorReview",
+            "visitorReview": {
+              "visitCount": 1,
+              "votedKeywords": [
+                {
+                  "code": "dessert_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+                  "iconCode": "cake",
+                  "name": "디저트가 맛있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_menu",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+                  "iconCode": "cook",
+                  "name": "특별한 메뉴가 있어요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "custom_good",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+                  "iconCode": "clipboard",
+                  "name": "주문제작을 잘해줘요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "special_day",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/bouquet20220119222223.png",
+                  "iconCode": "bouquet",
+                  "name": "특별한 날 가기 좋아요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                },
+                {
+                  "code": "kind",
+                  "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+                  "iconCode": "beating_heart",
+                  "name": "친절해요",
+                  "__typename": "VisitorReviewVotedKeyword"
+                }
+              ],
+              "isFollowing": null,
+              "rating": null,
+              "reviewGroupId": "690ddd5d58563c92db41d212",
+              "reviewId": null,
+              "__typename": "PhotoViewerVisitorReviewInfo"
+            },
+            "option": null,
+            "author": {
+              "id": "~1~YjUQL2xg74I_StHNamE63A",
+              "nickname": "민초딩로딩",
+              "from": "NAVER",
+              "imageUrl": null,
+              "objectId": "5eae43308f87a842bc68520c",
+              "url": "https://m.place.naver.com/my/5eae43308f87a842bc68520c/review?v=2",
+              "borderImageUrl": null,
+              "officialYn": null,
+              "__typename": "PhotoViewerItemAuthor"
+            },
+            "externalLink": null,
+            "sourceTitle": null,
+            "moment": null,
+            "video": null,
+            "music": null,
+            "clip": null,
+            "originType": null,
+            "businessName": null,
+            "__typename": "PhotoViewerImage"
+          }
+        ]
+      }
+    }
+  }
+]

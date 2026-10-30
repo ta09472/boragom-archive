@@ -1,0 +1,162 @@
+{
+  "capturedAt": "2026-10-28T14:59:55.230494+00:00",
+  "status": "unresolved_declared_count_discrepancy",
+  "sources": [
+    {
+      "path": "raw/home-state.json",
+      "sha256": "89190dcb371cbf6d0302455ef34fac52848d6761a87504e12bf1954ac24e7c42"
+    },
+    {
+      "path": "raw/reviews.json",
+      "sha256": "95919a548af9bce3a679fde98e1e7aded4ce24ac724d3d473040815f36daa679"
+    },
+    {
+      "path": "raw/photos-network.json",
+      "sha256": "d04e41ea2d50c41a69e1f46bf533c65574d787468e8a8e167239341d6ffb3965"
+    }
+  ],
+  "counts": {
+    "declaredVisitorReviewMediasTotal": 462,
+    "visitorReviews": 238,
+    "visitorReviewsWithMedia": 234,
+    "declaredImageReviewCount": 234,
+    "visitorMediaFromReviews": 432,
+    "reviewGalleryTotal": 438,
+    "reviewGalleryVisitorImages": 426,
+    "reviewGalleryBlogImages": 12,
+    "visitorOnlyInReviewBodies": 6,
+    "combinedUniqueReviewAndGalleryUrls": 444,
+    "differenceDeclaredVisitorVsCollectedVisitor": 30
+  },
+  "galleryTerminalCursor": [
+    {
+      "id": "placeReview",
+      "startIndex": 438,
+      "hasNext": false,
+      "lastCursor": null,
+      "__typename": "PhotoViewerCursor"
+    }
+  ],
+  "visitorOnlyInReviewBodies": [
+    {
+      "reviewId": "68315003e5c07eeac3257647",
+      "author": "홍제동고니",
+      "url": "https://pup-review-phinf.pstatic.net/MjAyNTA1MjRfMTUy/MDAxNzQ4MDYyMTcyMzI4.6OUJRFe3Iq-G2IPs4Xbf8bVZfCV8FU77kdokTGq7h9Ug.ZdGrxPMZSGAElpLeKkD33DGURJvHlGdM-sU9Dii-j1Yg.JPEG/12932EB1-44CC-4045-9442-98BE931A1B5D.jpeg",
+      "mediaClass": "notReceipt"
+    },
+    {
+      "reviewId": "684c2091b1e9678b7e761424",
+      "author": "나리자77",
+      "url": "https://pup-review-phinf.pstatic.net/MjAyNTA2MTNfOTUg/MDAxNzQ5ODE5MDM0OTk3.BYSEiSXUIPTpbKWv0k5fS9R2wKO6KQDpH6ON0TT4sP4g.TiyEI4RPDU2VraTgLJm4c3DUWYci960cj1Eh340duCsg.JPEG/KakaoTalk_20250613_213422451_03.jpg",
+      "mediaClass": "notReceipt"
+    },
+    {
+      "reviewId": "686791b5e66b794506b3bc7b",
+      "author": "뀨우웁",
+      "url": "https://pup-review-phinf.pstatic.net/MjAyNTA3MDRfMjc2/MDAxNzUxNjE3OTcwMzEw.w4_Wmk8VShbgUulr2NDO3E9hEA28UExnSW2JlzkbwgUg.d3OwGLfFmweu6CmM7TlEWOO289fsurI430E_TqH6O8Yg.JPEG/33B4DD0A-88E0-4C8A-B9FF-DA79CE6142E2.jpeg",
+      "mediaClass": "notReceipt"
+    },
+    {
+      "reviewId": "687a61e47d2f1f2e94ea7f57",
+      "author": "챔챔버린",
+      "url": "https://pup-review-phinf.pstatic.net/MjAyNTA3MTlfMjk1/MDAxNzUyODUwOTE0MTI1.zrF2y_fAmHwyWSxdBkygadcJJ54VuplmvpI7bZykbQUg.pai6RgQq93bg0rLMTTQfJyJTuzeJDAdTdYbXEGRa05sg.JPEG/1752464403287.jpg.jpg",
+      "mediaClass": "notReceipt"
+    },
+    {
+      "reviewId": "678d9ef9f9549d9a855d16d2",
+      "author": "우기부기뿌뿌뿡",
+      "url": "https://pup-review-phinf.pstatic.net/MjAyNTAxMjBfMjkw/MDAxNzM3MzMzNjI3MjI3.Mx0HK0wiJiBuFs_IneZfdyY-8-asDffJ44ZZiU5s5vYg.F_gcw8YNIRUrU3_HHwDc8TkviixeQYl5PKvWBzzpAPsg.JPEG/20250118_173625.jpg",
+      "mediaClass": "notReceipt"
+    },
+    {
+      "reviewId": "67e906e7b05e1d0f2449312f",
+      "author": "anneue",
+      "url": "https://pup-review-phinf.pstatic.net/MjAyNTAzMzBfMjUg/MDAxNzQzMzI0OTAzMDY4.mhfEUNoOGIuqS-2YNENII2J01zGBBpYjQjSkQv578bcg.mWK908nnSTlm2V0KDsGUJs-YWrKo2dAoAa8psmPvEjsg.JPEG/C35A9BB8-1C0B-4971-885D-528E0D01A03F.jpeg",
+      "mediaClass": "notReceipt"
+    }
+  ],
+  "galleryOnlyBlogRecords": [
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMTM1/MDAxNzgwODM5ODMyNDYw.VT-QZW7f1R_5AYt_XgIzsLWIR2PEHCq10xe-96b_G30g.tA7b9A6O5VjJAoXvw9pogx71myC3Q1nO_EeKIzazwwQg.JPEG/IMG＿4682.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMTMx/MDAxNzgwODM5ODMyNjMy.vPJLso9rv1Ky9UZvPnUvdTjY3GHXt6yb2Z8PQs3_ZqUg.BhosVgc4Qj7X9wugI7coa7aiIhBrJericaGncLFPtKwg.JPEG/IMG＿4679.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMjMg/MDAxNzgwODM5ODMyNDI2.4_yO6af0OrmQRbypRK2nXVfqBrLGghJflce5H-5TO4og.om4tpyFVx8Cy05SXntx5_58cQasurlymioLDV1DHtJcg.JPEG/IMG＿4680.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMTA4/MDAxNzgwODM5ODMxODEz.E1QJPXd-GI--VPwK201aDPJJavLt75S3tXOvbmB2e4Mg.NqnkT0Th0hmO7UHLGA2LYhqx8P4Ti8O6CIEgw424J0Qg.JPEG/IMG＿4648.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMjMg/MDAxNzgwODQwNDc2NzQ0.T6J7CfVtKTO2FQ526QLwvsdLqWXzhV8qITaIW27m98Ag.dDWlYuIUU9MIpCl-hDMsyBDNCLZcTKOoBWihIZ6cFWMg.JPEG/IMG＿4647.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMiAg/MDAxNzgwODM5ODMxOTA0.HgJa-3CSFDW1B8B0-F9Zfu2EsGWD1EwHcRWcJ7j8Jmgg.Q_VIYs0oXwpSW4tctuc2L8pqHsbOttzHoWkP123gBt8g.JPEG/IMG＿4652.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMjYx/MDAxNzgwODM5ODMzMTIy.fBA03SkUoe8uPTK2YTSwjhHN_TjI2HysO76BJgaY_wUg.fQom55JU2KQ7kXKsDx2BKEBPYcx5yF-KatVtgXD_iukg.JPEG/IMG＿4650.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfNzgg/MDAxNzgwODM5ODMzMTk1.nD-oBiL9Rgp4-d0lyls-vnZU7w6D8KP99li4iEgsF7Ig.hSuYsNqVJgGgWALZdkCBhvF4EcSRKhqVwJAZgpUGeecg.JPEG/IMG＿4651.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMjY3/MDAxNzgwODM5ODMyOTg2.hOR2GnaOfoggxsP606Axi9kamuDT5zwDYQ9fX6LTHIEg.4frSKcAmueQJJq7EEPK79QfMRUcYbIMTkHDcWYmr1jEg.JPEG/IMG＿4649.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfODYg/MDAxNzgwODQwNDc4ODMy.K-T9LjaOxBRpkyftBpAxFEvcV5r09aUwoX0ZvLGYxGwg.y3AdIUajgb8qvLwDDDIBybgF2auKB5xD3S0W07c7tRog.JPEG/IMG＿4673.JPG/757x752",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMTM1/MDAxNzgwODM5ODMxODgw.oBnvDUbJjT1czD13Q_vS-oU9wJQlTXtZXW0lijXC7aYg.t0TueYkctMIsC_VqXSx5F4VaSdBYvEJJryX_YApgi28g.JPEG/IMG＿4653.JPG/900x1200",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    },
+    {
+      "url": "https://blogfiles.pstatic.net/MjAyNjA2MDdfMjM1/MDAxNzgwODQwNDc3ODQz.C2QHni1uPm6CiJ7lnRSlr4RjCgtHhe-AE0k3nsuipBwg.7aYlDnpSwYHG2Meud1jQMnMxxvpaDuDUidWu4E6phDQg.JPEG/IMG＿4672.JPG/672x771",
+      "postUrl": "https://blog.naver.com/pthyeaseong/224308872969",
+      "viewId": "blog_90000003_000000000000003439D9C709"
+    }
+  ],
+  "findings": [
+    {
+      "type": "observed",
+      "text": "238 visitor reviews match source total; 234 reviews with media match imageReviewCount234; all media exposed by these review objects were enumerated."
+    },
+    {
+      "type": "observed",
+      "text": "Gallery hasNext=false at startIndex438. Its placeReview source combines 426 userimage records and12 blog records."
+    },
+    {
+      "type": "observed",
+      "text": "6 visitor images absent from gallery were preserved via review body records."
+    },
+    {
+      "type": "unknown",
+      "text": "Source field visitorReviewMediasTotal=462 exceeds enumerated visitor image URLs432 by30. Available source does not establish whether this denotes stale counts, excluded/deleted content, or another counting scope. Do not claim total462 coverage."
+    },
+    {
+      "type": "observed",
+      "text": "Mobile visitor review preview viewer shows total10 images, a bounded preview rather than an additional full enumeration."
+    }
+  ]
+}

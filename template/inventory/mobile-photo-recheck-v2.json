@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-29T01:14:43.910337+09:00",
+  "source": "raw/audit-v2/mobile-photo-network.json",
+  "endpoint": "https://api.place.naver.com/graphql",
+  "pages_observed": 5,
+  "photos_observed": 200,
+  "new_urls_vs_existing_gallery": [],
+  "last_cursor": [
+    {
+      "id": "placeReview",
+      "startIndex": 200,
+      "hasNext": true,
+      "lastCursor": "^^^aWZJdmZDdUxMU3FRT0xHUUk2SS9VaHU4NjBEeTFySTYzOHNWczZKTGtSMzIrSmg1UytzVU85elRJTGIyaS9IZG1CNUNnYVFDekFmN0NsNndBb0Vwa0h5dWZITGxSYXNLQjdZV2VvaXNDQkc0cW9kR2FkcWRINGdvakZHNUZ5NXBzVDdxMmJaWjV5N2w2NWVBZDhVK1VTK3dBRUUrdEF3Z0ovbz0=",
+      "__typename": "PhotoViewerCursor"
+    }
+  ],
+  "status": "incomplete_human_security_verification_required",
+  "note": "Navigation through the mobile public UI stopped when Naver displayed a CAPTCHA. User handoff requested. No security challenge was solved or bypassed."
+}

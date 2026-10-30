@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-29T01:15:50.111139+09:00",
+  "data_sha256": "8bac64dd6c1819c6596acad717debf0cc140dc23e33f62cd1862b527ce74295c",
+  "reviews": 238,
+  "review_media": 432,
+  "unmapped_review_media": 0,
+  "menus": 9,
+  "menu_media": 11,
+  "unmapped_menu_media": 0,
+  "gallery_entries": 506,
+  "unmapped_gallery": 0,
+  "blog_bodies": 28,
+  "blog_inline_images": 772,
+  "blog_missing_external_thumbnail_references": 16,
+  "blog_gif_video_tags": 33,
+  "blog_full_videos": 14,
+  "blog_remote_auto_loads": [],
+  "blog_script_tags": 0,
+  "blog_event_attributes": 0
+}

@@ -1,0 +1,9 @@
+node_modules/
+site/
+upload-state.json
+upload-state.jsonl
+media-verification.json
+build-verification.json
+preparation-verification.json
+.env*
+*.log

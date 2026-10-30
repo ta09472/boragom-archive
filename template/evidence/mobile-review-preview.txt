@@ -1,0 +1,51 @@
+[p4 "네이버 플레이스" | space "케이크 가게 네이버 플레이스 보관"(2): 4 managed, 0 untracked — p1 "보라곰 주문제작&레터링케이크 - 네이버지도", p2 "[홍대맛집] 홍대 레터링 케이크 추천 보라곰케이크 : 네이버 블로그", p3 "네이버 플레이스", p4* "네이버 플레이스"]
+root
+  container [ref=464]
+    container
+      button [ref=465]
+        svg_root
+        text "나가기"
+      container
+        text "현재 이미지"
+        text "1"
+        text "전체 이미지"
+        container
+          text "/ "
+          text "10"
+      button [ref=466]
+        text "부가 메뉴 보기"
+    image
+    container
+      container
+        button [ref=467, url=https://m.place.naver.com/my/5d424c2587dd4055c2142f5a/review?v=2]
+          image
+        container
+          text "민교이캉"
+          container
+            text "2025.11.22"
+            container
+              text "1"
+              text "번째 방문"
+      container
+        text "너무너무 이쁜 케이크였습니다.... 어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요... 사장님은 그저 갓.. 능력치 무엇입니까..."
+        container
+          container
+            image
+            text "디저트가 맛있어요"
+          container
+            image
+            text "주문제작을 잘해줘요"
+          container
+            image
+            text "특별한 메뉴가 있어요"
+    button [ref=468]
+      svg_root
+      text "이전 이미지"
+    button [ref=469]
+      svg_root
+      text "다음 이미지"
+  main
+    unordered_list
+      list_item
+        button [ref=313]
+          video

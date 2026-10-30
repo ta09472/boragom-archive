@@ -1,0 +1,5757 @@
+{
+  "auditVersion": 2,
+  "generatedAt": "2026-10-28T16:11:47.272704+00:00",
+  "method": "Independent local JSON and archived HTML audit only. No browser or network requests; no source/application mutations.",
+  "overallStatus": "complete_for_enumerated_records_not_proof_of_source_total",
+  "sources": {
+    "raw/reviews.json": {
+      "sha256": "95919a548af9bce3a679fde98e1e7aded4ce24ac724d3d473040815f36daa679",
+      "bytes": 1536767
+    },
+    "raw/review-network.json": {
+      "sha256": "4881f21cc5b7a8ad2b238da1874a28d5c5b064b047dfd76f2170a616da71eafe",
+      "bytes": 2226874
+    },
+    "raw/photos-network.json": {
+      "sha256": "d04e41ea2d50c41a69e1f46bf533c65574d787468e8a8e167239341d6ffb3965",
+      "bytes": 1913281
+    },
+    "raw/home-state.json": {
+      "sha256": "89190dcb371cbf6d0302455ef34fac52848d6761a87504e12bf1954ac24e7c42",
+      "bytes": 103600
+    },
+    "raw/information-state.json": {
+      "sha256": "89190dcb371cbf6d0302455ef34fac52848d6761a87504e12bf1954ac24e7c42",
+      "bytes": 103600
+    },
+    "raw/menu-state.json": {
+      "sha256": "89190dcb371cbf6d0302455ef34fac52848d6761a87504e12bf1954ac24e7c42",
+      "bytes": 103600
+    },
+    "inventory/texts.json": {
+      "sha256": "2f566af2288b99033392a646492f5a0dc522c0aee4f50da7788790afff3c92b7",
+      "bytes": 379234
+    },
+    "inventory/catalog.json": {
+      "sha256": "8c949eb49257f0f1c0adee184eb2399725b536a9c1b2d6c124c246c0477c09bb",
+      "bytes": 5123901
+    },
+    "inventory/media-manifest.json": {
+      "sha256": "f7395da3199e72880a007c6c5327f677495ebe0753255c31df10696dae6160b8",
+      "bytes": 8051168
+    },
+    "raw/blog-reviews.json": {
+      "sha256": "d4150077e9cb92e21390cf312f945bcf927ec454a355c26cada7cf760acccaf5",
+      "bytes": 170565
+    },
+    "raw/blog-public-posts.json": {
+      "sha256": "b44256255c2806291a826663eafea802159edc57d7630d5cc692696efdb5c79e",
+      "bytes": 1629992
+    },
+    "raw/blog-network.json": {
+      "sha256": "43dcc1bd68ca5f3adefc17423766b5962490d8ebc9704746111c5f5b73687cb2",
+      "bytes": 188639
+    },
+    "raw/feed-network.json": {
+      "sha256": "45611a6c2c4138516596131233c21be800faa68dedf31ea17574fa04bc4345a2",
+      "bytes": 6039
+    },
+    "raw/feed-state.json": {
+      "sha256": "89190dcb371cbf6d0302455ef34fac52848d6761a87504e12bf1954ac24e7c42",
+      "bytes": 103600
+    },
+    "raw/photos-state.json": {
+      "sha256": "89190dcb371cbf6d0302455ef34fac52848d6761a87504e12bf1954ac24e7c42",
+      "bytes": 103600
+    }
+  },
+  "reviewPagination": {
+    "pages": [
+      {
+        "networkIndex": 1,
+        "page": 1,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 19,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "6934450122b54fc9e956e155",
+        "lastReviewId": "68f4a07262d4a65af82a5a03",
+        "errors": null
+      },
+      {
+        "networkIndex": 2,
+        "page": 2,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 18,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "6919bc3f8bf43e876fa67aa9",
+        "lastReviewId": "68a8616e7897372dd71554d3",
+        "errors": null
+      },
+      {
+        "networkIndex": 3,
+        "page": 3,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 14,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "68cfcf7f1e0edb475d0505ac",
+        "lastReviewId": "68d9e34a70a593103c342a5c",
+        "errors": null
+      },
+      {
+        "networkIndex": 4,
+        "page": 4,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 16,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "68d3bc3ccb955dad2eac141b",
+        "lastReviewId": "68970d3736edcd25078346db",
+        "errors": null
+      },
+      {
+        "networkIndex": 5,
+        "page": 5,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 16,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "68ca90f59ebf4bf485650e8f",
+        "lastReviewId": "6893665001334345abcc10ab",
+        "errors": null
+      },
+      {
+        "networkIndex": 6,
+        "page": 6,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 14,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "68cf708a8417b95ad95c837b",
+        "lastReviewId": "68746c9f0aee6d4f6038beff",
+        "errors": null
+      },
+      {
+        "networkIndex": 7,
+        "page": 7,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 25,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "68bbafadc1e2cf8ff75a44c7",
+        "lastReviewId": "67fbab190c8d2893d3898df7",
+        "errors": null
+      },
+      {
+        "networkIndex": 8,
+        "page": 8,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 14,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "68675fcc077fa31996c6cbb3",
+        "lastReviewId": "682dc9053088386bfbccc066",
+        "errors": null
+      },
+      {
+        "networkIndex": 9,
+        "page": 9,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 16,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "6831e132ffbc77c3be9adae4",
+        "lastReviewId": "683fa6500f0b8e2e9b2ede42",
+        "errors": null
+      },
+      {
+        "networkIndex": 10,
+        "page": 10,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 15,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "6820822a4dda55a59bf883a7",
+        "lastReviewId": "683830f933465857a3f8705d",
+        "errors": null
+      },
+      {
+        "networkIndex": 11,
+        "page": 11,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 16,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "685a3c9e40ec2a5098f911d4",
+        "lastReviewId": "67ed4938ed316bfd64ff8115",
+        "errors": null
+      },
+      {
+        "networkIndex": 12,
+        "page": 12,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 21,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67e0ca441ad848addcc0e405",
+        "lastReviewId": "67f0e7491c154c63c7ff0663",
+        "errors": null
+      },
+      {
+        "networkIndex": 13,
+        "page": 13,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 22,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67c2aa1c58fcd323946aa3c4",
+        "lastReviewId": "67b9cf2953e0d300b378b0c0",
+        "errors": null
+      },
+      {
+        "networkIndex": 14,
+        "page": 14,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 17,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "6815caa89c328a5a9590cb2c",
+        "lastReviewId": "67a8ca328c3b0bdf7b7a4623",
+        "errors": null
+      },
+      {
+        "networkIndex": 15,
+        "page": 15,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 14,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67e37c5fe147699af0507d29",
+        "lastReviewId": "67f9c7dc9ae047d18693f544",
+        "errors": null
+      },
+      {
+        "networkIndex": 16,
+        "page": 16,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 17,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "678fa853649f0daf390e39ae",
+        "lastReviewId": "67cdb62d2d696020ea364cc4",
+        "errors": null
+      },
+      {
+        "networkIndex": 17,
+        "page": 17,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 13,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67c6edd7bceed8a43611993d",
+        "lastReviewId": "67e906e7b05e1d0f2449312f",
+        "errors": null
+      },
+      {
+        "networkIndex": 18,
+        "page": 18,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 20,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67a2ebfde61f8e0e1b9c1399",
+        "lastReviewId": "67a4ae8cabcfb0d76d7d1ca0",
+        "errors": null
+      },
+      {
+        "networkIndex": 19,
+        "page": 19,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 12,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67c484924451ae8ec8d71852",
+        "lastReviewId": "67b5a8e13ef1d73e2d43e53e",
+        "errors": null
+      },
+      {
+        "networkIndex": 20,
+        "page": 20,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 13,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67c17c1ca4c538b7ecf1cf70",
+        "lastReviewId": "67b076c450b1f1bd0f0ff2d0",
+        "errors": null
+      },
+      {
+        "networkIndex": 21,
+        "page": 21,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 16,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "6797bdaada8ccaa55027a16f",
+        "lastReviewId": "67d5a681aed0fb92a566b665",
+        "errors": null
+      },
+      {
+        "networkIndex": 22,
+        "page": 22,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 29,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "67ae04eaeab2377e36e414c4",
+        "lastReviewId": "642d4690fba5af25bc565da2",
+        "errors": null
+      },
+      {
+        "networkIndex": 23,
+        "page": 23,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 10,
+        "responseTotal": 238,
+        "mediaEntries": 44,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "642e9b83ea0daa3a1ce82c5e",
+        "lastReviewId": "641560b7e6f92ca7d18d2a6a",
+        "errors": null
+      },
+      {
+        "networkIndex": 24,
+        "page": 24,
+        "inputSize": 10,
+        "inputAfterMatchesPreviousLastCursor": true,
+        "responseCount": 8,
+        "responseTotal": 238,
+        "mediaEntries": 11,
+        "duplicateReviewIdsAgainstEarlierPages": [],
+        "firstReviewId": "63d3469e388ca4b9c0abe5ac",
+        "lastReviewId": "63c519027801fb05034e6555",
+        "errors": null
+      }
+    ],
+    "pageCount": 24,
+    "rawEntries": 238,
+    "uniqueReviewGroups": 238,
+    "uniqueReviewIds": 238,
+    "allAfterCursorsMatch": true,
+    "allPagesNoErrors": true,
+    "serializedArchiveExactlyEqualsNetworkConcatenation": true,
+    "lastPageIsShort": true,
+    "queryVariants": {
+      "fb84a3018370488844bced625a7e641866c9111b7c487643931b501781a77f07": {
+        "query": "query getVisitorReviews($input: VisitorReviewsInput) {\n  visitorReviews(input: $input) {\n    items {\n      id\n      cursor\n      reviewId\n      rating\n      author {\n        isMe\n        id\n        nickname\n        from\n        imageUrl\n        borderImageUrl\n        objectId\n        url\n        review {\n          totalCount\n          imageCount\n          avgRating\n          __typename\n        }\n        theme {\n          totalCount\n          __typename\n        }\n        isFollowing\n        followerCount\n        followRequested\n        __typename\n      }\n      body\n      thumbnail\n      media {\n        type\n        thumbnail\n        thumbnailRatio\n        class\n        videoId\n        videoUrl\n        trailerUrl\n        __typename\n      }\n      tags\n      status\n      visitCount\n      viewCount\n      visited\n      created\n      reply {\n        editUrl\n        body\n        editedBy\n        created\n        date\n        replyTitle\n        isReported\n        isSuspended\n        status\n        __typename\n      }\n      originType\n      item {\n        name\n        code\n        options\n        __typename\n      }\n      language\n      highlightRanges {\n        start\n        end\n        __typename\n      }\n      apolloCacheId\n      translatedText\n      businessName\n      showBookingItemName\n      bookingItemName\n      votedKeywords {\n        code\n        iconUrl\n        iconCode\n        name\n        __typename\n      }\n      receiptInfoUrl\n      reactionStat {\n        id\n        typeCount {\n          name\n          count\n          __typename\n        }\n        totalCount\n        __typename\n      }\n      hasViewerReacted {\n        id\n        reacted\n        __typename\n      }\n      nickname\n      showPaymentInfo\n      visitCategories {\n        code\n        name\n        keywords {\n          code\n          name\n          __typename\n        }\n        __typename\n      }\n      representativeVisitDateTime\n      showRepresentativeVisitDateTime\n      __typename\n    }\n    starDistribution {\n      score\n      count\n      __typename\n    }\n    hideProductSelectBox\n    total\n    showRecommendationSort\n    itemReviewStats {\n      score\n      count\n      itemId\n      starDistribution {\n        score\n        count\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}",
+        "inputWithoutCursor": {
+          "businessId": "1581469411",
+          "businessType": "restaurant",
+          "item": "0",
+          "bookingBusinessId": null,
+          "size": 10,
+          "isPhotoUsed": false,
+          "includeContent": true,
+          "getUserStats": true,
+          "includeReceiptPhotos": true,
+          "cidList": [
+            "220036",
+            "220052",
+            "220565",
+            "221177"
+          ],
+          "getReactions": true,
+          "getTrailer": true
+        }
+      }
+    },
+    "hasNextOrMediaCountNotSelected": "The observed query selects total and items but no hasNext/pageInfo or per-review mediaCount. Media has no explicit pagination/limit argument; absence of a count means arbitrary server-side truncation cannot be disproven."
+  },
+  "reviewMedia": {
+    "declaredVisitorReviewMediasTotal": 462,
+    "rawMediaEntries": 432,
+    "exactUniqueUrls": 432,
+    "normalizedUniqueUrls": 432,
+    "deduplicationLoss": 0,
+    "classes": {
+      "notReceipt": 432
+    },
+    "types": {
+      "image": 432
+    },
+    "perReviewDistribution": {
+      "2": 66,
+      "3": 19,
+      "1": 127,
+      "4": 12,
+      "5": 4,
+      "6": 2,
+      "0": 4,
+      "10": 1,
+      "8": 1,
+      "11": 1,
+      "7": 1
+    },
+    "maximumPerReview": 11,
+    "reviewCountsByOriginType": {
+      "예약": 48,
+      "영수증": 189,
+      "결제내역": 1
+    },
+    "mediaCountsByOriginType": {
+      "예약": 76,
+      "영수증": 354,
+      "결제내역": 2
+    },
+    "mediaBearingReviews": 234,
+    "sourceImageReviewCount": 234,
+    "difference": 30,
+    "filesVerified": 432,
+    "sameContentHashCount": 432,
+    "stateEmbeddedVisitorUrlsOutsideReviewBodies": [],
+    "repeatVisitExcess": 18,
+    "repeatVisitExcessDoesNotEqualGap": true
+  },
+  "gallery": {
+    "pages": [
+      {
+        "networkIndex": 0,
+        "filter": "업체",
+        "photoCount": 20,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outputCursors": [
+          {
+            "id": "biz",
+            "startIndex": 20,
+            "hasNext": true,
+            "lastCursor": "20",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 20
+        },
+        "sourceTitleCounts": {
+          "null": 20
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 1,
+        "filter": "업체",
+        "photoCount": 20,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          20
+        ],
+        "outputCursors": [
+          {
+            "id": "biz",
+            "startIndex": 40,
+            "hasNext": true,
+            "lastCursor": "40",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 20
+        },
+        "sourceTitleCounts": {
+          "null": 20
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 2,
+        "filter": "업체",
+        "photoCount": 20,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          40
+        ],
+        "outputCursors": [
+          {
+            "id": "biz",
+            "startIndex": 60,
+            "hasNext": true,
+            "lastCursor": "60",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 20
+        },
+        "sourceTitleCounts": {
+          "null": 20
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 3,
+        "filter": "업체",
+        "photoCount": 1,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          60
+        ],
+        "outputCursors": [
+          {
+            "id": "biz",
+            "startIndex": 61,
+            "hasNext": false,
+            "lastCursor": null,
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 1
+        },
+        "sourceTitleCounts": {
+          "null": 1
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 4,
+        "filter": "클립",
+        "photoCount": 1,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outputCursors": [
+          {
+            "id": "clip",
+            "startIndex": 1,
+            "hasNext": false,
+            "lastCursor": null,
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "video": 1
+        },
+        "sourceTitleCounts": {
+          "클립": 1
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 5,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 40,
+            "hasNext": true,
+            "lastCursor": "^^^RVcxSjlxZlFKVFMxV1Z6NzNaQlFyQklaNlIrajhVcmNDblplajVneTVwM2crR3pGRjh5OGlQbnJ5aW5TM3BqTm1kc2h6K3JMSkxUc1hTcHFjU09pb2wrK0JBc3pwVW5PZXdhczV2KzM1MXBZR2EyQldLZXhWbkRrcGxrRDh6T21MSWZ4MWRVdUZCdkNJb1J2ajBUY1gveXZ6amJ2ME5uT0RRPT0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "블로그": 12,
+          "null": 28
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 6,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          40
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 80,
+            "hasNext": true,
+            "lastCursor": "^^^NDVnZldLQTM4RzlySUlLSTVRVmZ2ZWY1OXRsU2FDOGR5NVZqLzhCN3B2ZUF2cm5pb2EzMzhkSXBaNWV4WHozcU5GUFd2ZWlYdDdXU2hNcmlkQzhLNjRHVEpVWlZ2WGVHaEl6R29WWk45UmxJbGFXT29rbGtJQXZ0d0RxajhyYmlVUHlCM2Q3OXNvL3dnbVFDVyt6OWhaSlFvZ09ka01jRzRRPT0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 7,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          80
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 120,
+            "hasNext": true,
+            "lastCursor": "^^^NC9QVThLYW9FbXlzVkQ3RWF3WUlEcVM4eVVDK2Q1QThTd2h3c2FFZXZLVVVuWWFqdUpXT2xaQklYdEh1OUpqY3hIdmJpMkxnLzRDQ0VOdW5QbkVCcWtZQnc0ZVpNV281RHBGY0M3a0R3NXZsVU55RHFQN2hyTVdJSm5BWUlMUURZRFNxeS80UW90RHoyTEJWcWdlckI1M0lLSms4amJHK1NqVT0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 8,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          120
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 160,
+            "hasNext": true,
+            "lastCursor": "^^^dWdRamJzT1RoTXg2bDF2RFZteVNiOUR3SXZjRTVoVFBXMjJpdjhSM0hVblQwZXgyeElkc082Q3lNVDZPMS80NCtLaUZVQUJXRmVZY2RzVXNrK1ZmMktOQlEwbmxpLzRVUGhkRXpCZG1WcW5MbEhueW8zdjRtVWFXbGJZSUMzeExFNDRyR29TWE1sOTJXVUt2WjdOYy9VVTdZVUdXc2hTRHpOND0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 9,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          160
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 200,
+            "hasNext": true,
+            "lastCursor": "^^^eXhxSncxZnUvNUY3aHhlUGZ4eEc0N2Q2dy9taGFyTno5YzcxNVQvNjRtdmwvQkIxcHJiZEUrZ3B6Q3FLVy93RGNhcytUY0xqZ2M5Z1VDM2xzUkp5MzFCWDlmNHdUQ1E2VGR6Y3BvdEZ5cW4wRTFPYytleGlPd0YwcEdES1o2cjVPaSttZG9QMWVQTXlvRjdUOFlSMDZ5bFJjNXpQQkdsOU84VT0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 10,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          200
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 240,
+            "hasNext": true,
+            "lastCursor": "^^^MUphNzFucEpKVmphWEZDNXhRZE1UNTREcnZ4VEsvVkVpV0ZCR0JPL3RsMTlvOHFreDNYOElFOWN3eWM0dHA4Y1AxN2ZlU1RPWGdNTHhWVTBYYnpXWEU4NlNkZnVpa3A5a0l6cytoMDFSMUpXaFNkSDJYVHBkaVo3M0xYUXY2bzB3SDUrWk9Ma1V2elNsb0d0STJORnFGU3E1ZnNkTWtjeDhNdz0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 11,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          240
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 280,
+            "hasNext": true,
+            "lastCursor": "^^^WTBYL2N3WHFlN0ZmeW0rbDJqMGZ5Nk02SVFjUU83cDE1OWVndUtwa2tQeUswakpIejJRUmx0MUd6VVN5L0RRVXA2eWZGb0dZWlo5OHFxS1NSUkJlZmRYYm1Zb0srTitESWRoTnQ3YjFiem5Bc2lrbFJVcTh1NE9qenB6ZGU1cnRWT2dzVm5HWmFWVHVRbkRLOFFnV1IyZTExUUxJQTJMSlRWZz0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 12,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          280
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 320,
+            "hasNext": true,
+            "lastCursor": "^^^VEszZXptMytEK3RHUC9HeGFCWFg1Zk43V0gwSWtKaU82YnAwM0NVVHdaYzc1dFhCWlh4bldBVmxUeWUwOUdSclhscWFRWCtZak8wSXZHdy9jaWNWNmd3U1UrZm9vak5vMklYVVdqbTVuZFQxMmJuNW5KUTdmVHo4Um1aUDVSRjZRTlJDVmQzVlp1aVFMWTdPWEtjNWxpS2NvU3hkSWtraW10dz0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 13,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          320
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 360,
+            "hasNext": true,
+            "lastCursor": "^^^TEtpRDl2MzlFcUtWWVlrVTFZa0kyb1JER0NCWVg5Y1c3bUl5blBnVWdyUGNBcUhkaTFLaDRhZW54NHJYaDlydmJWVjRrNjB0M2Z1cnI3K2ErVGJwK0t3U0h5bzlxTC9ac2RKcFFpUW0rb2RobHdUWnAxSDJ0UkFvaWwzQ3Y2SjdXQ2FIMHpuNS9XelJMRXVHTVlnN1lSQStybzk4ZU5nY0VLTT0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 14,
+        "filter": "리뷰",
+        "photoCount": 40,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          360
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 400,
+            "hasNext": true,
+            "lastCursor": "^^^RVo1NkEySDJ0TWRZQUZNNWs0L2Qyd1ZvcHpvdldORkRuQUh5MUJFL3Q5V2ZQc1NjU242T3RzZm1lMkZ2azFNK3RvT3lBVUtOUGw3UWx3VS8wdml6NmFvZ0N3TXFSRzNyeWtqU0xPbEVKZGd3Q3FvTVdiN3d6NXEzS2s2QTJxZXJROFVFWUxVMURqd2ZqMEJkOXZOZ05iUGRIVTR6eStzSzltQT0=",
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 40
+        },
+        "sourceTitleCounts": {
+          "null": 40
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      },
+      {
+        "networkIndex": 15,
+        "filter": "리뷰",
+        "photoCount": 38,
+        "inputCursorsMatchPreviousOutput": true,
+        "inputStartIndexes": [
+          400
+        ],
+        "outputCursors": [
+          {
+            "id": "placeReview",
+            "startIndex": 438,
+            "hasNext": false,
+            "lastCursor": null,
+            "__typename": "PhotoViewerCursor"
+          }
+        ],
+        "mediaFormatCounts": {
+          "image": 38
+        },
+        "sourceTitleCounts": {
+          "null": 38
+        },
+        "exclusions": {
+          "excludeAuthorIds": [],
+          "excludeSection": [],
+          "excludeClipIds": [],
+          "dateRange": ""
+        },
+        "errors": null
+      }
+    ],
+    "countsByFilter": {
+      "업체": 61,
+      "클립": 1,
+      "리뷰": 438
+    },
+    "reviewGalleryEntries": 438,
+    "reviewGalleryUniqueUrls": 438,
+    "visitorEntries": 426,
+    "blogEntries": 12,
+    "terminalCursors": {
+      "업체": [
+        {
+          "id": "biz",
+          "startIndex": 61,
+          "hasNext": false,
+          "lastCursor": null,
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "클립": [
+        {
+          "id": "clip",
+          "startIndex": 1,
+          "hasNext": false,
+          "lastCursor": null,
+          "__typename": "PhotoViewerCursor"
+        }
+      ],
+      "리뷰": [
+        {
+          "id": "placeReview",
+          "startIndex": 438,
+          "hasNext": false,
+          "lastCursor": null,
+          "__typename": "PhotoViewerCursor"
+        }
+      ]
+    },
+    "galleryVisitorUrlsNotInReviewBodies": [],
+    "reviewUrlsNotInGallery": [
+      "https://pup-review-phinf.pstatic.net/MjAyNTA1MjRfMTUy/MDAxNzQ4MDYyMTcyMzI4.6OUJRFe3Iq-G2IPs4Xbf8bVZfCV8FU77kdokTGq7h9Ug.ZdGrxPMZSGAElpLeKkD33DGURJvHlGdM-sU9Dii-j1Yg.JPEG/12932EB1-44CC-4045-9442-98BE931A1B5D.jpeg",
+      "https://pup-review-phinf.pstatic.net/MjAyNTA2MTNfOTUg/MDAxNzQ5ODE5MDM0OTk3.BYSEiSXUIPTpbKWv0k5fS9R2wKO6KQDpH6ON0TT4sP4g.TiyEI4RPDU2VraTgLJm4c3DUWYci960cj1Eh340duCsg.JPEG/KakaoTalk_20250613_213422451_03.jpg",
+      "https://pup-review-phinf.pstatic.net/MjAyNTA3MDRfMjc2/MDAxNzUxNjE3OTcwMzEw.w4_Wmk8VShbgUulr2NDO3E9hEA28UExnSW2JlzkbwgUg.d3OwGLfFmweu6CmM7TlEWOO289fsurI430E_TqH6O8Yg.JPEG/33B4DD0A-88E0-4C8A-B9FF-DA79CE6142E2.jpeg",
+      "https://pup-review-phinf.pstatic.net/MjAyNTA3MTlfMjk1/MDAxNzUyODUwOTE0MTI1.zrF2y_fAmHwyWSxdBkygadcJJ54VuplmvpI7bZykbQUg.pai6RgQq93bg0rLMTTQfJyJTuzeJDAdTdYbXEGRa05sg.JPEG/1752464403287.jpg.jpg",
+      "https://pup-review-phinf.pstatic.net/MjAyNTAxMjBfMjkw/MDAxNzM3MzMzNjI3MjI3.Mx0HK0wiJiBuFs_IneZfdyY-8-asDffJ44ZZiU5s5vYg.F_gcw8YNIRUrU3_HHwDc8TkviixeQYl5PKvWBzzpAPsg.JPEG/20250118_173625.jpg",
+      "https://pup-review-phinf.pstatic.net/MjAyNTAzMzBfMjUg/MDAxNzQzMzI0OTAzMDY4.mhfEUNoOGIuqS-2YNENII2J01zGBBpYjQjSkQv578bcg.mWK908nnSTlm2V0KDsGUJs-YWrKo2dAoAa8psmPvEjsg.JPEG/C35A9BB8-1C0B-4971-885D-528E0D01A03F.jpeg"
+    ],
+    "galleryReviewGroupIdsNotInReviews": [],
+    "perReviewDifferences": [
+      {
+        "reviewGroupId": "687a61e47d2f1f2e94ea7f57",
+        "reviewId": "687a61e47d2f1f2e94ea7f5d",
+        "author": "챔챔버린",
+        "bodyMediaCount": 2,
+        "galleryMediaCount": 1,
+        "bodyOnlyUrls": [
+          "https://pup-review-phinf.pstatic.net/MjAyNTA3MTlfMjk1/MDAxNzUyODUwOTE0MTI1.zrF2y_fAmHwyWSxdBkygadcJJ54VuplmvpI7bZykbQUg.pai6RgQq93bg0rLMTTQfJyJTuzeJDAdTdYbXEGRa05sg.JPEG/1752464403287.jpg.jpg"
+        ],
+        "galleryOnlyUrls": []
+      },
+      {
+        "reviewGroupId": "684c2091b1e9678b7e761424",
+        "reviewId": "684c2091b1e9678b7e76144a",
+        "author": "나리자77",
+        "bodyMediaCount": 4,
+        "galleryMediaCount": 3,
+        "bodyOnlyUrls": [
+          "https://pup-review-phinf.pstatic.net/MjAyNTA2MTNfOTUg/MDAxNzQ5ODE5MDM0OTk3.BYSEiSXUIPTpbKWv0k5fS9R2wKO6KQDpH6ON0TT4sP4g.TiyEI4RPDU2VraTgLJm4c3DUWYci960cj1Eh340duCsg.JPEG/KakaoTalk_20250613_213422451_03.jpg"
+        ],
+        "galleryOnlyUrls": []
+      },
+      {
+        "reviewGroupId": "68315003e5c07eeac3257647",
+        "reviewId": "68315003e5c07eeac3257655",
+        "author": "홍제동고니",
+        "bodyMediaCount": 3,
+        "galleryMediaCount": 2,
+        "bodyOnlyUrls": [
+          "https://pup-review-phinf.pstatic.net/MjAyNTA1MjRfMTUy/MDAxNzQ4MDYyMTcyMzI4.6OUJRFe3Iq-G2IPs4Xbf8bVZfCV8FU77kdokTGq7h9Ug.ZdGrxPMZSGAElpLeKkD33DGURJvHlGdM-sU9Dii-j1Yg.JPEG/12932EB1-44CC-4045-9442-98BE931A1B5D.jpeg"
+        ],
+        "galleryOnlyUrls": []
+      },
+      {
+        "reviewGroupId": "686791b5e66b794506b3bc7b",
+        "reviewId": "686791b5e66b794506b3bc8a",
+        "author": "뀨우웁",
+        "bodyMediaCount": 2,
+        "galleryMediaCount": 1,
+        "bodyOnlyUrls": [
+          "https://pup-review-phinf.pstatic.net/MjAyNTA3MDRfMjc2/MDAxNzUxNjE3OTcwMzEw.w4_Wmk8VShbgUulr2NDO3E9hEA28UExnSW2JlzkbwgUg.d3OwGLfFmweu6CmM7TlEWOO289fsurI430E_TqH6O8Yg.JPEG/33B4DD0A-88E0-4C8A-B9FF-DA79CE6142E2.jpeg"
+        ],
+        "galleryOnlyUrls": []
+      },
+      {
+        "reviewGroupId": "67e906e7b05e1d0f2449312f",
+        "reviewId": "67e906e7b05e1d0f2449313d",
+        "author": "anneue",
+        "bodyMediaCount": 1,
+        "galleryMediaCount": 0,
+        "bodyOnlyUrls": [
+          "https://pup-review-phinf.pstatic.net/MjAyNTAzMzBfMjUg/MDAxNzQzMzI0OTAzMDY4.mhfEUNoOGIuqS-2YNENII2J01zGBBpYjQjSkQv578bcg.mWK908nnSTlm2V0KDsGUJs-YWrKo2dAoAa8psmPvEjsg.JPEG/C35A9BB8-1C0B-4971-885D-528E0D01A03F.jpeg"
+        ],
+        "galleryOnlyUrls": []
+      },
+      {
+        "reviewGroupId": "678d9ef9f9549d9a855d16d2",
+        "reviewId": "678d9efaf9549d9a855d171d",
+        "author": "우기부기뿌뿌뿡",
+        "bodyMediaCount": 4,
+        "galleryMediaCount": 3,
+        "bodyOnlyUrls": [
+          "https://pup-review-phinf.pstatic.net/MjAyNTAxMjBfMjkw/MDAxNzM3MzMzNjI3MjI3.Mx0HK0wiJiBuFs_IneZfdyY-8-asDffJ44ZZiU5s5vYg.F_gcw8YNIRUrU3_HHwDc8TkviixeQYl5PKvWBzzpAPsg.JPEG/20250118_173625.jpg"
+        ],
+        "galleryOnlyUrls": []
+      }
+    ]
+  },
+  "textCoverage": {
+    "inventoryCounts": {
+      "방문자 리뷰": 238,
+      "메뉴": 9,
+      "소식": 1,
+      "블로그 목록": 28,
+      "블로그 본문": 28,
+      "클립": 1,
+      "화면 텍스트": 5,
+      "업체 구조화 정보": 17,
+      "위치 · 교통 정보": 7,
+      "리뷰 집계 정보": 4
+    },
+    "visitorReviewBodies": {
+      "sourceTotal": 238,
+      "nonemptyBodies": 237,
+      "sourceTextReviewTotal": 237,
+      "emptyBodyIds": [
+        "67c84c2e7f1740190e2d837b"
+      ],
+      "allExact": true,
+      "checks": [
+        {
+          "id": "6934450122b54fc9e956e155",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 93,
+          "inventoryCharacters": 93
+        },
+        {
+          "id": "6900736d0401f2d4da6ad44c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 156,
+          "inventoryCharacters": 156
+        },
+        {
+          "id": "68f1f68d3f43d74566b402cd",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 175,
+          "inventoryCharacters": 175
+        },
+        {
+          "id": "6918ad07cbb8ecc8b07e6e06",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 90,
+          "inventoryCharacters": 90
+        },
+        {
+          "id": "690b254378f1054d838727fe",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 109,
+          "inventoryCharacters": 109
+        },
+        {
+          "id": "690ddd5d58563c92db41d212",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 98,
+          "inventoryCharacters": 98
+        },
+        {
+          "id": "69104f3a2dd02c8ed29a7824",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 77,
+          "inventoryCharacters": 77
+        },
+        {
+          "id": "68d60074113a0ad9e56c13c5",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 120,
+          "inventoryCharacters": 120
+        },
+        {
+          "id": "6910bc980c3d8b35b5244ac6",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 55,
+          "inventoryCharacters": 55
+        },
+        {
+          "id": "68f4a07262d4a65af82a5a03",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 239,
+          "inventoryCharacters": 239
+        },
+        {
+          "id": "6919bc3f8bf43e876fa67aa9",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 100,
+          "inventoryCharacters": 100
+        },
+        {
+          "id": "68be5dfab25d36fdfcad8a97",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 119,
+          "inventoryCharacters": 119
+        },
+        {
+          "id": "68bd97279c2457fac50afe97",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 121,
+          "inventoryCharacters": 121
+        },
+        {
+          "id": "6906a479d579c4a53060a33e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 47,
+          "inventoryCharacters": 47
+        },
+        {
+          "id": "68d4e444b9f0cc9080f7a9e4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 153,
+          "inventoryCharacters": 153
+        },
+        {
+          "id": "68fb7a1b2eb7f0141de7f0af",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 84,
+          "inventoryCharacters": 84
+        },
+        {
+          "id": "68b54b0a44906fe294446f77",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 72,
+          "inventoryCharacters": 72
+        },
+        {
+          "id": "6910507b730eb5db9815023a",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 27,
+          "inventoryCharacters": 27
+        },
+        {
+          "id": "689c9a69907cd8f600dc8724",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 243,
+          "inventoryCharacters": 243
+        },
+        {
+          "id": "68a8616e7897372dd71554d3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 109,
+          "inventoryCharacters": 109
+        },
+        {
+          "id": "68cfcf7f1e0edb475d0505ac",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 92,
+          "inventoryCharacters": 92
+        },
+        {
+          "id": "68946a085b4199b000f3619f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 248,
+          "inventoryCharacters": 248
+        },
+        {
+          "id": "68704fad20d374cf38346d6c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 238,
+          "inventoryCharacters": 238
+        },
+        {
+          "id": "68df8b342b815f9137649efa",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 61,
+          "inventoryCharacters": 61
+        },
+        {
+          "id": "68c56c7fb97c8cfe16b93712",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 89,
+          "inventoryCharacters": 89
+        },
+        {
+          "id": "687a61e47d2f1f2e94ea7f57",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 212,
+          "inventoryCharacters": 212
+        },
+        {
+          "id": "6905f6ed77535fb294788c80",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 56,
+          "inventoryCharacters": 56
+        },
+        {
+          "id": "6884c25369ebcd299084180b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 383,
+          "inventoryCharacters": 383
+        },
+        {
+          "id": "68f34fa7c3fdb5d0712d576e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 60,
+          "inventoryCharacters": 60
+        },
+        {
+          "id": "68d9e34a70a593103c342a5c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 40,
+          "inventoryCharacters": 40
+        },
+        {
+          "id": "68d3bc3ccb955dad2eac141b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 66,
+          "inventoryCharacters": 66
+        },
+        {
+          "id": "68d69a2d370199c1e6470a94",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 51,
+          "inventoryCharacters": 51
+        },
+        {
+          "id": "68b4db525e33b0f15b8460d4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 121,
+          "inventoryCharacters": 121
+        },
+        {
+          "id": "69105253da18a5b45cba0d13",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 16,
+          "inventoryCharacters": 16
+        },
+        {
+          "id": "68f39821492ff8a7e2a20336",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 93,
+          "inventoryCharacters": 93
+        },
+        {
+          "id": "68ad3ddc8c04b5e7538b9a2d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 370,
+          "inventoryCharacters": 370
+        },
+        {
+          "id": "68d3916afde31b99458f931e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 56,
+          "inventoryCharacters": 56
+        },
+        {
+          "id": "684c2091b1e9678b7e761424",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 395,
+          "inventoryCharacters": 395
+        },
+        {
+          "id": "689fbd436bce803748f730a3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 75,
+          "inventoryCharacters": 75
+        },
+        {
+          "id": "68970d3736edcd25078346db",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 106,
+          "inventoryCharacters": 106
+        },
+        {
+          "id": "68ca90f59ebf4bf485650e8f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 105,
+          "inventoryCharacters": 105
+        },
+        {
+          "id": "68a02320bc577ef37ba25b24",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 63,
+          "inventoryCharacters": 63
+        },
+        {
+          "id": "68a95ddb306e59a064fa0d71",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 103,
+          "inventoryCharacters": 103
+        },
+        {
+          "id": "68a723a1658632dd649c509b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 128,
+          "inventoryCharacters": 128
+        },
+        {
+          "id": "68690c14921dd4e0068922c9",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 159,
+          "inventoryCharacters": 159
+        },
+        {
+          "id": "689dfb400a92514ceab288b4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 108,
+          "inventoryCharacters": 108
+        },
+        {
+          "id": "6861e4ef4e8121de7aae7042",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 154,
+          "inventoryCharacters": 154
+        },
+        {
+          "id": "68ac7c3522fb56890bd4213d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 49,
+          "inventoryCharacters": 49
+        },
+        {
+          "id": "68a7071514cf68a5f6beb1e5",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 128,
+          "inventoryCharacters": 128
+        },
+        {
+          "id": "6893665001334345abcc10ab",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 387,
+          "inventoryCharacters": 387
+        },
+        {
+          "id": "68cf708a8417b95ad95c837b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 44,
+          "inventoryCharacters": 44
+        },
+        {
+          "id": "6877847bfb8884659aeca411",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 262,
+          "inventoryCharacters": 262
+        },
+        {
+          "id": "6864dfbb66f886366afe09e6",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 146,
+          "inventoryCharacters": 146
+        },
+        {
+          "id": "683fa5b7d2402fddf9f2bf87",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 88,
+          "inventoryCharacters": 88
+        },
+        {
+          "id": "68abc81e7d44f69239ec0453",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 70,
+          "inventoryCharacters": 70
+        },
+        {
+          "id": "6871d2964bb138555b30c4f8",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 123,
+          "inventoryCharacters": 123
+        },
+        {
+          "id": "687cf08d19329e172c1b1fbb",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 157,
+          "inventoryCharacters": 157
+        },
+        {
+          "id": "687bcd26f06200ddacbc569d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 181,
+          "inventoryCharacters": 181
+        },
+        {
+          "id": "68315003e5c07eeac3257647",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 399,
+          "inventoryCharacters": 399
+        },
+        {
+          "id": "68746c9f0aee6d4f6038beff",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 126,
+          "inventoryCharacters": 126
+        },
+        {
+          "id": "68bbafadc1e2cf8ff75a44c7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 58,
+          "inventoryCharacters": 58
+        },
+        {
+          "id": "6880553e61586ec53116076e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 93,
+          "inventoryCharacters": 93
+        },
+        {
+          "id": "684a31a1315288588d58e2f2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 56,
+          "inventoryCharacters": 56
+        },
+        {
+          "id": "686b9cf7be26d5a7375aaa64",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 89,
+          "inventoryCharacters": 89
+        },
+        {
+          "id": "67ecc8b4d58f3260410497ef",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 404,
+          "inventoryCharacters": 404
+        },
+        {
+          "id": "68a949418f42cc15c62c97b6",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 62,
+          "inventoryCharacters": 62
+        },
+        {
+          "id": "68289768b0561399099f4121",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 114,
+          "inventoryCharacters": 114
+        },
+        {
+          "id": "6828109335019af4c10f0163",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 152,
+          "inventoryCharacters": 152
+        },
+        {
+          "id": "67ede929b89e2fccd9eee7e1",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 205,
+          "inventoryCharacters": 205
+        },
+        {
+          "id": "67fbab190c8d2893d3898df7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 354,
+          "inventoryCharacters": 354
+        },
+        {
+          "id": "68675fcc077fa31996c6cbb3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 24,
+          "inventoryCharacters": 24
+        },
+        {
+          "id": "685d07dced4f9fc50761bb72",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 84,
+          "inventoryCharacters": 84
+        },
+        {
+          "id": "687208d1562199ea5ae07d63",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 39,
+          "inventoryCharacters": 39
+        },
+        {
+          "id": "6878ca81228fcba95611c5a3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 77,
+          "inventoryCharacters": 77
+        },
+        {
+          "id": "68b41107cf7455a06539e6de",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 38,
+          "inventoryCharacters": 38
+        },
+        {
+          "id": "6878c9d5350ca2cf333aef37",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 55,
+          "inventoryCharacters": 55
+        },
+        {
+          "id": "687339319b07d3968270a76b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 72,
+          "inventoryCharacters": 72
+        },
+        {
+          "id": "67fdcd71f215410b07902a4c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 136,
+          "inventoryCharacters": 136
+        },
+        {
+          "id": "6827b705c89f615b695ed891",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 181,
+          "inventoryCharacters": 181
+        },
+        {
+          "id": "682dc9053088386bfbccc066",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 151,
+          "inventoryCharacters": 151
+        },
+        {
+          "id": "6831e132ffbc77c3be9adae4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 72,
+          "inventoryCharacters": 72
+        },
+        {
+          "id": "687b13c3e4e8b19d7531521c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 105,
+          "inventoryCharacters": 105
+        },
+        {
+          "id": "6885e2a1b142873ebd106541",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 64,
+          "inventoryCharacters": 64
+        },
+        {
+          "id": "67dea55c0ec9f37b86199346",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 363,
+          "inventoryCharacters": 363
+        },
+        {
+          "id": "686791b5e66b794506b3bc7b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 64,
+          "inventoryCharacters": 64
+        },
+        {
+          "id": "685bb0ee35ae6a5280f9a497",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 61,
+          "inventoryCharacters": 61
+        },
+        {
+          "id": "68d39e862bb634be6dd4cbb0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 67,
+          "inventoryCharacters": 67
+        },
+        {
+          "id": "686fdc07d3613d8c19785446",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 94,
+          "inventoryCharacters": 94
+        },
+        {
+          "id": "689b1faa72e72e7ca675bce8",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 31,
+          "inventoryCharacters": 31
+        },
+        {
+          "id": "683fa6500f0b8e2e9b2ede42",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 98,
+          "inventoryCharacters": 98
+        },
+        {
+          "id": "6820822a4dda55a59bf883a7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 212,
+          "inventoryCharacters": 212
+        },
+        {
+          "id": "687cbe69f0b0192cbecfdb49",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 60,
+          "inventoryCharacters": 60
+        },
+        {
+          "id": "68975615d6a66e6a2cb7bf6c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 21,
+          "inventoryCharacters": 21
+        },
+        {
+          "id": "6828aa558e3e50a73c6105f2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 68,
+          "inventoryCharacters": 68
+        },
+        {
+          "id": "683403fcca809cc991e1c245",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 146,
+          "inventoryCharacters": 146
+        },
+        {
+          "id": "688626ce410158adb10adbe4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 90,
+          "inventoryCharacters": 90
+        },
+        {
+          "id": "6815fdc1ca2418e5236c8a27",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 116,
+          "inventoryCharacters": 116
+        },
+        {
+          "id": "6842827a6a1ebb699ec2ab0c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 104,
+          "inventoryCharacters": 104
+        },
+        {
+          "id": "67f364cc375057364ccd67b8",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 164,
+          "inventoryCharacters": 164
+        },
+        {
+          "id": "683830f933465857a3f8705d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 148,
+          "inventoryCharacters": 148
+        },
+        {
+          "id": "685a3c9e40ec2a5098f911d4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 20,
+          "inventoryCharacters": 20
+        },
+        {
+          "id": "67e006babc3da11a2fe2db42",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 107,
+          "inventoryCharacters": 107
+        },
+        {
+          "id": "680c9aea27b42cc18e7c8e81",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 39,
+          "inventoryCharacters": 39
+        },
+        {
+          "id": "68662ec51f15fb92f3187cca",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 52,
+          "inventoryCharacters": 52
+        },
+        {
+          "id": "683828e51388140b6ba089e3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 66,
+          "inventoryCharacters": 66
+        },
+        {
+          "id": "67e68271f9a8bbe4b05f7d90",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 166,
+          "inventoryCharacters": 166
+        },
+        {
+          "id": "686b99e9221649add842dde2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 65,
+          "inventoryCharacters": 65
+        },
+        {
+          "id": "687b4a4fcf458fb868ec2356",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 29,
+          "inventoryCharacters": 29
+        },
+        {
+          "id": "687f00908b88bce32e569884",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 18,
+          "inventoryCharacters": 18
+        },
+        {
+          "id": "67ed4938ed316bfd64ff8115",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 162,
+          "inventoryCharacters": 162
+        },
+        {
+          "id": "67e0ca441ad848addcc0e405",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 136,
+          "inventoryCharacters": 136
+        },
+        {
+          "id": "67e66f280f9ab536f72a2dc0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 166,
+          "inventoryCharacters": 166
+        },
+        {
+          "id": "685f38f5bf768ea56e272cf4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 42,
+          "inventoryCharacters": 42
+        },
+        {
+          "id": "67d701aae4097b9ce5f2e3db",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 356,
+          "inventoryCharacters": 356
+        },
+        {
+          "id": "67c2f886607b99bc9f32de15",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 373,
+          "inventoryCharacters": 373
+        },
+        {
+          "id": "67d3a113e9a96cb732beeab7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 133,
+          "inventoryCharacters": 133
+        },
+        {
+          "id": "686bb4267ca194ad1cd32c2c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 30,
+          "inventoryCharacters": 30
+        },
+        {
+          "id": "67b016b24310de18564cb13e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 195,
+          "inventoryCharacters": 195
+        },
+        {
+          "id": "6855527c22e7059099dd581f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 56,
+          "inventoryCharacters": 56
+        },
+        {
+          "id": "67f0e7491c154c63c7ff0663",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 75,
+          "inventoryCharacters": 75
+        },
+        {
+          "id": "67c2aa1c58fcd323946aa3c4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 215,
+          "inventoryCharacters": 215
+        },
+        {
+          "id": "67c06a76c8fd49fda9891285",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 144,
+          "inventoryCharacters": 144
+        },
+        {
+          "id": "67dc16acb413d15c74d215d2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 74,
+          "inventoryCharacters": 74
+        },
+        {
+          "id": "67e810b4f9a8bbe4b06edc8f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 100,
+          "inventoryCharacters": 100
+        },
+        {
+          "id": "6863f272aa00a2af324e5bf6",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 23,
+          "inventoryCharacters": 23
+        },
+        {
+          "id": "67d69da67e5b2c03884db877",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 243,
+          "inventoryCharacters": 243
+        },
+        {
+          "id": "6832f2e5049f92f3a1d7bafb",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 41,
+          "inventoryCharacters": 41
+        },
+        {
+          "id": "67d3db89df91135d9721cd2a",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 125,
+          "inventoryCharacters": 125
+        },
+        {
+          "id": "67ba82c5a401a14773d8c012",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 152,
+          "inventoryCharacters": 152
+        },
+        {
+          "id": "67b9cf2953e0d300b378b0c0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 140,
+          "inventoryCharacters": 140
+        },
+        {
+          "id": "6815caa89c328a5a9590cb2c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 119,
+          "inventoryCharacters": 119
+        },
+        {
+          "id": "67b69009965c71541666f6f0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 126,
+          "inventoryCharacters": 126
+        },
+        {
+          "id": "67ca97eb85b9bdd6a56b4693",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 198,
+          "inventoryCharacters": 198
+        },
+        {
+          "id": "6816da9f6fb9689efbd2cef4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 69,
+          "inventoryCharacters": 69
+        },
+        {
+          "id": "67bbb71aae85ce082bfca5b0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 201,
+          "inventoryCharacters": 201
+        },
+        {
+          "id": "67a80256cedb4df49cb0eb55",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 154,
+          "inventoryCharacters": 154
+        },
+        {
+          "id": "67c30477b3c0ab4693380a71",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 214,
+          "inventoryCharacters": 214
+        },
+        {
+          "id": "67b2af4f5153210e84832dca",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 247,
+          "inventoryCharacters": 247
+        },
+        {
+          "id": "67ebf3762a38eb578c318b83",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 194,
+          "inventoryCharacters": 194
+        },
+        {
+          "id": "67a8ca328c3b0bdf7b7a4623",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 110,
+          "inventoryCharacters": 110
+        },
+        {
+          "id": "67e37c5fe147699af0507d29",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 118,
+          "inventoryCharacters": 118
+        },
+        {
+          "id": "682313b7816618d9c0d0c4d0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 75,
+          "inventoryCharacters": 75
+        },
+        {
+          "id": "683992956027a5083cd563a7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 23,
+          "inventoryCharacters": 23
+        },
+        {
+          "id": "67caf2f816b590e2b8ef02e4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 105,
+          "inventoryCharacters": 105
+        },
+        {
+          "id": "67de1b338b125b64b33ecd70",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 169,
+          "inventoryCharacters": 169
+        },
+        {
+          "id": "68298dda30091e63b14d6776",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 43,
+          "inventoryCharacters": 43
+        },
+        {
+          "id": "681c3c006d82e59c4cae5791",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 49,
+          "inventoryCharacters": 49
+        },
+        {
+          "id": "67d64dabcfbd0f460ca540d4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 244,
+          "inventoryCharacters": 244
+        },
+        {
+          "id": "67a9b679cdb12a72bb846c31",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 127,
+          "inventoryCharacters": 127
+        },
+        {
+          "id": "67f9c7dc9ae047d18693f544",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 66,
+          "inventoryCharacters": 66
+        },
+        {
+          "id": "678fa853649f0daf390e39ae",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 184,
+          "inventoryCharacters": 184
+        },
+        {
+          "id": "67912c78864709c1af006eab",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 324,
+          "inventoryCharacters": 324
+        },
+        {
+          "id": "682570585002a25eb32d5672",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 24,
+          "inventoryCharacters": 24
+        },
+        {
+          "id": "68038b7101b62a79cdcffbb8",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 20,
+          "inventoryCharacters": 20
+        },
+        {
+          "id": "68252d0b312e838e27573602",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 36,
+          "inventoryCharacters": 36
+        },
+        {
+          "id": "67bd57bc011acc4eba305c8f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 74,
+          "inventoryCharacters": 74
+        },
+        {
+          "id": "67bddb7ecf6d0d90c6b8d6bd",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 111,
+          "inventoryCharacters": 111
+        },
+        {
+          "id": "67c95b200340f8866878cef9",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 86,
+          "inventoryCharacters": 86
+        },
+        {
+          "id": "67c25e2093d06a212976cc65",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 77,
+          "inventoryCharacters": 77
+        },
+        {
+          "id": "67cdb62d2d696020ea364cc4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 35,
+          "inventoryCharacters": 35
+        },
+        {
+          "id": "67c6edd7bceed8a43611993d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 80,
+          "inventoryCharacters": 80
+        },
+        {
+          "id": "67c985a7018a221a29784888",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 54,
+          "inventoryCharacters": 54
+        },
+        {
+          "id": "67bb210b080eb1c4c53c99de",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 123,
+          "inventoryCharacters": 123
+        },
+        {
+          "id": "67c5d1418820bfaa3345fdee",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 224,
+          "inventoryCharacters": 224
+        },
+        {
+          "id": "6790e4e1a143f106d07ef2f0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 84,
+          "inventoryCharacters": 84
+        },
+        {
+          "id": "67b67ef8898e766b33476cc8",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 125,
+          "inventoryCharacters": 125
+        },
+        {
+          "id": "67de93c9b1a90e514df039bb",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 83,
+          "inventoryCharacters": 83
+        },
+        {
+          "id": "67de4dc370b3c269db1af5c1",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 52,
+          "inventoryCharacters": 52
+        },
+        {
+          "id": "67beee40b1d4e55dcf6cf76f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 86,
+          "inventoryCharacters": 86
+        },
+        {
+          "id": "67e906e7b05e1d0f2449312f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 98,
+          "inventoryCharacters": 98
+        },
+        {
+          "id": "67a2ebfde61f8e0e1b9c1399",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 144,
+          "inventoryCharacters": 144
+        },
+        {
+          "id": "67ad458de4ea0823a171afc7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 121,
+          "inventoryCharacters": 121
+        },
+        {
+          "id": "67bab9a334ed9f2526357461",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 47,
+          "inventoryCharacters": 47
+        },
+        {
+          "id": "680dc58de7b2a3ccf321ce8b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 26,
+          "inventoryCharacters": 26
+        },
+        {
+          "id": "67286e5268d9b2ae378c4c7d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 254,
+          "inventoryCharacters": 254
+        },
+        {
+          "id": "678d9ef9f9549d9a855d16d2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 306,
+          "inventoryCharacters": 306
+        },
+        {
+          "id": "678cea902490486b99282080",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 133,
+          "inventoryCharacters": 133
+        },
+        {
+          "id": "67a7eaecfeec7aaa77e9ee16",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 75,
+          "inventoryCharacters": 75
+        },
+        {
+          "id": "67aecc8d897c97aac8fc5af7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 211,
+          "inventoryCharacters": 211
+        },
+        {
+          "id": "67a4ae8cabcfb0d76d7d1ca0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 94,
+          "inventoryCharacters": 94
+        },
+        {
+          "id": "67c484924451ae8ec8d71852",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 49,
+          "inventoryCharacters": 49
+        },
+        {
+          "id": "67b9a7052f1d2b5348bfff7d",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 166,
+          "inventoryCharacters": 166
+        },
+        {
+          "id": "6868a73edf384fc09d99a5ce",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 3,
+          "inventoryCharacters": 3
+        },
+        {
+          "id": "67cd88ebabd0c6bf8b026731",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 81,
+          "inventoryCharacters": 81
+        },
+        {
+          "id": "67ad4d84760f5a2c60f09329",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 49,
+          "inventoryCharacters": 49
+        },
+        {
+          "id": "6795e30e0f54e867e73c1282",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 83,
+          "inventoryCharacters": 83
+        },
+        {
+          "id": "67c2d6de402eabefa45b12e9",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 75,
+          "inventoryCharacters": 75
+        },
+        {
+          "id": "67e21e32cb6d9e7b506ae38c",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 37,
+          "inventoryCharacters": 37
+        },
+        {
+          "id": "678ce0e483d68391f46c7bab",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 130,
+          "inventoryCharacters": 130
+        },
+        {
+          "id": "67b5a8e13ef1d73e2d43e53e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 56,
+          "inventoryCharacters": 56
+        },
+        {
+          "id": "67c17c1ca4c538b7ecf1cf70",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 96,
+          "inventoryCharacters": 96
+        },
+        {
+          "id": "67974395cddb47ef84e02968",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 41,
+          "inventoryCharacters": 41
+        },
+        {
+          "id": "6794e86cf8f830167f7d3d18",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 71,
+          "inventoryCharacters": 71
+        },
+        {
+          "id": "67d01b4becdded0cfa787ac7",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 59,
+          "inventoryCharacters": 59
+        },
+        {
+          "id": "685fc8bfd3bb162315dbc0ff",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 74,
+          "inventoryCharacters": 74
+        },
+        {
+          "id": "6795fe6c338532b7edecaa69",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 94,
+          "inventoryCharacters": 94
+        },
+        {
+          "id": "678a05410b99bd30f5929098",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 122,
+          "inventoryCharacters": 122
+        },
+        {
+          "id": "6795cb2c15e9157d321b736b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 62,
+          "inventoryCharacters": 62
+        },
+        {
+          "id": "67b9b45905c1bd7326e5db96",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 46,
+          "inventoryCharacters": 46
+        },
+        {
+          "id": "67b076c450b1f1bd0f0ff2d0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 39,
+          "inventoryCharacters": 39
+        },
+        {
+          "id": "6797bdaada8ccaa55027a16f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 38,
+          "inventoryCharacters": 38
+        },
+        {
+          "id": "6792122f9261b85583ecfa24",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 119,
+          "inventoryCharacters": 119
+        },
+        {
+          "id": "678f676ebe5afbee4a6e6873",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 71,
+          "inventoryCharacters": 71
+        },
+        {
+          "id": "67a99e3394ddc819ffeba31b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 73,
+          "inventoryCharacters": 73
+        },
+        {
+          "id": "67a7e3284439edcc427d4a86",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 63,
+          "inventoryCharacters": 63
+        },
+        {
+          "id": "670eeffcb2f3c2885c14b98a",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 404,
+          "inventoryCharacters": 404
+        },
+        {
+          "id": "67b6973762a2e0b5e6c2dfc3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 36,
+          "inventoryCharacters": 36
+        },
+        {
+          "id": "67b04e166e7be25da187db44",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 32,
+          "inventoryCharacters": 32
+        },
+        {
+          "id": "67b34e838551ab0bc2cdadd1",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 20,
+          "inventoryCharacters": 20
+        },
+        {
+          "id": "67d5a681aed0fb92a566b665",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 12,
+          "inventoryCharacters": 12
+        },
+        {
+          "id": "67ae04eaeab2377e36e414c4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 30,
+          "inventoryCharacters": 30
+        },
+        {
+          "id": "67b0b66ecdb12a72bbf33eef",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 40,
+          "inventoryCharacters": 40
+        },
+        {
+          "id": "6794db83594b6f6dbcb9dc56",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 81,
+          "inventoryCharacters": 81
+        },
+        {
+          "id": "678c6524a8db5ca4f0a9e7da",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 17,
+          "inventoryCharacters": 17
+        },
+        {
+          "id": "67c84c2e7f1740190e2d837b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 0,
+          "inventoryCharacters": 0
+        },
+        {
+          "id": "6701d6ef91e73818e7441128",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 404,
+          "inventoryCharacters": 404
+        },
+        {
+          "id": "6534cb1a372633d21e3cf7f3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 197,
+          "inventoryCharacters": 197
+        },
+        {
+          "id": "6539e574d16c9c4f89d3eb19",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 82,
+          "inventoryCharacters": 82
+        },
+        {
+          "id": "651e852d3de65ab200238e2b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 55,
+          "inventoryCharacters": 55
+        },
+        {
+          "id": "642d4690fba5af25bc565da2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 232,
+          "inventoryCharacters": 232
+        },
+        {
+          "id": "642e9b83ea0daa3a1ce82c5e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 153,
+          "inventoryCharacters": 153
+        },
+        {
+          "id": "63c3495d3c5366d7052b6b25",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 394,
+          "inventoryCharacters": 394
+        },
+        {
+          "id": "63fde1cf8a517f1cfe5d537f",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 170,
+          "inventoryCharacters": 170
+        },
+        {
+          "id": "63d4f40e7ede7ede0f8a2ad2",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 180,
+          "inventoryCharacters": 180
+        },
+        {
+          "id": "63f9b836e2d6b20b23d2033e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 113,
+          "inventoryCharacters": 113
+        },
+        {
+          "id": "64007c6012a979bfe4e5426a",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 122,
+          "inventoryCharacters": 122
+        },
+        {
+          "id": "6420f8e4abeb40c0b825bc7b",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 129,
+          "inventoryCharacters": 129
+        },
+        {
+          "id": "641daf9bbdf6f98caeea0aa4",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 137,
+          "inventoryCharacters": 137
+        },
+        {
+          "id": "63ea04c9eddbbb59673de7a0",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 82,
+          "inventoryCharacters": 82
+        },
+        {
+          "id": "641560b7e6f92ca7d18d2a6a",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 69,
+          "inventoryCharacters": 69
+        },
+        {
+          "id": "63d3469e388ca4b9c0abe5ac",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 89,
+          "inventoryCharacters": 89
+        },
+        {
+          "id": "63f9a9526571954c37f79613",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 56,
+          "inventoryCharacters": 56
+        },
+        {
+          "id": "63b55fad0a82a8d200ff7259",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 103,
+          "inventoryCharacters": 103
+        },
+        {
+          "id": "63b4417ed9cda6f617b6bcc3",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 96,
+          "inventoryCharacters": 96
+        },
+        {
+          "id": "64240a3b4f3c00eb040422ba",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 141,
+          "inventoryCharacters": 141
+        },
+        {
+          "id": "63ae857eed729625b042ab8e",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 171,
+          "inventoryCharacters": 171
+        },
+        {
+          "id": "63ae85b22671b2ffaa1b6132",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 75,
+          "inventoryCharacters": 75
+        },
+        {
+          "id": "63c519027801fb05034e6555",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 85,
+          "inventoryCharacters": 85
+        }
+      ],
+      "replyObjects": 238,
+      "nonemptyOwnerReplies": 0,
+      "nonemptyTranslatedTexts": 0
+    },
+    "blogs": {
+      "pages": [
+        {
+          "networkIndex": 0,
+          "subIndex": 0,
+          "variables": {
+            "input": {
+              "businessId": "1581469411",
+              "businessType": "restaurant",
+              "page": 0,
+              "display": 10,
+              "deviceType": "mobile",
+              "query": null,
+              "excludeGdids": [],
+              "buyWithMyMoneyType": true
+            }
+          },
+          "total": 0,
+          "maxItemCount": 0,
+          "itemCount": 0,
+          "errors": null
+        },
+        {
+          "networkIndex": 0,
+          "subIndex": 1,
+          "variables": {
+            "input": {
+              "businessId": "1581469411",
+              "businessType": "restaurant",
+              "page": 0,
+              "display": 10,
+              "deviceType": "mobile",
+              "query": null,
+              "excludeGdids": [],
+              "buyWithMyMoneyType": false
+            }
+          },
+          "total": 28,
+          "maxItemCount": 28,
+          "itemCount": 10,
+          "errors": null
+        },
+        {
+          "networkIndex": 1,
+          "subIndex": 0,
+          "variables": {
+            "input": {
+              "businessId": "1581469411",
+              "businessType": "restaurant",
+              "page": 1,
+              "display": 10,
+              "deviceType": "mobile",
+              "query": null,
+              "excludeGdids": [],
+              "buyWithMyMoneyType": false
+            }
+          },
+          "total": 28,
+          "maxItemCount": 28,
+          "itemCount": 10,
+          "errors": null
+        },
+        {
+          "networkIndex": 2,
+          "subIndex": 0,
+          "variables": {
+            "input": {
+              "businessId": "1581469411",
+              "businessType": "restaurant",
+              "page": 2,
+              "display": 10,
+              "deviceType": "mobile",
+              "query": null,
+              "excludeGdids": [],
+              "buyWithMyMoneyType": false
+            }
+          },
+          "total": 28,
+          "maxItemCount": 28,
+          "itemCount": 8,
+          "errors": null
+        }
+      ],
+      "networkCards": 28,
+      "uniqueCardIds": 28,
+      "canonicalPosts": 28,
+      "missingCardIds": [],
+      "allCanonicalTextInventoryExact": true,
+      "allHtmlTextNodesPreserved": true,
+      "htmlChecks": [
+        {
+          "reviewId": "223778773681",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 19,
+          "metadataImages": 19,
+          "htmlVideosOrIframes": 3,
+          "metadataVideos": 3,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_imageGroup": 5
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "bbobbo",
+          "metadataDate": "2025.02.28.",
+          "rawHtmlSha256": "1ed8509eca3c480360d3d85323df2da1785210fa5b18a584dd4e68ee049ac804"
+        },
+        {
+          "reviewId": "223739046970",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 36,
+          "metadataImages": 36,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_video": 1,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "연희동 나나",
+          "metadataDate": "2025.01.26.",
+          "rawHtmlSha256": "8ac7b7a2d04038277760227075e7828e47934402f4589f10a8e52aff78de9a47"
+        },
+        {
+          "reviewId": "223066915610",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 24,
+          "metadataImages": 24,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_video": 2,
+            "v2_oglink": 2,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "윤쌤",
+          "metadataDate": "2023.04.06.",
+          "rawHtmlSha256": "814757177c62dc3b595f210cc4c0fdbfb6b7503db3dbd1efd5791bc4d331e8de"
+        },
+        {
+          "reviewId": "224308872969",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 21,
+          "metadataImages": 21,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "심체리",
+          "metadataDate": "2026.06.07.",
+          "rawHtmlSha256": "6b9f91871f1bf9b12138ae0e96c0cb0ba398575244992cea69eb3eec3bb72f5e"
+        },
+        {
+          "reviewId": "223778939157",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 36,
+          "metadataImages": 36,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_oglink": 3,
+            "v2_imageGroup": 3,
+            "v2_map": 1,
+            "v2_video": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "백쥰",
+          "metadataDate": "2025.03.01.",
+          "rawHtmlSha256": "0fe699d08f0964c7b5b3214a588e74a44492671517470c2d8ff70e11cd17ee48"
+        },
+        {
+          "reviewId": "223056916402",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 52,
+          "metadataImages": 52,
+          "htmlVideosOrIframes": 3,
+          "metadataVideos": 3,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2,
+            "v2_video": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "스카90",
+          "metadataDate": "2023.03.28.",
+          "rawHtmlSha256": "13c5306f9180a64416412498ee11a9acd606489408b9b7160e8837662df9f632"
+        },
+        {
+          "reviewId": "223767248616",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 32,
+          "metadataImages": 32,
+          "htmlVideosOrIframes": 2,
+          "metadataVideos": 2,
+          "modulesByType": {
+            "v2_oglink": 2,
+            "v2_table": 1,
+            "v2_imageGroup": 2,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "Mercurio",
+          "metadataDate": "2025.02.22.",
+          "rawHtmlSha256": "e2630cab04993503e9cefd97b032984738ed7d909d7220aa996ae79ca47ef9dd"
+        },
+        {
+          "reviewId": "222989569274",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 41,
+          "metadataImages": 41,
+          "htmlVideosOrIframes": 3,
+          "metadataVideos": 3,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2,
+            "v2_video": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "스카90",
+          "metadataDate": "2023.01.20.",
+          "rawHtmlSha256": "edc42ce436bb748fd9bf874b5c682f6bd8c8e610090657b0c8a9f7b528383c4f"
+        },
+        {
+          "reviewId": "222998146992",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 29,
+          "metadataImages": 29,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 1,
+            "v2_imageGroup": 5
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "나애요",
+          "metadataDate": "2023.01.30.",
+          "rawHtmlSha256": "c1f3c28597fc8f3bad6c1347350e1bf8a0c80221d2cebaa46f0c506165153781"
+        },
+        {
+          "reviewId": "223035576014",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 23,
+          "metadataImages": 23,
+          "htmlVideosOrIframes": 2,
+          "metadataVideos": 2,
+          "modulesByType": {
+            "v2_oglink": 2,
+            "v2_video": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "또리",
+          "metadataDate": "2023.03.05.",
+          "rawHtmlSha256": "a7ee54cf42d2fd55dd1477c191779206a6420e77f30cb3bdd3d558c112c6d3fd"
+        },
+        {
+          "reviewId": "222997895557",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 28,
+          "metadataImages": 28,
+          "htmlVideosOrIframes": 2,
+          "metadataVideos": 2,
+          "modulesByType": {
+            "v2_oglink": 1,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "미림부부",
+          "metadataDate": "2023.01.29.",
+          "rawHtmlSha256": "6d9e0bd14e0eaaaf4863fd11d0793af25bfa1ba3c02e2d9448b7138cb29005b7"
+        },
+        {
+          "reviewId": "223247083289",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 38,
+          "metadataImages": 38,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2,
+            "v2_imageGroup": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "말하는감자",
+          "metadataDate": "2023.10.26.",
+          "rawHtmlSha256": "94428d6a3e445421dbc6e7e70a7b1c5bd4949bb18fec6c6c25476b45b0b08ed3"
+        },
+        {
+          "reviewId": "223376444547",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 20,
+          "metadataImages": 20,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "하로",
+          "metadataDate": "2024.03.07.",
+          "rawHtmlSha256": "f082ba0d2279cf14938c44b984a1aba9e57bf05f7394f184134b4fe8cd1d4730"
+        },
+        {
+          "reviewId": "222986720371",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 22,
+          "metadataImages": 22,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_video": 1,
+            "v2_oglink": 1,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "까막",
+          "metadataDate": "2023.01.17.",
+          "rawHtmlSha256": "ce9b1e796b0e4384405f9aba76caa9dc304768d8ff70690a5fcde74ad7ffa1d8"
+        },
+        {
+          "reviewId": "222998166099",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 23,
+          "metadataImages": 23,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_imageGroup": 1,
+            "v2_video": 1,
+            "v2_oglink": 1,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "꾸르산트",
+          "metadataDate": "2023.01.29.",
+          "rawHtmlSha256": "30a8072d1998f0c7fefc506e2748eadc80f62b1756cd85ca34ca17fcad52a6fb"
+        },
+        {
+          "reviewId": "223048819364",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 21,
+          "metadataImages": 21,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_oglink": 2,
+            "v2_video": 1,
+            "v2_map": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "슈퍼크랙",
+          "metadataDate": "2023.03.18.",
+          "rawHtmlSha256": "a29f25f6ec7fbb211f0dd4e225f37099f6565ab10724a3d1a89e772100f2bdcd"
+        },
+        {
+          "reviewId": "222966530651",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 13,
+          "metadataImages": 13,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 2
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "토리",
+          "metadataDate": "2022.12.26.",
+          "rawHtmlSha256": "60d9d1e27249579d1bca06621d7c9c7f83ad96bd685107d0cb46c52df4a3347f"
+        },
+        {
+          "reviewId": "223032406453",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 30,
+          "metadataImages": 30,
+          "htmlVideosOrIframes": 1,
+          "metadataVideos": 1,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2,
+            "v2_imageGroup": 3
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "밈밈",
+          "metadataDate": "2023.03.02.",
+          "rawHtmlSha256": "009ad694f20588b0c6a104a6a1bd6c817337eab23ffdec37c860f84d827e2706"
+        },
+        {
+          "reviewId": "222984356363",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 48,
+          "metadataImages": 48,
+          "htmlVideosOrIframes": 6,
+          "metadataVideos": 6,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 3
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "러버",
+          "metadataDate": "2023.01.14.",
+          "rawHtmlSha256": "f9f17c60a804d0fc4124dd313bd4931c8a19279e380f2159bc4e4dd3989f1c09"
+        },
+        {
+          "reviewId": "223244780084",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 35,
+          "metadataImages": 35,
+          "htmlVideosOrIframes": 2,
+          "metadataVideos": 2,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_imageGroup": 6
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "깔유니",
+          "metadataDate": "2023.10.24.",
+          "rawHtmlSha256": "39d6ac31b7cf3fa83b147da2a4e08896ab35ac820f89524bb866fcc93d8d312a"
+        },
+        {
+          "reviewId": "223035970333",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 35,
+          "metadataImages": 35,
+          "htmlVideosOrIframes": 4,
+          "metadataVideos": 4,
+          "modulesByType": {
+            "v2_oglink": 2,
+            "v2_map": 1,
+            "v2_video": 2
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "하늘여우",
+          "metadataDate": "2023.03.06.",
+          "rawHtmlSha256": "e933d27fb302a96389babd46e692e31f730416c443d3f24fa390c623fce6481d"
+        },
+        {
+          "reviewId": "223222958663",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 22,
+          "metadataImages": 22,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_imageGroup": 2
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "모하지",
+          "metadataDate": "2023.09.27.",
+          "rawHtmlSha256": "858d7955738463e4dd4d37b3ce9c34251b3f4cba0bac39db0afe1a1911277fbb"
+        },
+        {
+          "reviewId": "223470099955",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 24,
+          "metadataImages": 24,
+          "htmlVideosOrIframes": 1,
+          "metadataVideos": 1,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 3
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "누밋",
+          "metadataDate": "2024.06.05.",
+          "rawHtmlSha256": "c267afa6f40f42ccbd4f556ca7e160a1ed16fa9b9104f840d41e0d9c87963fb0"
+        },
+        {
+          "reviewId": "223323506945",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 9,
+          "metadataImages": 9,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "윤",
+          "metadataDate": "2024.01.15.",
+          "rawHtmlSha256": "4a315e6b06ce0dfedd588b6a4c116e3744844a75f0e58b89d8b65345dae1c78b"
+        },
+        {
+          "reviewId": "223032766110",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 29,
+          "metadataImages": 29,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2,
+            "v2_video": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "러블리쑤",
+          "metadataDate": "2023.03.02.",
+          "rawHtmlSha256": "bcc7f78b3c1770cb3a153a69c286ce5e58c9f4dcd97bbbddb668a3addc32a974"
+        },
+        {
+          "reviewId": "223210839338",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 9,
+          "metadataImages": 9,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_table": 1,
+            "v2_map": 3,
+            "v2_oglink": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "새녕",
+          "metadataDate": "2023.09.14.",
+          "rawHtmlSha256": "07062b1fe6ab886f987c0405d9334887f837044fbcf8efb026fcf5c45665b813"
+        },
+        {
+          "reviewId": "223066428482",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 39,
+          "metadataImages": 39,
+          "htmlVideosOrIframes": 4,
+          "metadataVideos": 4,
+          "modulesByType": {
+            "v2_map": 1,
+            "v2_oglink": 2
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "멜메리",
+          "metadataDate": "2023.04.06.",
+          "rawHtmlSha256": "729f3f87363f090ce17db4d257bef755ac52bec81e9c5372be1509b99ddf4c34"
+        },
+        {
+          "reviewId": "223768432873",
+          "canonicalCoverage": "full-post-body",
+          "htmlImages": 30,
+          "metadataImages": 30,
+          "htmlVideosOrIframes": 0,
+          "metadataVideos": 0,
+          "modulesByType": {
+            "v2_oglink": 2,
+            "v2_map": 1,
+            "v2_video": 1
+          },
+          "nonWhitespaceTextNodesAbsentFromCanonical": [],
+          "fullNormalizedTextExactlyEqual": true,
+          "possibleAttachmentLinks": [],
+          "metadataAuthor": "홍순이",
+          "metadataDate": "2025.02.24.",
+          "rawHtmlSha256": "92d75814d9a8666ee6fe3b014610a99e65b1e483ab648161cca9ca475230a66b"
+        }
+      ],
+      "externalCommentsCollected": false
+    },
+    "menu": {
+      "declaredCount": 9,
+      "storedCount": 9,
+      "checks": [
+        {
+          "id": "NmkLQKMzFzCq7gL79WFH",
+          "name": "2호(18cm)-인물케이크",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "98JfD6ffKHm8wzWJpGQG",
+          "name": "1호(15cm)-인물케이크",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "8CwwdLbjCzM9Nh76RfrJ",
+          "name": "1호(15cm)-캐릭터",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 2,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "gbqhMGhw7dK7G7pTw988",
+          "name": "1호(15cm)-2인케이크",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "tQqbM6wkm8r7qGGnMfrQ",
+          "name": "1호(15cm)-애니캐릭터[크림]",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "cQJbkBKwr97HL6hCmDFK",
+          "name": "미니(12cm)-인물 1인",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "qp6Jdr6RcLndR6gQqLCh",
+          "name": "미니(12cm)-동물 한마리",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "M6WqJNFGMhFMbb6T7qP7",
+          "name": "미니(12cm)-간단캐릭터",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 2,
+          "optionGroups": 0,
+          "course": null
+        },
+        {
+          "id": "CDRCcHJPrfTLRDJ8Jrjq",
+          "name": "초코그림(쉬는중💤)",
+          "inTextInventory": true,
+          "nameIncluded": true,
+          "descriptionIncluded": true,
+          "priceIncluded": true,
+          "imageCount": 1,
+          "optionGroups": 0,
+          "course": null
+        }
+      ]
+    },
+    "feed": {
+      "pages": [
+        {
+          "networkIndex": 0,
+          "variables": {
+            "businessId": "1581469411",
+            "blogId": "",
+            "blogCategoryNo": "",
+            "type": "all",
+            "feedOffset": 0,
+            "blogOffset": 0
+          },
+          "count": 1,
+          "hasMore": true,
+          "errors": null
+        },
+        {
+          "networkIndex": 1,
+          "variables": {
+            "businessId": "1581469411",
+            "blogId": "",
+            "blogCategoryNo": "",
+            "type": "all",
+            "feedOffset": 1,
+            "blogOffset": 0
+          },
+          "count": 0,
+          "hasMore": false,
+          "errors": null
+        }
+      ],
+      "checks": [
+        {
+          "id": "1581469411_21968519",
+          "inTextInventory": true,
+          "bodyExactlyEqual": true,
+          "sourceCharacters": 321,
+          "inventoryCharacters": 321
+        }
+      ]
+    },
+    "businessInformation": [
+      {
+        "field": "name",
+        "value": "보라곰 주문제작&레터링케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "description",
+        "value": "8월까지 영업합니다 찾아주셔서 감사했습니다^_^",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "road",
+        "value": "8월까지 영업합니다 감사합니다",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "roadAddress",
+        "value": "서울 마포구 신촌로2안길 12 1층 102호 보라곰케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "lotAddress",
+        "value": "서울 마포구 동교동 176-17",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "phone",
+        "value": "0507-1381-1971",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "openingHoursFreeText",
+        "value": "마지막픽업시간=마감시간",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "weeklyClosedDay",
+        "value": "정기휴무 (매주 월요일)",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "keywordList[0]",
+        "value": "홍대주문제작케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "keywordList[1]",
+        "value": "홍대레터링케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "keywordList[2]",
+        "value": "홍대그림케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "keywordList[3]",
+        "value": "연남레터링케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      },
+      {
+        "field": "keywordList[4]",
+        "value": "애니케이크",
+        "inRawAndCatalog": true,
+        "inTextInventory": true
+      }
+    ],
+    "screenSnapshots": [
+      {
+        "id": "home",
+        "rawFileExists": true,
+        "exactMatch": true
+      },
+      {
+        "id": "information",
+        "rawFileExists": true,
+        "exactMatch": true
+      },
+      {
+        "id": "menu",
+        "rawFileExists": true,
+        "exactMatch": true
+      },
+      {
+        "id": "feed",
+        "rawFileExists": true,
+        "exactMatch": true
+      },
+      {
+        "id": "ai-summary",
+        "rawFileExists": true,
+        "exactMatch": true
+      }
+    ],
+    "catalogReviewObjectsEqualRaw": true,
+    "catalogMenusEqualRawResolved": true
+  },
+  "countFieldEvidence": [
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.PlaceDetailBase:1581469411.categoryCount",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.PlaceDetailBase:1581469411.cafeBlogReviewsTotal",
+      "value": 28
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTextReviewTotal",
+      "value": 237
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.totalCount",
+      "value": 238
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.imageReviewCount",
+      "value": 234
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.authorCount",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[0].count",
+      "value": 227
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[1].count",
+      "value": 83
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[2].count",
+      "value": 67
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[3].count",
+      "value": 59
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[4].count",
+      "value": 5
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[5].count",
+      "value": 3
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[6].count",
+      "value": 3
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[7].count",
+      "value": 2
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[0].count",
+      "value": 144
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[1].count",
+      "value": 25
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[2].count",
+      "value": 13
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[3].count",
+      "value": 3
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[4].count",
+      "value": 2
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[5].count",
+      "value": 2
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[6].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[7].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[10].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[11].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[12].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[13].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[14].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[15].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[16].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.totalCount",
+      "value": 935
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.reviewCount",
+      "value": 237
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.userCount",
+      "value": 230
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[0].count",
+      "value": 209
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[1].count",
+      "value": 138
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[2].count",
+      "value": 120
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[3].count",
+      "value": 93
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[4].count",
+      "value": 85
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[5].count",
+      "value": 68
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[6].count",
+      "value": 61
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[7].count",
+      "value": 34
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[8].count",
+      "value": 25
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[9].count",
+      "value": 23
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[10].count",
+      "value": 22
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[11].count",
+      "value": 17
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[12].count",
+      "value": 11
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[13].count",
+      "value": 8
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[14].count",
+      "value": 7
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[15].count",
+      "value": 5
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[16].count",
+      "value": 3
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[17].count",
+      "value": 3
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[18].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[19].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[20].count",
+      "value": 1
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.ratingReviewsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.playCount",
+      "value": 205
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.likeCount",
+      "value": 3
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.menuCount",
+      "value": 9
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.courseMenuCount",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.total",
+      "value": 28
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.maxItemCount",
+      "value": 28
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).hasCoupon.count",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).shopWindow.total",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.festivalsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.performancesTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).exp.total",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).visitorReviewMediasTotal",
+      "value": 462
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topAnimatedPhotos.total",
+      "value": 0
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).images.totalImages",
+      "value": 61
+    },
+    {
+      "file": "raw/feed-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topPhotos.total",
+      "value": 76
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.PlaceDetailBase:1581469411.categoryCount",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.PlaceDetailBase:1581469411.cafeBlogReviewsTotal",
+      "value": 28
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTextReviewTotal",
+      "value": 237
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.totalCount",
+      "value": 238
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.imageReviewCount",
+      "value": 234
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.authorCount",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[0].count",
+      "value": 227
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[1].count",
+      "value": 83
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[2].count",
+      "value": 67
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[3].count",
+      "value": 59
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[4].count",
+      "value": 5
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[5].count",
+      "value": 3
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[6].count",
+      "value": 3
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[7].count",
+      "value": 2
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[0].count",
+      "value": 144
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[1].count",
+      "value": 25
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[2].count",
+      "value": 13
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[3].count",
+      "value": 3
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[4].count",
+      "value": 2
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[5].count",
+      "value": 2
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[6].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[7].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[10].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[11].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[12].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[13].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[14].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[15].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[16].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.totalCount",
+      "value": 935
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.reviewCount",
+      "value": 237
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.userCount",
+      "value": 230
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[0].count",
+      "value": 209
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[1].count",
+      "value": 138
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[2].count",
+      "value": 120
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[3].count",
+      "value": 93
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[4].count",
+      "value": 85
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[5].count",
+      "value": 68
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[6].count",
+      "value": 61
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[7].count",
+      "value": 34
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[8].count",
+      "value": 25
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[9].count",
+      "value": 23
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[10].count",
+      "value": 22
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[11].count",
+      "value": 17
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[12].count",
+      "value": 11
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[13].count",
+      "value": 8
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[14].count",
+      "value": 7
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[15].count",
+      "value": 5
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[16].count",
+      "value": 3
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[17].count",
+      "value": 3
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[18].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[19].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[20].count",
+      "value": 1
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.ratingReviewsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.playCount",
+      "value": 205
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.likeCount",
+      "value": 3
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.menuCount",
+      "value": 9
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.courseMenuCount",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.total",
+      "value": 28
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.maxItemCount",
+      "value": 28
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).hasCoupon.count",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).shopWindow.total",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.festivalsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.performancesTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).exp.total",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).visitorReviewMediasTotal",
+      "value": 462
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topAnimatedPhotos.total",
+      "value": 0
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).images.totalImages",
+      "value": 61
+    },
+    {
+      "file": "raw/home-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topPhotos.total",
+      "value": 76
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.PlaceDetailBase:1581469411.categoryCount",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.PlaceDetailBase:1581469411.cafeBlogReviewsTotal",
+      "value": 28
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTextReviewTotal",
+      "value": 237
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.totalCount",
+      "value": 238
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.imageReviewCount",
+      "value": 234
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.authorCount",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[0].count",
+      "value": 227
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[1].count",
+      "value": 83
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[2].count",
+      "value": 67
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[3].count",
+      "value": 59
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[4].count",
+      "value": 5
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[5].count",
+      "value": 3
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[6].count",
+      "value": 3
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[7].count",
+      "value": 2
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[0].count",
+      "value": 144
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[1].count",
+      "value": 25
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[2].count",
+      "value": 13
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[3].count",
+      "value": 3
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[4].count",
+      "value": 2
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[5].count",
+      "value": 2
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[6].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[7].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[10].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[11].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[12].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[13].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[14].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[15].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[16].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.totalCount",
+      "value": 935
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.reviewCount",
+      "value": 237
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.userCount",
+      "value": 230
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[0].count",
+      "value": 209
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[1].count",
+      "value": 138
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[2].count",
+      "value": 120
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[3].count",
+      "value": 93
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[4].count",
+      "value": 85
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[5].count",
+      "value": 68
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[6].count",
+      "value": 61
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[7].count",
+      "value": 34
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[8].count",
+      "value": 25
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[9].count",
+      "value": 23
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[10].count",
+      "value": 22
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[11].count",
+      "value": 17
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[12].count",
+      "value": 11
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[13].count",
+      "value": 8
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[14].count",
+      "value": 7
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[15].count",
+      "value": 5
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[16].count",
+      "value": 3
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[17].count",
+      "value": 3
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[18].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[19].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[20].count",
+      "value": 1
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.ratingReviewsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.playCount",
+      "value": 205
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.likeCount",
+      "value": 3
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.menuCount",
+      "value": 9
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.courseMenuCount",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.total",
+      "value": 28
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.maxItemCount",
+      "value": 28
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).hasCoupon.count",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).shopWindow.total",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.festivalsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.performancesTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).exp.total",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).visitorReviewMediasTotal",
+      "value": 462
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topAnimatedPhotos.total",
+      "value": 0
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).images.totalImages",
+      "value": 61
+    },
+    {
+      "file": "raw/information-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topPhotos.total",
+      "value": 76
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.PlaceDetailBase:1581469411.categoryCount",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.PlaceDetailBase:1581469411.cafeBlogReviewsTotal",
+      "value": 28
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTextReviewTotal",
+      "value": 237
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.totalCount",
+      "value": 238
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.imageReviewCount",
+      "value": 234
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.authorCount",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[0].count",
+      "value": 227
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[1].count",
+      "value": 83
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[2].count",
+      "value": 67
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[3].count",
+      "value": 59
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[4].count",
+      "value": 5
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[5].count",
+      "value": 3
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[6].count",
+      "value": 3
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[7].count",
+      "value": 2
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[0].count",
+      "value": 144
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[1].count",
+      "value": 25
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[2].count",
+      "value": 13
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[3].count",
+      "value": 3
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[4].count",
+      "value": 2
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[5].count",
+      "value": 2
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[6].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[7].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[10].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[11].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[12].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[13].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[14].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[15].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[16].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.totalCount",
+      "value": 935
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.reviewCount",
+      "value": 237
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.userCount",
+      "value": 230
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[0].count",
+      "value": 209
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[1].count",
+      "value": 138
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[2].count",
+      "value": 120
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[3].count",
+      "value": 93
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[4].count",
+      "value": 85
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[5].count",
+      "value": 68
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[6].count",
+      "value": 61
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[7].count",
+      "value": 34
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[8].count",
+      "value": 25
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[9].count",
+      "value": 23
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[10].count",
+      "value": 22
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[11].count",
+      "value": 17
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[12].count",
+      "value": 11
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[13].count",
+      "value": 8
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[14].count",
+      "value": 7
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[15].count",
+      "value": 5
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[16].count",
+      "value": 3
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[17].count",
+      "value": 3
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[18].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[19].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[20].count",
+      "value": 1
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.ratingReviewsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.playCount",
+      "value": 205
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.likeCount",
+      "value": 3
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.menuCount",
+      "value": 9
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.courseMenuCount",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.total",
+      "value": 28
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.maxItemCount",
+      "value": 28
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).hasCoupon.count",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).shopWindow.total",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.festivalsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.performancesTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).exp.total",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).visitorReviewMediasTotal",
+      "value": 462
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topAnimatedPhotos.total",
+      "value": 0
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).images.totalImages",
+      "value": 61
+    },
+    {
+      "file": "raw/menu-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topPhotos.total",
+      "value": 76
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.PlaceDetailBase:1581469411.categoryCount",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.PlaceDetailBase:1581469411.cafeBlogReviewsTotal",
+      "value": 28
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.PlaceDetailBase:1581469411.visitorReviewsTextReviewTotal",
+      "value": 237
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.totalCount",
+      "value": 238
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.imageReviewCount",
+      "value": 234
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.review.authorCount",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[0].count",
+      "value": 227
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[1].count",
+      "value": 83
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[2].count",
+      "value": 67
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[3].count",
+      "value": 59
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[4].count",
+      "value": 5
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[5].count",
+      "value": 3
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[6].count",
+      "value": 3
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[7].count",
+      "value": 2
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.themes[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[0].count",
+      "value": 144
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[1].count",
+      "value": 25
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[2].count",
+      "value": 13
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[3].count",
+      "value": 3
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[4].count",
+      "value": 2
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[5].count",
+      "value": 2
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[6].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[7].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[8].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[9].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[10].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[11].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[12].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[13].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[14].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[15].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.menus[16].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.totalCount",
+      "value": 935
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.reviewCount",
+      "value": 237
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.userCount",
+      "value": 230
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[0].count",
+      "value": 209
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[1].count",
+      "value": 138
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[2].count",
+      "value": 120
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[3].count",
+      "value": 93
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[4].count",
+      "value": 85
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[5].count",
+      "value": 68
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[6].count",
+      "value": 61
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[7].count",
+      "value": 34
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[8].count",
+      "value": 25
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[9].count",
+      "value": 23
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[10].count",
+      "value": 22
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[11].count",
+      "value": 17
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[12].count",
+      "value": 11
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[13].count",
+      "value": 8
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[14].count",
+      "value": 7
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[15].count",
+      "value": 5
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[16].count",
+      "value": 3
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[17].count",
+      "value": 3
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[18].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[19].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.analysis.votedKeyword.details[20].count",
+      "value": 1
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.visitorReviewsTotal",
+      "value": 238
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.VisitorReviewStatsResult:1581469411.ratingReviewsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.playCount",
+      "value": 205
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.PlaceDetailTopPhotoItem:1581469411_clip_1.option.likeCount",
+      "value": 3
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.menuCount",
+      "value": 9
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).placeMenus.courseMenuCount",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.total",
+      "value": 28
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).fsasReviews.maxItemCount",
+      "value": 28
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).hasCoupon.count",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).shopWindow.total",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.festivalsTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).festivalPerformance.performancesTotal",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).exp.total",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).visitorReviewMediasTotal",
+      "value": 462
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topAnimatedPhotos.total",
+      "value": 0
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).images.totalImages",
+      "value": 61
+    },
+    {
+      "file": "raw/photos-state.json",
+      "path": "$.ROOT_QUERY.placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"1581469411\",\"isNx\":false}}).topPhotos.total",
+      "value": 76
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "deduplication_removed_30",
+      "verdict": "refuted",
+      "evidence": "432 source media entries, 432 exact URLs, 432 normalized URLs. Zero URL-level loss before manifest."
+    },
+    {
+      "id": "review_page_was_skipped",
+      "verdict": "refuted_for_captured_238_scope",
+      "evidence": "24 pages, every after equals previous last cursor, 238 unique items equals source total; serialized archive equals concatenation."
+    },
+    {
+      "id": "gallery_page_was_skipped",
+      "verdict": "refuted_for_captured_gallery_scope",
+      "evidence": "Cursor chain continuous; review filter has 11 pages, ends hasNext=false at438, contains426visitor+12blog."
+    },
+    {
+      "id": "media_array_capped_at_5_or_10",
+      "verdict": "refuted",
+      "evidence": "Returned per-review media arrays include6,7,8,10,11 entries; all entries preserved."
+    },
+    {
+      "id": "receipt_filter_dropped_30",
+      "verdict": "not_supported_but_server_behavior_unknown",
+      "evidence": "Every request uses includeReceiptPhotos=true; all returned media class notReceipt. No client receipt filter. Query input does not establish what server count includes."
+    },
+    {
+      "id": "30_videos_omitted_by_selected_fields",
+      "verdict": "not_supported_but_source_count_semantics_unknown",
+      "evidence": "media.type/videoId/videoUrl/trailerUrl and gallery mediaFormat/video fields selected; all review objects expose images. Not evidence that hidden videos exist."
+    },
+    {
+      "id": "missing_blanks_or_rating_reviews",
+      "verdict": "refuted_for_displayed_review_totals",
+      "evidence": "238 total;237 text matches source237; one empty-body review retained. source ratingReviewsTotal0."
+    },
+    {
+      "id": "repeat_visits_explain_exact30",
+      "verdict": "refuted_as_simple_arithmetic",
+      "evidence": "Sum(visitCount-1)=18, not30. No inference about hidden historical review versions."
+    },
+    {
+      "id": "server_counter_is_stale_or_different_scope",
+      "verdict": "unresolved",
+      "evidence": "visitorReviewMediasTotal462 occurs in5 state snapshots. Captured responses do not document its semantics, revision history or inclusion rules; difference30 remains unexplained."
+    }
+  ],
+  "limitations": [
+    "A matched public count and complete observed cursor chain establish only the recorded query scope, not deleted/private/hidden content or source-internal completeness.",
+    "The 462 field is named visitorReviewMediasTotal. It must not be silently redefined as unique image URL count; its precise backend semantics are absent from the captured JSON.",
+    "Blog comments are outside the saved se-main-container and uncollected. External linked pages are not recursively archived.",
+    "Business structured fields may be present in raw/catalog JSON without their own text-inventory row. This audit distinguishes stored data from table or UI representation.",
+    "No authentication cookies, authorization headers or hidden access were inspected or used."
+  ],
+  "staticBundleCrossCheck": {
+    "method": "Read-only search of parent-downloaded public JavaScript; not REA output.",
+    "reviewCountSemantics": "visitorReviewMediasTotal found only in restaurantDetail GraphQL selection, no observed calculation or rendering use. Backend inclusion rules remain unknown.",
+    "evidence": [
+      {
+        "file": "work/audit-v2/bundles/place.3171.bundle.a7aacc5d41e9c900568f.js",
+        "sha256": "a29834c8b6709eab65a5702fea9040b245a87d4c546a31d6c37542a3b497ce76",
+        "term": "includeReceiptPhotos",
+        "occurrences": 1,
+        "contexts": [
+          "t(M,10)||void 0,z={businessId:T,businessType:y,item:V,bookingBusinessId:H,size:v,isPhotoUsed:Z,theme:K,menu:L,sort:b,order:oe,includeContent:!0,getUserStats:!0,includeReceiptPhotos:!0,cidList:j,getReactions:!0,getTrailer:!0},{data:ee,loading:ue}=(0,l.Z)(u.IW,{variables:{input:{...z,reviewIds:p}},skip:!p}),Q=h&&x&&!(Z||K||L||oe||b),{data:ae,loading:J}=(0,l.Z)(u.IW,{variables:{input:{businessId:T,re"
+        ]
+      },
+      {
+        "file": "work/audit-v2/bundles/place.3969.bundle.6e6fab70eace44c9a6f4.js",
+        "sha256": "26a508ee071462fb9563c446caff72520ae81508ce2c89a3dc816a1a0d144822",
+        "term": "const O=10",
+        "occurrences": 1,
+        "contexts": [
+          "r=t(651215),i=t(604996),l=t(702083),d=t(962351),E=t(203970),m=t(326274),p=t(304009),C=t(13090),v=t(160252),u=t(450200),h=t(30670),g=t(793161),P=t(112),D=t.n(P);const O=10;function x({isHomeTab:f=!1}){(0,u.Z)(D());const{isPcmap:M}=(0,o.E)(),{businessId:B}=(0,m.Z)(),y={businessId:B,display:f?50:3},{data:L,fetchMore:W}=(0,p.Z)(g.hH,{variables:{input:y}}),[T,R]=(0,e.useState)(!1),[w,I]=(0,e."
+        ]
+      },
+      {
+        "file": "work/audit-v2/bundles/place.499.bundle.c803bb698693bd421d89.js",
+        "sha256": "c8f0a4679e51c0dc5774aa8a9573bcd7a881a599a5dbc878d6b0e0934d6077eb",
+        "term": "mediaCount",
+        "occurrences": 5,
+        "contexts": [
+          "Element(\"div\",{className:u().thumb_area},e.createElement(\"span\",{className:\"place_thumb\"},e.createElement(o.E,{src:E.thumbnailUrl,width:76,height:76,alt:\"\"}),E.mediaCount?e.createElement(\"span\",{className:n()(\"place_thumb_count\",u().media_count)},e.createElement(\"span\",{className:\"place_blind\"},\"\\uC774\\uBBF8\\uC9C0 \\uC218\"),E.mediaCount):null)))))}},664480:(m,d,t)=>{\"use strict\";t.d(d,{z:",
+          "unt?e.createElement(\"span\",{className:n()(\"place_thumb_count\",u().media_count)},e.createElement(\"span\",{className:\"place_blind\"},\"\\uC774\\uBBF8\\uC9C0 \\uC218\"),E.mediaCount):null)))))}},664480:(m,d,t)=>{\"use strict\";t.d(d,{z:()=>s});var e=t(202784),a=t(51706),n=t(450200),l=t(362127),c=t(975500),r=t(991875),o=t(863053),i=t.n(o);function s({isOpen:g,reviews:_,onClose:p,getReviewLinkProps:u,m",
+          "ery getAibSourceMedia($input: AiBriefingSourceMediaInput) {\n    aiBriefingSourceMedia(input: $input) {\n      sourceId\n      sourceType\n      thumbnailUrl\n      mediaCount\n      isVideo\n      title\n    }\n  }\n`},975500:(m,d,t)=>{\"use strict\";t.d(d,{Au:()=>a,gK:()=>n,yV:()=>e});function e(l=[]){const c=[],r=[];return l.forEach(o=>{o?.visitorReviewId?c.push(o.visitorReviewId):o?.blogGdid&&r."
+        ]
+      },
+      {
+        "file": "work/audit-v2/bundles/place.detailReviewTab.bundle.27cae12cf21e4450f107.js",
+        "sha256": "25f9657aa2af02b72b7cdee4e605f3b21dae44002e3de71aca1e8e508e2d3aa2",
+        "term": "const O=10",
+        "occurrences": 1,
+        "contexts": [
+          "});var t=e(202784),s=e(810081),a=e(326274),E=e(688960),l=e(304009),o=e(271175),r=e(820396),n=e(255802),_=e(450200),c=e(701219),d=e(830087),m=e(669048),v=e.n(m);const O=10;function C(p,D){(0,_.Z)(v());const{businessType:h,businessId:M}=(0,a.Z)(),R=(0,E.Z)(),{data:f={visitorReviewPhotos:[]},loading:T}=(0,l.Z)(P,{variables:{input:{businessId:M,businessType:h,type:\"FLAT\",...p&&p!==\"0\"&&{item"
+        ]
+      },
+      {
+        "file": "work/audit-v2/bundles/place.restaurantDetail.bundle.6b1446676993debeedcc.js",
+        "sha256": "6481a05976876fdbf6643d04bdc0e5bd2fbd7d2210023548c2267c1f5dbf662f",
+        "term": "visitorReviewMediasTotal",
+        "occurrences": 1,
+        "contexts": [
+          "      isStarbucks\n      is100YearCertified\n      is100YearSmallManufacturer\n      isNFASafetyCertified\n      isAntiqueStore\n      newOpening\n      themes\n      visitorReviewMediasTotal\n      description\n      isKoreaGrandSale\n      hasAroundItems\n      hasAiBriefing\n      acceptsCultureDeductionCoupon\n      panorama {\n        indoor {\n          ...PanoramaItem\n        }\n      }\n      topAnimatedPhotos"
+        ]
+      },
+      {
+        "file": "work/audit-v2/bundles/place.restaurantDetailHomeTabBottom.bundle.72e3429c3e66abbc0430.js",
+        "sha256": "cfd7f2d86f6df0ebbffa5a462bb038f2dab1d902645a60685f78386f1ceb25b0",
+        "term": "const O=10",
+        "occurrences": 1,
+        "contexts": [
+          "t(412524),n=t.n(a),r=t(376699),s=t(786814),i=t(746192),_=t(887249),o=t(495151),d=t(604996),m=t(962351),E=t(160252),v=t(450200),C=t(646544),P=t(121583),p=t.n(P);const O=100,A=[{name:\"\\uC6D4\",value:\"monday\",i18nKey:\"MON\"},{name:\"\\uD654\",value:\"tuesday\",i18nKey:\"TUE\"},{name:\"\\uC218\",value:\"wednesday\",i18nKey:\"WED\"},{name:\"\\uBAA9\",value:\"thursday\",i18nKey:\"THURS\"},{name:\"\\uAE08\",value:\"frida"
+        ]
+      }
+    ],
+    "snapshotCaveat": "Five original state files can share the same Apollo cached response; repeated462 values are not five independent backend observations."
+  },
+  "textTableRemediation": {
+    "status": "applied_and_verified",
+    "script": "work/capture/build-inventory.py",
+    "newRows": 28,
+    "appliedRows": 28,
+    "existingRowsPreserved": 310,
+    "currentTextRows": 338,
+    "expectedRowsAfterGeneration": 338,
+    "sourcePathsById": {
+      "place-identity": [
+        "base.name",
+        "base.category"
+      ],
+      "place-road-address": [
+        "base.roadAddress"
+      ],
+      "place-lot-address": [
+        "base.address"
+      ],
+      "place-phone": [
+        "phoneInfo.phone",
+        "base.virtualPhone",
+        "base.phone"
+      ],
+      "place-description": [
+        "description"
+      ],
+      "place-directions": [
+        "base.road"
+      ],
+      "place-conveniences": [
+        "base.conveniences"
+      ],
+      "place-keywords": [
+        "informationTab.keywordList"
+      ],
+      "place-facilities": [
+        "informationTab.facilities[].name"
+      ],
+      "place-hours-0": [
+        "newBusinessHours[0].businessHours"
+      ],
+      "place-hours-status-0": [
+        "newBusinessHours[0].businessStatusDescription"
+      ],
+      "place-hours-note-0": [
+        "newBusinessHours[0].freeText"
+      ],
+      "place-micro-reviews": [
+        "base.microReviews"
+      ],
+      "place-related-link-0": [
+        "relatedLinks[0].name",
+        "relatedLinks[0].url"
+      ],
+      "place-related-link-1": [
+        "relatedLinks[1].name",
+        "relatedLinks[1].url"
+      ],
+      "place-coordinate": [
+        "base.coordinate.x",
+        "base.coordinate.y"
+      ],
+      "place-subway-0": [
+        "subwayStations[0]"
+      ],
+      "place-bus-0": [
+        "busStations[0]"
+      ],
+      "place-bus-1": [
+        "busStations[1]"
+      ],
+      "place-bus-2": [
+        "busStations[2]"
+      ],
+      "place-bus-3": [
+        "busStations[3]"
+      ],
+      "place-bus-4": [
+        "busStations[4]"
+      ],
+      "place-bus-5": [
+        "busStations[5]"
+      ],
+      "place-review-totals": [
+        "base.visitorReviewsTotal",
+        "base.visitorReviewsTextReviewTotal",
+        "base.cafeBlogReviewsTotal",
+        "visitorReviewStats.review.imageReviewCount",
+        "visitorReviewMediasTotal"
+      ],
+      "place-review-analysis-themes": [
+        "visitorReviewStats.analysis.themes"
+      ],
+      "place-review-analysis-menus": [
+        "visitorReviewStats.analysis.menus"
+      ],
+      "place-review-voted-keywords": [
+        "visitorReviewStats.analysis.votedKeyword"
+      ],
+      "place-menu-updated": [
+        "placeMenus.updatedAt"
+      ]
+    },
+    "proposalFile": "work/audit-v2/proposed-structured-text-rows.json",
+    "note": "Raw/catalog already preserved these data; the generator surfaces them in full text, JSON table, HTML inventory and subsequent XLSX. Status compares every proposed row text with the current inventory."
+  }
+}

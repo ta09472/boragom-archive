@@ -1,0 +1,39 @@
+{
+  "installationStatus": "ready",
+  "package": "rea-agents",
+  "version": "6.7.0",
+  "installationDirectory": "/Users/beomsu/.codex/tools/rea-runtime",
+  "cliPath": "/Users/beomsu/.codex/tools/rea-runtime/node_modules/.bin/rea",
+  "installationMethod": "Copied the already verified 6.7.0 runtime and its dependencies into a durable Codex tools directory; pinned package and lockfile root dependency to 6.7.0.",
+  "skill": {
+    "path": "/Users/beomsu/.codex/skills/reverse-engineer-anything/SKILL.md",
+    "version": "53",
+    "source": "https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything",
+    "preserved": true
+  },
+  "registration": {
+    "client": "codex",
+    "configPath": "/Users/beomsu/.codex/config.toml",
+    "command": ["/Users/beomsu/.codex/tools/rea-runtime/node_modules/.bin/rea", "mcp"],
+    "state": "aligned",
+    "backupPath": "/Users/beomsu/.codex/config.toml.rea.backup.e5b7d1ff48d6cfc26fd41ce20f2233a91914ccd49e4cbdbb00d5ae521349b3dd.recovery",
+    "scope": "REA MCP registration only; unrelated configuration preserved; skill replacement disabled",
+    "plannedBeforeApply": true
+  },
+  "verification": {
+    "scopedDoctorHealthy": true,
+    "standaloneMcpInitializeAndToolsList": true,
+    "toolCount": 207,
+    "browserTools": ["inspect_web_network_capture", "list_browser_targets", "inspect_web_page", "capture_web_screenshot", "compare_web_screenshots", "capture_browser_scenario"]
+  },
+  "runtime": {
+    "existingNodeVersion": "24.20.0",
+    "globalNodeOrToolchainChanged": false,
+    "versionSelectionReason": "6.8.0 requires Node ^24.22.1; verified 6.7.0 supports the existing runtime."
+  },
+  "limitations": [
+    "The active Codex app was not restarted. Reconnect or restart is needed for a new client connection to use the updated MCP registration.",
+    "Independent native-analysis providers are not installed; browser tools and the standalone MCP handshake were verified.",
+    "The original work/rea-runtime remains available unchanged for ongoing archive QA; permanent registration no longer depends on it."
+  ]
+}

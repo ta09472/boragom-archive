@@ -1,0 +1,37 @@
+[
+  {
+    "section": "메뉴",
+    "sourceHeight": 271,
+    "archiveContentHeight": 271,
+    "archiveBorderSeparator": 8,
+    "difference": 0
+  },
+  {
+    "section": "클립",
+    "sourceHeight": 369,
+    "archiveContentHeight": 369,
+    "archiveBorderSeparator": 8,
+    "difference": 0
+  },
+  {
+    "section": "방문자 사진",
+    "sourceHeight": 431.9921875,
+    "archiveContentHeight": 431.9921875,
+    "archiveBorderSeparator": 8,
+    "difference": 0.0
+  },
+  {
+    "section": "방문자 리뷰",
+    "sourceHeight": 877,
+    "archiveContentHeight": 877,
+    "archiveBorderSeparator": 8,
+    "difference": 0
+  },
+  {
+    "section": "블로그 리뷰",
+    "sourceHeight": 683,
+    "archiveContentHeight": 682,
+    "archiveBorderSeparator": 8,
+    "difference": -1
+  }
+]

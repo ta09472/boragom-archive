@@ -1,0 +1,85 @@
+{
+  "status": "build-ready-browser-verification-pending",
+  "browser_stop_reason": "Parent instructed all TaskSpace 2 operations to stop at NAVER CAPTCHA; no further browser actions performed.",
+  "implemented_home_order": [
+    "place information",
+    "menu preview 4",
+    "clip 1",
+    "visitor photo/video preview 9",
+    "visitor reviews preview 3 with 5 vote keywords",
+    "blog reviews preview 3"
+  ],
+  "source_confirmed": {
+    "menu_preview_ids": [
+      "NmkLQKMzFzCq7gL79WFH",
+      "98JfD6ffKHm8wzWJpGQG",
+      "8CwwdLbjCzM9Nh76RfrJ",
+      "gbqhMGhw7dK7G7pTw988"
+    ],
+    "blog_ids": [
+      "223778773681",
+      "223739046970",
+      "223066915610"
+    ],
+    "home_grid_limit": 9,
+    "visitor_review_limit": 3,
+    "blog_limit": 3,
+    "clip_limit": 5,
+    "actual_archived_clip_count": 1
+  },
+  "unverified": [
+    "Full home visible section order after all lazy-loaded sections mount",
+    "Exact GRID9 visitor photo IDs; currently first nine archived visitor-review media from captured recommendation order",
+    "Exact home size3 review IDs; currently first three archived recommendation-order reviews",
+    "Clip card placement and geometry in full source home",
+    "Final home below-fold geometry, tab overlays and mobile regression after v2",
+    "Original default photo gallery interleaving beyond captured top photos"
+  ],
+  "intermediate_comparison": {
+    "full": {
+      "before": {
+        "width": 1440,
+        "height": 764
+      },
+      "after": {
+        "width": 1440,
+        "height": 764
+      },
+      "channel_threshold": 0,
+      "limitations": [
+        "Pixel comparison does not perform OCR, semantic layout analysis, or perceptual color correction.",
+        "Only non-interlaced 8-bit RGB and RGBA PNG screenshots are accepted.",
+        "PNG tRNS transparency is accepted only as a six-byte RGB color key; tRNS on RGBA or with another length is rejected."
+      ],
+      "status": "different",
+      "compared_pixels": 1100160,
+      "changed_pixels": 262304,
+      "changed_ratio": 0.2384235020360675,
+      "maximum_channel_delta": 255,
+      "mean_absolute_channel_delta": 2.0852587350930776
+    },
+    "panel": {
+      "before": {
+        "width": 390,
+        "height": 688
+      },
+      "after": {
+        "width": 390,
+        "height": 688
+      },
+      "channel_threshold": 0,
+      "limitations": [
+        "Pixel comparison does not perform OCR, semantic layout analysis, or perceptual color correction.",
+        "Only non-interlaced 8-bit RGB and RGBA PNG screenshots are accepted.",
+        "PNG tRNS transparency is accepted only as a six-byte RGB color key; tRNS on RGBA or with another length is rejected."
+      ],
+      "status": "different",
+      "compared_pixels": 268320,
+      "changed_pixels": 113409,
+      "changed_ratio": 0.4226632379248658,
+      "maximum_channel_delta": 255,
+      "mean_absolute_channel_delta": 5.194344439475254
+    },
+    "warning": "Intermediate app-home.png predates final home below-fold and map sprite changes. This is not final verification or a UI similarity percentage."
+  }
+}

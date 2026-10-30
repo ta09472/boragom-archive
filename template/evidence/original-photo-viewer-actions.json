@@ -1,0 +1,54 @@
+{
+  "before": {
+    "open": true,
+    "src": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250123_127%2F1737587172826Vu0pn_JPEG%2FIMG_5514.jpeg",
+    "bounds": {
+      "x": 508.4375,
+      "y": 163,
+      "width": 411.125,
+      "height": 460,
+      "top": 163,
+      "right": 919.5625,
+      "bottom": 623,
+      "left": 508.4375
+    },
+    "style": "width: 411.125px; height: 460px; max-width: 411.125px; max-height: 460px;",
+    "overlay": "rgba(0, 0, 0, 0)"
+  },
+  "arrowRight": {
+    "open": true,
+    "src": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241028_143%2F17300780794660GVuY_JPEG%2FIMG_3936.jpeg",
+    "bounds": {
+      "x": 484,
+      "y": 163,
+      "width": 460,
+      "height": 460,
+      "top": 163,
+      "right": 944,
+      "bottom": 623,
+      "left": 484
+    },
+    "style": "width: 460px; height: 460px; max-width: 460px; max-height: 460px;",
+    "overlay": "rgba(0, 0, 0, 0)"
+  },
+  "zoomIn": {
+    "open": true,
+    "src": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241028_143%2F17300780794660GVuY_JPEG%2FIMG_3936.jpeg",
+    "bounds": {
+      "x": 461,
+      "y": 140,
+      "width": 506,
+      "height": 506,
+      "top": 140,
+      "right": 967,
+      "bottom": 646,
+      "left": 461
+    },
+    "style": "width: 506px; height: 506px; max-width: 506px; max-height: 506px;",
+    "overlay": "rgba(0, 0, 0, 0)"
+  },
+  "escape": {
+    "open": false,
+    "overlay": null
+  }
+}

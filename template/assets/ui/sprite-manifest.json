@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/home@2x.png",
+    "path": "assets/ui/home@2x.png",
+    "bytes": 99275,
+    "sha256": "b9e668f5e50717692bf3d47f3425053713fd4204591b3c48d3f42d978f53be97",
+    "source": "evidence/naver-map-original.mhtml"
+  },
+  {
+    "url": "https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/search@2x.png",
+    "path": "assets/ui/search@2x.png",
+    "bytes": 15005,
+    "sha256": "3f6123077fb120da83609c850d57d13b46973824bfc12b5d08cad86a3a8630bf",
+    "source": "evidence/naver-map-original.mhtml"
+  },
+  {
+    "url": "https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/common@2x.png",
+    "path": "assets/ui/common@2x.png",
+    "bytes": 118431,
+    "sha256": "da81f2e60ab20c70160dbb47762525c99e9f935a22ad54872b12c5a4b10f11cc",
+    "source": "evidence/naver-map-original.mhtml"
+  }
+]

@@ -1,0 +1,672 @@
+{
+  "generated_at": "2026-10-28T15:53:44.256309+00:00",
+  "prior_failed_urls": 19,
+  "unique_historical_image_identifiers": 3,
+  "attempts": [
+    {
+      "label": "modo_site",
+      "url": "https://boragomcake.modoo.at/",
+      "status": 200,
+      "final_url": "https://boragomcake.modoo.at/",
+      "content_type": "text/html",
+      "bytes": 11624
+    },
+    {
+      "label": "website_www",
+      "url": "https://www.boragomcake.com",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "label": "website_apex",
+      "url": "https://boragomcake.com",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "label": "8a8f8c47d073e97bc977_direct",
+      "url": "https://modo-phinf.pstatic.net/20221215_243/1671097871370u0tzI_PNG/mosa1j61ew.png?type=f320_320",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "label": "8a8f8c47d073e97bc977_displayed_cache",
+      "url": "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fmodo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png%3Ftype%3Df320_320%22&type=ff120",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "8a8f8c47d073e97bc977_wayback_available",
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fmodo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png%3Ftype%3Df320_320",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "label": "8a8f8c47d073e97bc977_wayback_cdx",
+      "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fmodo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png&output=json&filter=statuscode%3A200&collapse=digest",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fmodo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png&output=json&filter=statuscode%3A200&collapse=digest",
+      "content_type": "application/json",
+      "bytes": 3,
+      "json": []
+    },
+    {
+      "label": "7ce19a89c976ff7a63f1_direct",
+      "url": "https://www.boragomcake.com/assets/boragom_logo-y52tmmq1.png",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "label": "7ce19a89c976ff7a63f1_displayed_cache",
+      "url": "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fwww.boragomcake.com%2Fassets%2Fboragom_logo-y52tmmq1.png%22&type=ff500_300",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "7ce19a89c976ff7a63f1_wayback_available",
+      "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.boragomcake.com%2Fassets%2Fboragom_logo-y52tmmq1.png",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "label": "7ce19a89c976ff7a63f1_wayback_cdx",
+      "url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.boragomcake.com%2Fassets%2Fboragom_logo-y52tmmq1.png&output=json&filter=statuscode%3A200&collapse=digest",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.boragomcake.com%2Fassets%2Fboragom_logo-y52tmmq1.png&output=json&filter=statuscode%3A200&collapse=digest",
+      "content_type": "application/json",
+      "bytes": 3,
+      "json": []
+    },
+    {
+      "label": "website_wayback",
+      "url": "https://archive.org/wayback/available?url=www.boragomcake.com",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "label": "modo_wayback",
+      "url": "https://archive.org/wayback/available?url=boragomcake.modoo.at",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "label": "8a8f8c47d073e97bc977_naver_common",
+      "url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fmodo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png%3Ftype%3Df320_320&type=f320_320&quality=95",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "8a8f8c47d073e97bc977_naver_dthumb_unquoted",
+      "url": "https://dthumb-phinf.pstatic.net/?src=https%3A%2F%2Fmodo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png%3Ftype%3Df320_320&type=ff120",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "7ce19a89c976ff7a63f1_naver_common",
+      "url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fwww.boragomcake.com%2Fassets%2Fboragom_logo-y52tmmq1.png&type=f320_320&quality=95",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "label": "7ce19a89c976ff7a63f1_naver_dthumb_unquoted",
+      "url": "https://dthumb-phinf.pstatic.net/?src=https%3A%2F%2Fwww.boragomcake.com%2Fassets%2Fboragom_logo-y52tmmq1.png&type=ff120",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "commoncrawl_indexes",
+      "url": "https://index.commoncrawl.org/collinfo.json",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 35501,
+      "indexes": [
+        {
+          "id": "CC-MAIN-2026-43",
+          "name": "October 2026 Index",
+          "timegate": "https://index.commoncrawl.org/CC-MAIN-2026-43/",
+          "cdx-api": "https://index.commoncrawl.org/CC-MAIN-2026-43-index",
+          "from": "2026-10-05T10:56:23",
+          "to": "2026-10-18T05:34:47"
+        },
+        {
+          "id": "CC-MAIN-2026-39",
+          "name": "September 2026 Index",
+          "timegate": "https://index.commoncrawl.org/CC-MAIN-2026-39/",
+          "cdx-api": "https://index.commoncrawl.org/CC-MAIN-2026-39-index",
+          "from": "2026-09-04T13:16:03",
+          "to": "2026-09-17T05:59:21"
+        },
+        {
+          "id": "CC-MAIN-2026-34",
+          "name": "August 2026 Index",
+          "timegate": "https://index.commoncrawl.org/CC-MAIN-2026-34/",
+          "cdx-api": "https://index.commoncrawl.org/CC-MAIN-2026-34-index",
+          "from": "2026-08-07T10:18:45",
+          "to": "2026-08-20T01:52:41"
+        }
+      ]
+    },
+    {
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index?url=%2A.boragomcake.com%2F%2A&output=json",
+      "pattern": "*.boragomcake.com/*",
+      "error": "HTTP Error 504: Gateway Time-out"
+    },
+    {
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index?url=modo-phinf.pstatic.net%2F20221215_243%2F1671097871370u0tzI_PNG%2Fmosa1j61ew.png%2A&output=json",
+      "pattern": "modo-phinf.pstatic.net/20221215_243/1671097871370u0tzI_PNG/mosa1j61ew.png*",
+      "error": "HTTP Error 504: Gateway Time-out"
+    },
+    {
+      "url": "https://index.commoncrawl.org/CC-MAIN-2026-43-index?url=boragomcake.modoo.at%2F%2A&output=json",
+      "pattern": "boragomcake.modoo.at/*",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "recovered": [
+    {
+      "recovery_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+      "source_page": "https://www.instagram.com/bora_gom_cake/",
+      "evidence": "raw/recovery-v2/instagram-public-images.json",
+      "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+      "bytes": 6573,
+      "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+      "width": 150,
+      "height": 150,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "identity_basis": "Exact same historical image filename 294355572_479730100637979_3237889373688027522_n.jpg, including three numeric image identifiers; only CDN host/expired signed query and displayed size differ."
+    },
+    {
+      "recovery_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQSfc9nZbtcxxOPy_-DrN0c7lHlGffpoe15XFLFjUKDLQw&oe=6AE7F6E9",
+      "source_page": "https://www.instagram.com/bora_gom_cake/",
+      "evidence": "raw/recovery-v2/instagram-public-images.json",
+      "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-1.jpg",
+      "bytes": 3699,
+      "sha256": "3255cf521ab42a6257850b5c38d92d403c2407a517d6e05587f9187a061078cd",
+      "width": 100,
+      "height": 100,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "identity_basis": "Exact same historical image filename 294355572_479730100637979_3237889373688027522_n.jpg, including three numeric image identifiers; only CDN host/expired signed query and displayed size differ."
+    }
+  ],
+  "manifest_patches": [
+    {
+      "id": "83107009a10a8a04fb31",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-15/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=8rMDzPd3eVgAX-C-Aht&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfA_I8p5Gu8T2dgaX9LMqcIQZIZZlzRUh7faewhK3NxkOQ&oe=63C77F28",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-01-18T05:10:00+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "e63bb9d38624c65d20f7",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-15/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Dafigp_4wsEAX--Jx9D&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfAyVATQVE0DsDQXZzLxK09Ol59luisp8-OXYLKzKZXWvw&oe=63C97968",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-01-19T17:10:00+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "23f81e4e27be9560e8b3",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-15/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=341e1IRA4O0AX8bbt4M&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfCU6J6nScwhf4tv2bTwYaedw2bLrt4GUYyEFn0i5xmAGA&oe=63CF6828",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-01-24T05:10:00+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "f4223b0cab5bb7aa60ae",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-15/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=qELw9CBLGUkAX8kHaP6&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfCKe_wOHZlh0OZneSJAZO055a0n0Qf5VaIV3Eg5ULRoJw&oe=63FCE3E8",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-02-27T17:10:00+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "bb47acbea4d09f5a58e8",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=UAH2DgTKQS0AX-Pg_Ob&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfBZFiLWiLMHC4bPsy_XF8ziS3iaulXE3zbby6ftgWAyuQ&oe=6413D1E9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-03-17T02:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "223c16a6bb464d3e1814",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=kQjHxn_ehLcAX_kTWKw&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfCht7mPUJ6O56veh6bGJKiwMWjA1scvAYaljfl74fr6PA&oe=6427D0A9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-04-01T06:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "7f879e9cf810498cf9ae",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=kYhAKnIyF0AAX_eWuMi&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfCUje5F460etJ-yL0FcmOzWnsl5dO9MO5LyFpwXHqH3mQ&oe=642B8CE9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-04-04T02:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "ecdf6c206941b4c42219",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=kYhAKnIyF0AAX-THQiP&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfAJpqwRefWCwpkXp8pMw1OzEzeEqX7vIM7l_PHynzec4Q&oe=642B8CE9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-04-04T02:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "dc5cc8cb67af86e91a0a",
+      "original_url": "https://scontent-nrt1-2.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=2KiMS4iE7zQAX_ABJh6&_nc_ht=scontent-nrt1-2.cdninstagram.com&oh=00_AfD3qIN6UldQ_ImpkjaIWMslWKWHy2M-cqMxuhUKSWY7cg&oe=6440A4E9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-04-20T02:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "869f74a98fb21eb069cf",
+      "original_url": "https://scontent-nrt1-2.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=AMCpwJLMDn8AX9U8UND&_nc_ht=scontent-nrt1-2.cdninstagram.com&oh=00_AfBhw_mDZ4p8-2j_02mq3qvyeoQ3Cg3qX7qEj94R7RtnDg&oe=6448C629",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-04-26T06:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "6d48c65888ddc6536a4b",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=LOqMFg4JCZAAX8fLzGV&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfAw2H6BfSK4Tvbaio6oijo_nHF2jd7BjwQ9R8LQjwakjw&oe=64546B69",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-05-05T02:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "9677438c6f9d169d29ae",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=LOqMFg4JCZAAX_jz33y&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfDxp96G6A7hM233_TGV5Bte3zxLF--WKwgPm6iKJIDN5A&oe=6454DBE9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-05-05T10:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "5bbc4b1c8cfc8a115306",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=koPeapn9ZwAAX_x8a5_&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfCHTGciexy6f7A4gGH21FoWdnZiNSHSXerapSK4gEXxuw&oe=653DFD29",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2023-10-29T06:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "2cddc45f2f7017f660f3",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=tCt29lNFIWcAX9neffP&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AfAFPnO_wuItocj9K4f31zinJ7kxHx4YXylO2WJVvcnGoA&oe=65AAC0E9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2024-01-19T18:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "26cfaf08e7b344d8f816",
+      "original_url": "https://scontent-nrt1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100&_nc_cat=102&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=0t9W2KjxLaoQ7kNvgEMswxb&_nc_ht=scontent-nrt1-1.cdninstagram.com&oh=00_AYD-4q4w6RGAY0LqOA9TdNbQYGHWk_pU_9lOt9xukqJ-sA&oe=6665F5E9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2024-06-09T18:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "f081f07b1909d63a34a5",
+      "original_url": "https://scontent.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=1-7&_nc_sid=bf7eb4&_nc_ohc=_W9sZBBNl8cQ7kNvgEMgBeb&_nc_oc=AdhcFSiVN5OrpII0TH4_HcWw1OFnWdVsvT-jimywIOfEBpIFTmQdjlYI-nkoQISX1dE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&oh=00_AYCZA9SNRumVeO4WQoEKj-DCOS1n5kOHcHu4xQ4tpPIQWQ&oe=67BCBBE9",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2025-02-24T18:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    },
+    {
+      "id": "e8df190867b8d839618b",
+      "original_url": "https://scontent.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=1-7&_nc_sid=bf7eb4&_nc_ohc=YDUB3JkciyQQ7kNvgExD5EA&_nc_oc=AdjRecMXSNPSA2UvTxf8-_-BiDYyFHxYqrpAICFWhoMdIKYl1HyFbntnMg1ru-Bl8vo&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&oh=00_AYAfm7kBz2NaN0wGNL8slzPEzyIrGEVHt4geOFXSwPBZ3A&oe=67C7B869",
+      "set": {
+        "status": "saved",
+        "download_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9",
+        "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+        "bytes": 6573,
+        "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+        "width": 150,
+        "height": 150,
+        "http_status": 200,
+        "quality": "same historical image, renewed public CDN URL; original failed rendition 100x100, recovered public rendition 150x150"
+      },
+      "remove": [
+        "error"
+      ],
+      "recovery_evidence": "raw/recovery-v2/instagram-public-images.json",
+      "append_variants": [
+        "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/294355572_479730100637979_3237889373688027522_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MjEuQzMifQ%3D%3D&_nc_ohc=PlQyr7w89jcQ7kNvwGHXI95&_nc_oc=Adrg2oJ_3WEATt1Smsx61kWLX0fC8bNSLQS6FDfBbyffilRClfI4fUnKQ92UBxO95oY&_nc_zt=24&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ss=7b689&oh=00_AQRZG6R3gJg1AnA_pS_oKJMj2apwP3q5mTBJuMggkxPrnQ&oe=6AE7F6E9"
+      ],
+      "historical_expiry_utc": "2025-03-05T02:35:21+00:00",
+      "canonical_blog_occurrences": 1
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "8a8f8c47d073e97bc977",
+      "url": "https://modo-phinf.pstatic.net/20221215_243/1671097871370u0tzI_PNG/mosa1j61ew.png?type=f320_320",
+      "reason": "Original hostname fails DNS; observed Naver dthumb rendering URL returns404. No identical historical bytes obtained from public archive probes.",
+      "canonical_blog_occurrences": 15,
+      "additional_evidence": "https://boragomcake.modoo.at/ returns official service-termination page: modoo ended 2025-06-26; saved raw/recovery-v2/modo_site.html."
+    },
+    {
+      "id": "7ce19a89c976ff7a63f1",
+      "url": "https://www.boragomcake.com/assets/boragom_logo-y52tmmq1.png",
+      "reason": "Original hostname fails DNS; observed Naver dthumb rendering URL returns404. No identical historical bytes obtained from public archive probes.",
+      "canonical_blog_occurrences": 1,
+      "additional_evidence": "Both apex and www domain DNS fail. Public repository has a same-brand PNG candidate, but no matching old URL or content-hash proof; not counted as recovered."
+    }
+  ],
+  "recovered_url_count": 17,
+  "recovered_historical_images": 1,
+  "recovered_blog_image_references": 17,
+  "unresolved_url_count": 2,
+  "methodology": [
+    "Matched exact historical Instagram immutable image basename containing all three numerical IDs to the current public profile image and public OG metadata; downloaded only observed URLs.",
+    "Recovered 150x150 public rendition is larger than the historical 100x100 rendition. Also preserved the current 100x100 OG rendition.",
+    "Searched canonical source HTML, asset inventory, public source webpages, Naver image proxy, Wayback CDX, Common Crawl and indexed public GitHub sources.",
+    "Did not remove CDN access signatures to evade denial, bypass authentication, use private APIs, or substitute another profile picture.",
+    "Archive.org availability endpoints returned429; no further availability retry performed. Wayback CDX had already independently returned empty results for exact paths. Common Crawl timeouts are inconclusive."
+  ],
+  "supplemental_candidates": [
+    {
+      "source_url": "https://raw.githubusercontent.com/ta09472/boragom-admin/dce5d1b73309dc6e3a358e10876e59f4fcc7f652/public/boragom.png",
+      "local_path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/github-brand-logo-unverified.png",
+      "bytes": 300224,
+      "sha256": "9e7c01622202bf5be42c145b71efd07bd63724cf665e343e2592d6162d6d02a2",
+      "width": 1378,
+      "height": 1372,
+      "status": "public same-brand logo, historical correspondence unverified",
+      "use_as_replacement": false,
+      "reason": "Git blob SHA1 matches public repository. Image has the same brand artwork, but historical website/modoo image bytes and dimensions are unavailable. Rollup current asset hash does not match website filename suffix."
+    }
+  ],
+  "summary_ko": "실패19 URL 중17 URL(동일 인스타그램 이미지1종)을 정확히같은이미지ID의 공개URL에서복구. 기존100×100보다큰150×150보관. 다른2개로고URL은아직미복구. 고해상도동일브랜드로고후보1개는별도보관하되동일파일입증전에는대체하지않음.",
+  "lineage_followup": {
+    "github_repository": "https://github.com/ta09472/boragom-admin",
+    "logo_added_commit": "64e7da471a45b6227c8d4a577a310bf47d217cd2",
+    "logo_added_date": "2023-08-27T08:51:46Z",
+    "logo_commit_history_count": 1,
+    "repository_framework": "Next.js (not proof of Vite public website lineage)",
+    "declared_deployment": "https://boragom-admin.vercel.app",
+    "deployment_logo_status": 404,
+    "legacy_repository_branches": [
+      "main",
+      "develop"
+    ],
+    "legacy_current_commit": "679e236d152a20f49aa88c36986583d7523dfce0",
+    "legacy_previous_commit": "12221f970ba2ff9e5b59cf8383c49e7149970ba8",
+    "legacy_assets_at_both_commits": "No PNG/JPEG logos in either tree",
+    "github_code_search_queries_no_results": [
+      "boragom_logo",
+      "boragomcake.com"
+    ],
+    "rollup_hash_candidate": "CoHWDLdQe3sAl6fvHHZPpQ",
+    "historical_asset_hash_suffix": "y52tmmq1",
+    "hash_caveat": "Current Rollup hash mismatch is inconclusive across build versions; it provides no positive identity evidence.",
+    "modoo_official_notice": "https://ads.naver.com/notice/18201",
+    "modoo_notice_finding": "Official notice says service data will not be transferred and users had to back up before shutdown. No public same-file migration/mirror evidence found."
+  },
+  "pending_possible_evidence": [
+    "Original website source or deployment containing assets/boragom_logo-y52tmmq1.png or asset manifest",
+    "User-owned modoo backup containing mosa1j61ew.png",
+    "Independent historical copy proving exact image identity; similarity alone insufficient"
+  ],
+  "physical_recovery_files": [
+    {
+      "path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-0.jpg",
+      "sha256": "1495d3614ec860afb8549e8255c65707071d4d276272fffc0e22a408625e0db3",
+      "bytes": 6573
+    },
+    {
+      "path": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/recovered/instagram-original-profile-1.jpg",
+      "sha256": "3255cf521ab42a6257850b5c38d92d403c2407a517d6e05587f9187a061078cd",
+      "bytes": 3699
+    }
+  ]
+}

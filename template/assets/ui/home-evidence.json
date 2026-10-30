@@ -1,0 +1,478 @@
+{
+  "source": "raw/home-state.json",
+  "votes": [
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "custom_good",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/clipboard20220119222236.png",
+      "iconCode": "clipboard",
+      "displayName": "주문제작을 잘해줘요",
+      "count": 209,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "dessert_good",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+      "iconCode": "cake",
+      "displayName": "디저트가 맛있어요",
+      "count": 138,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "kind",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+      "iconCode": "beating_heart",
+      "displayName": "친절해요",
+      "count": 120,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "gift_good",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/wrapped_gift20220119222229.png",
+      "iconCode": "wrapped_gift",
+      "displayName": "선물하기 좋아요",
+      "count": 93,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "special_menu",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+      "iconCode": "cook",
+      "displayName": "특별한 메뉴가 있어요",
+      "count": 85,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "price_worthy",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/gem_stone20220119222239.png",
+      "iconCode": "gem_stone",
+      "displayName": "비싼 만큼 가치있어요",
+      "count": 68,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "special_day",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/bouquet20220119222223.png",
+      "iconCode": "bouquet",
+      "displayName": "특별한 날 가기 좋아요",
+      "count": 61,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "store_clean",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/sparkles20220119222028.png",
+      "iconCode": "sparkles",
+      "displayName": "매장이 청결해요",
+      "count": 34,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "price_cheap",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+      "iconCode": "coin",
+      "displayName": "가성비가 좋아요",
+      "count": 25,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "concept_unique",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/light_bulb20220119222315.png",
+      "iconCode": "light_bulb",
+      "displayName": "컨셉이 독특해요",
+      "count": 23,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "interior_cool",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/couch_and_lamp20220119222025.png",
+      "iconCode": "couch_and_lamp",
+      "displayName": "인테리어가 멋져요",
+      "count": 22,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "photo_good",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/camera_with_flash20220119222227.png",
+      "iconCode": "camera_with_flash",
+      "displayName": "사진이 잘 나와요",
+      "count": 17,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "food_good",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+      "iconCode": "face_savoring_food",
+      "displayName": "음식이 맛있어요",
+      "count": 11,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "types_various",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/green_heart20220119222224.png",
+      "iconCode": "green_heart",
+      "displayName": "종류가 다양해요",
+      "count": 8,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "cozy",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/face_smiling20220119222244.png",
+      "iconCode": "face_smiling",
+      "displayName": "아늑해요",
+      "count": 7,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "menu_good",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/green_heart20220119222224.png",
+      "iconCode": "green_heart",
+      "displayName": "메뉴 구성이 알차요",
+      "count": 5,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "food_fast",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/stopwatch20220119222225.png",
+      "iconCode": "stopwatch",
+      "displayName": "음식이 빨리 나와요",
+      "count": 3,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "together",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/busts_in_silhouette20220119222027.png",
+      "iconCode": "busts_in_silhouette",
+      "displayName": "단체모임 하기 좋아요",
+      "count": 3,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "atmosphere_calm",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/face_relieved20220119222233.png",
+      "iconCode": "face_relieved",
+      "displayName": "차분한 분위기예요",
+      "count": 1,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "fresh",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+      "iconCode": "leaf",
+      "displayName": "재료가 신선해요",
+      "count": 1,
+      "previousRank": null
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisVoteKeywordDetail",
+      "category": null,
+      "code": "room_nice",
+      "iconUrl": "https://ssl.pstatic.net/static/pup/emoji/room20220325175453.png",
+      "iconCode": "room",
+      "displayName": "룸이 잘 되어있어요",
+      "count": 1,
+      "previousRank": null
+    }
+  ],
+  "reviewCount": 237,
+  "userCount": 230,
+  "menus": [
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "케이크",
+      "count": 144
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "주문제작케이크",
+      "count": 25
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "레터링케이크",
+      "count": 13
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "안심",
+      "count": 3
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "수제케이크",
+      "count": 2
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "초코케이크",
+      "count": 2
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "과일",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "도시락",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "도시락케이크",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "아이스크림",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "아이스크림케이크",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "초코볼",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "초콜릿",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "치즈",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "쿠키",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "크림치즈",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "label": "피자",
+      "count": 1
+    }
+  ],
+  "themes": [
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "total",
+      "label": "만족도",
+      "count": 227
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "service",
+      "label": "서비스",
+      "count": 83
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "purpose",
+      "label": "목적",
+      "count": 67
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "taste",
+      "label": "맛",
+      "count": 59
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "mood",
+      "label": "분위기",
+      "count": 5
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "location",
+      "label": "위치",
+      "count": 3
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "price",
+      "label": "가격",
+      "count": 3
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "delivery",
+      "label": "배달",
+      "count": 2
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "naver",
+      "label": "예약",
+      "count": 1
+    },
+    {
+      "__typename": "VisitorReviewStatsAnalysisThemes",
+      "code": "waitingtime",
+      "label": "대기시간",
+      "count": 1
+    }
+  ],
+  "homeBlogIds": [
+    "223778773681",
+    "223739046970",
+    "223066915610"
+  ],
+  "homePhotoCount": 9,
+  "homeReviewCount": 3,
+  "homeGridPhotos": [
+    {
+      "viewId": "userimage_69344502776f31df0a48199b",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNTkg/MDAxNzY1MDMzMjExNTQ1.XL2piy5B3ox_3zekqme9HJnL0klzocHSjwHSrP7Z5-Ug.W5erUyMHKWywkNExBv0QoG3_XZfZ8S8S3xPS3iA-mk0g.JPEG/52C180DF-2E2B-4E76-A6B2-1534024AC1FD.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg"
+    },
+    {
+      "viewId": "userimage_69344502776f31df0a48199c",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTEyMDdfNDIg/MDAxNzY1MDMzMjE0NDky.wlK3rASUygTId5Wl195hdQ1CptfGL0NYQy9-MUcXvBYg.xJMej_oLvBNZui56kmTT7IpnXnqzvCN_j2CnaY2QrUgg.JPEG/933CC8EA-8EBC-4DCE-89E4-1F85F8C1B907.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg"
+    },
+    {
+      "viewId": "userimage_6919bc40ace7461d191292fb",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMjUx/MDAxNzYzMjk0MjcwNTAz.OdUQLzi6frPPDz6yV26EWLmsZENItXS7ZpZ6bHETPAcg.TMdyt9B8lbN1tF3LaPBdwv4RS1KvmezCT7SNz4uNoEEg.JPEG/1763184206747.jpg.jpg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/8563159a3899487b6f21.jpg"
+    },
+    {
+      "viewId": "userimage_6918ad09d4ecc49b7c54d620",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMTgy/MDAxNzYzMjI0ODM3Mjc4.XiOCSLmpyu6CZkC3kIq2x1eeZcaRhy5Aso_l01GCmB4g.hdV8AhIz-4FOmuPL37Oh7PBUH_DKkScU5NN6oP2BemUg.JPEG/F8BBDE48-C4B8-4F7A-9E51-7A772D3D39D7.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f231f7637dd5df2b2acb.jpg"
+    },
+    {
+      "viewId": "userimage_6918ad09d4ecc49b7c54d61e",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfODQg/MDAxNzYzMjI0ODM4NTEw.Ldnke79STDpB1bGjMDkxOQ9eDua2XsKc1aKIxvHg1-Ig.Np-W7FvhQOoh_x9N3L1XjXAgACvx56UaHR7-3SfVQLwg.JPEG/B07AE0A9-EA2A-46F3-9ECE-AD1D0C147671.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/5a5a77b8e26dfc5b052c.jpg"
+    },
+    {
+      "viewId": "userimage_6918ad09d4ecc49b7c54d61f",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMTZfMTY2/MDAxNzYzMjI0ODM3OTc4.O-aQ-HvqxvoE6YXh40xciaVuCPb-jS4MMh6viGwQoVcg.XPWact5WxvQePUM2BmbdbVACXJ5tj9rMLFfTaCnUSRYg.JPEG/9CF67977-6F85-4769-A795-F488C72AE0E6.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a46d24a93faa75cd42a2.jpg"
+    },
+    {
+      "viewId": "userimage_6910bc9936cb1f8c64f97516",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMjA1/MDAxNzYyNzA0NTM0MjU0.LkKQVQjM6Mo8VgmzP3gb7fpYO3xIn7n1IO-Klig-tEMg.dZNUVDnAmuGNWsPsqlBGSuWV3AqGv38NHOJi4ORVGBMg.JPEG/7DFAAEDA-A88E-4F1F-889C-CB6044CCE695.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/0b2a32eebd704ffdee18.jpg"
+    },
+    {
+      "viewId": "userimage_6910bc9936cb1f8c64f97515",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfMTk2/MDAxNzYyNzA0NTM0NzM3.9ABqrirNd0Y0TZIxaizS0BUKzqmAsPOKr47dvkbEZUwg._tfafYTcQT0Up3UbjINKFGBvXkOgO8-OzFMYwndodTQg.JPEG/9B2FDF06-1D72-4752-B925-3F42D53DDF5F.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/cd424c8ada0fba8197d4.jpg"
+    },
+    {
+      "viewId": "userimage_69104f3c51ea149e804e5b05",
+      "original": "https://pup-review-phinf.pstatic.net/MjAyNTExMDlfMjc2/MDAxNzYyNjc2NTM3NDAy.1VXKa-Z5XoG20Df_8Hc2Ed14NpRyXSvX_XVITBKUfnIg.VJgXycr_wHVZxck6V4MRBqU7Oyc7MnHsyiLtmjFTFMQg.JPEG/3614BAA8-59C5-41A6-B39B-EDF5331B588F.jpeg",
+      "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f778b2d71759781f434b.jpg"
+    }
+  ],
+  "homeReviewIds": [
+    "6934450122b54fc9e956e155",
+    "6900736d0401f2d4da6ad44c",
+    "68f1f68d3f43d74566b402cd"
+  ],
+  "runtimeSource": "evidence/rea-v3/home-public-network.json",
+  "homeBlogCards": [
+    {
+      "id": "223778773681",
+      "nickname": "bbobbo",
+      "date": "25.2.28.금",
+      "count": 20,
+      "avatar": "assets/ui/home-171bad6d372c09fcea51.jpg",
+      "thumbnail": "assets/ui/home-23f996cc9068bf594fc7.jpg"
+    },
+    {
+      "id": "223739046970",
+      "nickname": "연희동 나나",
+      "date": "25.1.26.일",
+      "count": 28,
+      "avatar": "assets/ui/home-e911ee8011e05f0cf2ae.jpg",
+      "thumbnail": "assets/ui/home-936cc7d936f2f856b05b.jpg"
+    },
+    {
+      "id": "223066915610",
+      "nickname": "윤쌤",
+      "date": "23.4.6.목",
+      "count": 23,
+      "avatar": "assets/ui/home-87a162e6cf61697d409b.jpg",
+      "thumbnail": "assets/ui/home-7dd2143c35217e303d38.jpg"
+    }
+  ],
+  "homeReviewAvatars": [
+    {
+      "id": "6934450122b54fc9e956e155",
+      "src": "assets/ui/home-f12bdd78ca8bbbf098f5.jpg"
+    },
+    {
+      "id": "6900736d0401f2d4da6ad44c",
+      "src": "assets/ui/home-560dec92496411d7eb48.png"
+    },
+    {
+      "id": "68f1f68d3f43d74566b402cd",
+      "src": "assets/ui/home-560dec92496411d7eb48.png"
+    }
+  ],
+  "reviewPreviewPhotos": [
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/8563159a3899487b6f21.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f231f7637dd5df2b2acb.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/5a5a77b8e26dfc5b052c.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a46d24a93faa75cd42a2.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/0b2a32eebd704ffdee18.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/cd424c8ada0fba8197d4.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f778b2d71759781f434b.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/2685d064d421f339210f.jpg"
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "url": "http://127.0.0.1:8765/",
+  "capturedAt": "2026-10-28T15:36:18.237Z",
+  "viewport": {
+    "width": 1440,
+    "height": 764,
+    "dpr": 1
+  },
+  "resources": [
+    "http://127.0.0.1:8765/assets/archive.css",
+    "http://127.0.0.1:8765/assets/app.js",
+    "http://127.0.0.1:8765/evidence/map-type-normal.png",
+    "http://127.0.0.1:8765/evidence/map-type-satellite.png",
+    "http://127.0.0.1:8765/evidence/map-type-terrain.png",
+    "http://127.0.0.1:8765/evidence/map-background.png",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a53ed7ac3b83531c7516.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/46eb54e65e6e2503039d.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/23109957cc904ddd1d1f.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/2051c931f8374a7e03bd.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/7f8eba0df57d7ad3fe0e.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/15006503039f71348cc3.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/6dd9b736e4574eb021f3.jpg",
+    "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a040c1d06c28a2f87a54.jpg"
+  ],
+  "scrollY": 0,
+  "scrollTop": 0,
+  "elements": [
+    {
+      "tag": "IMG",
+      "text": "",
+      "bounds": {
+        "x": 63,
+        "y": 0,
+        "width": 1377,
+        "height": 764,
+        "top": 0,
+        "right": 1440,
+        "bottom": 764,
+        "left": 63
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "src": "http://127.0.0.1:8765/evidence/map-background.png"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "N",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 62,
+        "height": 76,
+        "top": 0,
+        "right": 62,
+        "bottom": 76,
+        "left": 0
+      },
+      "font": "900 30px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "지도 홈",
+      "bounds": {
+        "x": 0,
+        "y": 76,
+        "width": 62,
+        "height": 66,
+        "top": 76,
+        "right": 62,
+        "bottom": 142,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "길찾기",
+      "bounds": {
+        "x": 0,
+        "y": 142,
+        "width": 62,
+        "height": 66,
+        "top": 142,
+        "right": 62,
+        "bottom": 208,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "버스",
+      "bounds": {
+        "x": 0,
+        "y": 208,
+        "width": 62,
+        "height": 66,
+        "top": 208,
+        "right": 62,
+        "bottom": 274,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "지하철",
+      "bounds": {
+        "x": 0,
+        "y": 274,
+        "width": 62,
+        "height": 66,
+        "top": 274,
+        "right": 62,
+        "bottom": 340,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "기차",
+      "bounds": {
+        "x": 0,
+        "y": 340,
+        "width": 62,
+        "height": 66,
+        "top": 340,
+        "right": 62,
+        "bottom": 406,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "저장",
+      "bounds": {
+        "x": 0,
+        "y": 406,
+        "width": 62,
+        "height": 66,
+        "top": 406,
+        "right": 62,
+        "bottom": 472,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "더보기",
+      "bounds": {
+        "x": 0,
+        "y": 472,
+        "width": 62,
+        "height": 66,
+        "top": 472,
+        "right": 62,
+        "bottom": 538,
+        "left": 0
+      },
+      "font": "12px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 10,
+        "y": 670.5,
+        "width": 42,
+        "height": 42,
+        "top": 670.5,
+        "right": 52,
+        "bottom": 712.5,
+        "left": 10
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 10,
+        "y": 712.5,
+        "width": 42,
+        "height": 42,
+        "top": 712.5,
+        "right": 52,
+        "bottom": 754.5,
+        "left": 10
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 63,
+        "y": 79,
+        "width": 44,
+        "height": 42,
+        "top": 79,
+        "right": 107,
+        "bottom": 121,
+        "left": 63
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 349,
+        "y": 79,
+        "width": 44,
+        "height": 42,
+        "top": 79,
+        "right": 393,
+        "bottom": 121,
+        "left": 349
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 393,
+        "y": 79,
+        "width": 42,
+        "height": 42,
+        "top": 79,
+        "right": 435,
+        "bottom": 121,
+        "left": 393
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "H1",
+      "text": "보라곰 주문제작&레터링케이크",
+      "bounds": {
+        "x": 79,
+        "y": 127,
+        "width": 352,
+        "height": 32,
+        "top": 127,
+        "right": 431,
+        "bottom": 159,
+        "left": 79
+      },
+      "font": "600 24px / 32px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "리뷰 266",
+      "bounds": {
+        "x": 154.3046875,
+        "y": 163,
+        "width": 57.390625,
+        "height": 20,
+        "top": 163,
+        "right": 211.6953125,
+        "bottom": 183,
+        "left": 154.3046875
+      },
+      "font": "15px / 20px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "AI 요약",
+      "bounds": {
+        "x": 303.5390625,
+        "y": 212.5,
+        "width": 54.6796875,
+        "height": 17,
+        "top": 212.5,
+        "right": 358.21875,
+        "bottom": 229.5,
+        "left": 303.5390625
+      },
+      "font": "11px / 17px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 79,
+        "y": 247,
+        "width": 210,
+        "height": 210,
+        "top": 247,
+        "right": 289,
+        "bottom": 457,
+        "left": 79
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "IMG",
+      "text": "",
+      "bounds": {
+        "x": 79,
+        "y": 247,
+        "width": 210,
+        "height": 210,
+        "top": 247,
+        "right": 289,
+        "bottom": 457,
+        "left": 79
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a53ed7ac3b83531c7516.jpg"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 295,
+        "y": 247,
+        "width": 210,
+        "height": 210,
+        "top": 247,
+        "right": 505,
+        "bottom": 457,
+        "left": 295
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "IMG",
+      "text": "",
+      "bounds": {
+        "x": 295,
+        "y": 247,
+        "width": 210,
+        "height": 210,
+        "top": 247,
+        "right": 505,
+        "bottom": 457,
+        "left": 295
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif",
+      "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/46eb54e65e6e2503039d.jpg"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "출발",
+      "bounds": {
+        "x": 79,
+        "y": 469,
+        "width": 68,
+        "height": 38,
+        "top": 469,
+        "right": 147,
+        "bottom": 507,
+        "left": 79
+      },
+      "font": "600 15px / 20px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "도착",
+      "bounds": {
+        "x": 153,
+        "y": 469,
+        "width": 68,
+        "height": 38,
+        "top": 469,
+        "right": 221,
+        "bottom": 507,
+        "left": 153
+      },
+      "font": "600 15px / 20px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "거리뷰",
+      "bounds": {
+        "x": 227,
+        "y": 469,
+        "width": 83.9296875,
+        "height": 38,
+        "top": 469,
+        "right": 310.9296875,
+        "bottom": 507,
+        "left": 227
+      },
+      "font": "500 15px / 20px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "공유",
+      "bounds": {
+        "x": 316.9296875,
+        "y": 469,
+        "width": 70.953125,
+        "height": 38,
+        "top": 469,
+        "right": 387.8828125,
+        "bottom": 507,
+        "left": 316.9296875
+      },
+      "font": "500 15px / 20px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "알림받기",
+      "bounds": {
+        "x": 393.8828125,
+        "y": 469,
+        "width": 96.90625,
+        "height": 38,
+        "top": 469,
+        "right": 490.7890625,
+        "bottom": 507,
+        "left": 393.8828125
+      },
+      "font": "500 15px / 20px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "NAV",
+      "text": "홈\n소식\n메뉴\n리뷰\n사진\n정보",
+      "bounds": {
+        "x": 63,
+        "y": 523,
+        "width": 384,
+        "height": 46,
+        "top": 523,
+        "right": 447,
+        "bottom": 569,
+        "left": 63
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "A",
+      "text": "홈",
+      "bounds": {
+        "x": 63,
+        "y": 523,
+        "width": 64,
+        "height": 45,
+        "top": 523,
+        "right": 127,
+        "bottom": 568,
+        "left": 63
+      },
+      "font": "600 16px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "A",
+      "text": "소식",
+      "bounds": {
+        "x": 127,
+        "y": 523,
+        "width": 64,
+        "height": 45,
+        "top": 523,
+        "right": 191,
+        "bottom": 568,
+        "left": 127
+      },
+      "font": "500 16px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "A",
+      "text": "메뉴",
+      "bounds": {
+        "x": 191,
+        "y": 523,
+        "width": 64,
+        "height": 45,
+        "top": 523,
+        "right": 255,
+        "bottom": 568,
+        "left": 191
+      },
+      "font": "500 16px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "A",
+      "text": "리뷰",
+      "bounds": {
+        "x": 255,
+        "y": 523,
+        "width": 64,
+        "height": 45,
+        "top": 523,
+        "right": 319,
+        "bottom": 568,
+        "left": 255
+      },
+      "font": "500 16px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "A",
+      "text": "사진",
+      "bounds": {
+        "x": 319,
+        "y": 523,
+        "width": 64,
+        "height": 45,
+        "top": 523,
+        "right": 383,
+        "bottom": 568,
+        "left": 319
+      },
+      "font": "500 16px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "A",
+      "text": "정보",
+      "bounds": {
+        "x": 383,
+        "y": 523,
+        "width": 64,
+        "height": 45,
+        "top": 523,
+        "right": 447,
+        "bottom": 568,
+        "left": 383
+      },
+      "font": "500 16px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "서울 마포구 신촌로2안길 12 1층 102호 보라곰케이크",
+      "bounds": {
+        "x": 104,
+        "y": 585,
+        "width": 300.8984375,
+        "height": 37,
+        "top": 585,
+        "right": 404.8984375,
+        "bottom": 622,
+        "left": 104
+      },
+      "font": "15px / 23px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "영업 종료\n·\n11:00에 영업 시작",
+      "bounds": {
+        "x": 104,
+        "y": 701,
+        "width": 188.8515625,
+        "height": 23,
+        "top": 701,
+        "right": 292.8515625,
+        "bottom": 724,
+        "left": 104
+      },
+      "font": "15px / 23px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "복사",
+      "bounds": {
+        "x": 237.703125,
+        "y": 737.5,
+        "width": 24.2265625,
+        "height": 23,
+        "top": 737.5,
+        "right": 261.9296875,
+        "bottom": 760.5,
+        "left": 237.703125
+      },
+      "font": "14px / 23px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "bounds": {
+        "x": 453,
+        "y": 359.078125,
+        "width": 23,
+        "height": 46,
+        "top": 359.078125,
+        "right": 476,
+        "bottom": 405.078125,
+        "left": 453
+      },
+      "font": "15px -apple-system, system-ui, helvetica, \"Apple SD Gothic Neo\", sans-serif"
+    }
+  ]
+}

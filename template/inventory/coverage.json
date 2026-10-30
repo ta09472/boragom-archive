@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-10-28T16:09:32.255095+00:00",
+  "overall_status": "partial_source_coverage",
+  "download_status": "completed_with_2_unavailable_external_logos",
+  "media_totals": {
+    "unique_media_urls": 1631,
+    "saved": 1629,
+    "failed": 2,
+    "pending": 0,
+    "bytes": 2509922134,
+    "by_category": {
+      "blog-review": 995,
+      "business": 61,
+      "clip": 3,
+      "menu": 11,
+      "menu-board": 1,
+      "news": 1,
+      "support-assets": 128,
+      "visitor-review": 432
+    },
+    "physical_files": 1613,
+    "referenced_bytes": 2510027302
+  },
+  "exclusive_media_categories": {
+    "blog-review": 995,
+    "support-assets": 128,
+    "news": 1,
+    "menu": 11,
+    "business": 60,
+    "clip": 3,
+    "menu-board": 1,
+    "visitor-review": 432
+  },
+  "category_policy": "Exclusive counts assign one media URL to first category in priority order; no image content is dropped. Source records retain all category memberships.",
+  "category_priority": [
+    "support-assets",
+    "clip",
+    "menu-board",
+    "menu",
+    "news",
+    "visitor-review",
+    "blog-review",
+    "business"
+  ],
+  "verification": {
+    "manifest_records": 1631,
+    "verified_files": 1629,
+    "missing_or_mismatch": 0,
+    "not_downloaded": 2,
+    "unique_content_hashes": 1432,
+    "reference_checks": 1798,
+    "reference_checks_saved": 1782,
+    "unreferenced_files": 30,
+    "verified_records": 1629,
+    "verified_physical_files": 1613
+  },
+  "coverage": [
+    {
+      "section": "방문자 리뷰 본문",
+      "expected": 238,
+      "observed": 238,
+      "saved": 238,
+      "unit": "리뷰",
+      "status": "matched_source_total",
+      "source": "raw/review-network.json"
+    },
+    {
+      "section": "방문자 리뷰 이미지",
+      "expected": 462,
+      "observed": 432,
+      "saved": 432,
+      "unit": "이미지",
+      "status": "unresolved_source_count_discrepancy",
+      "source": "inventory/review-media-reconciliation.json",
+      "note": "홈 집계462와 리뷰본문432의 차이30은 미해명. 리뷰 본문238건의 미디어432개는 모두 저장. 갤러리에 없는6개도 포함."
+    },
+    {
+      "section": "리뷰 갤러리",
+      "expected": null,
+      "observed": 438,
+      "saved": 438,
+      "unit": "갤러리 항목",
+      "status": "enumeration_exhausted",
+      "source": "raw/photos-network.json",
+      "note": "최종 hasNext=false. 방문자426개+블로그12개. 위 리뷰본문 미디어와 중복하므로 더하지 않음."
+    },
+    {
+      "section": "업체 사진",
+      "expected": 61,
+      "observed": 61,
+      "saved": 61,
+      "unit": "이미지",
+      "status": "matched_source_total",
+      "source": "raw/photos-network.json"
+    },
+    {
+      "section": "메뉴",
+      "expected": 9,
+      "observed": 9,
+      "saved": 9,
+      "unit": "메뉴 항목",
+      "status": "matched_source_total",
+      "source": "raw/home-state.json"
+    },
+    {
+      "section": "메뉴 개별 사진",
+      "expected": null,
+      "observed": 11,
+      "saved": 11,
+      "unit": "이미지",
+      "status": "all_enumerated_saved",
+      "source": "raw/home-state.json",
+      "note": "전체 메뉴9개에 등록된 사진11개"
+    },
+    {
+      "section": "메뉴판",
+      "expected": null,
+      "observed": 1,
+      "saved": 1,
+      "unit": "이미지",
+      "status": "all_enumerated_saved",
+      "source": "raw/home-state.json"
+    },
+    {
+      "section": "소식",
+      "expected": null,
+      "observed": 1,
+      "saved": 1,
+      "unit": "게시물",
+      "status": "enumeration_exhausted",
+      "source": "raw/feed-network.json",
+      "note": "최종 hasMore=false. 본문 및 이미지1개 저장."
+    },
+    {
+      "section": "클립 본영상",
+      "expected": 1,
+      "observed": 1,
+      "saved": 1,
+      "unit": "영상",
+      "status": "matched_observed_gallery",
+      "source": "inventory/videos.json",
+      "note": "재생 API 최고제공 화질1080×1920, 27.069초. 별도 썸네일1개 및 preview trailer1개 저장."
+    },
+    {
+      "section": "블로그 리뷰 목록",
+      "expected": 28,
+      "observed": 28,
+      "saved": 28,
+      "unit": "목록 항목",
+      "status": "matched_source_total",
+      "source": "raw/blog-reviews.json"
+    },
+    {
+      "section": "블로그 원문",
+      "expected": 28,
+      "observed": 28,
+      "saved": 28,
+      "unit": "원문",
+      "status": "all_public_full_bodies_saved",
+      "source": "raw/blog-public-posts.json",
+      "note": "28개 본문 및 순서별 텍스트·사진·영상 정보. 블로그 댓글은 별도 외부 영역으로 미수집."
+    },
+    {
+      "section": "블로그 본영상",
+      "expected": 14,
+      "observed": 14,
+      "saved": 14,
+      "unit": "영상",
+      "status": "all_enumerated_saved",
+      "source": "inventory/videos.json",
+      "note": "각 재생 API의 최고 제공 화질 MP4"
+    },
+    {
+      "section": "블로그 GIF 재생본",
+      "expected": 33,
+      "observed": 33,
+      "saved": 33,
+      "unit": "GIF/MP4 항목",
+      "status": "all_enumerated_saved",
+      "source": "raw/blog-public-posts.json",
+      "note": "원본 GIF 및 화면의 MP4 변환본을 함께 보관"
+    },
+    {
+      "section": "블로그 본문 이미지 요소",
+      "expected": 788,
+      "observed": 788,
+      "saved": 772,
+      "unit": "본문 이미지 참조",
+      "status": "16_references_to_2_unavailable_external_logos",
+      "source": "inventory/media-verification.json",
+      "note": "Instagram 동일 이미지17주소 복구. 남은 modoo로고15참조·홈페이지로고1참조는 사용자 추후 제공 대기."
+    }
+  ],
+  "unresolved": [
+    {
+      "issue": "visitor_media_declared_total",
+      "declared": 462,
+      "enumerated": 432,
+      "difference": 30,
+      "evidence": "inventory/review-media-reconciliation.json"
+    },
+    {
+      "issue": "unavailable_external_link_thumbnails",
+      "unique_urls": 2,
+      "body_references": 16,
+      "status": "awaiting_user_original_logos",
+      "evidence": "inventory/thumbnail-recovery-v2.json"
+    }
+  ],
+  "notes": [
+    "고유 미디어 URL1631개 중1629개 저장, 2개 로고 대기. 실제 연결 파일1613개, 동일 이미지17주소는 같은 파일1개를 참조. 분류별 수량은 중복될 수 있음.",
+    "방문자 리뷰238개 중 본문이 있는 리뷰237개, 본문 없는 리뷰1개도 메타데이터·키워드·미디어 보관. 공개 사장님 답글0개.",
+    "최신순24페이지 재열람에서도238개·사진432개가 기존 자료와 식별자·본문·미디어 모두 일치. 네이버 내부 집계462의 의미와 차이30은 아직 미해명.",
+    "범위: 해당 플레이스 공개6탭, 사진 분류3개, 메뉴 상세/메뉴판, 클립, 연결 블로그28본문. 외부 사이트 전체·블로그 댓글·삭제/비공개 자료는 포함하지 않음."
+  ],
+  "rechecks": [
+    {
+      "source": "inventory/review-reenumeration-v2.json",
+      "method": "최신순24페이지 재열람",
+      "reviews": 238,
+      "media": 432,
+      "new_ids": 0,
+      "media_differences": 0
+    },
+    {
+      "source": "inventory/independent-coverage-audit-v2.json",
+      "method": "독립 원본·커서·텍스트 감사"
+    },
+    {
+      "source": "inventory/thumbnail-recovery-v2.json",
+      "method": "동일 이미지ID 공개주소 복구",
+      "recovered_urls": 17
+    },
+    {
+      "source": "inventory/mobile-photo-recheck-v2.json",
+      "method": "별도 모바일 사진 갤러리",
+      "observed": 200,
+      "new_urls": 0,
+      "status": "human_security_verification_pending"
+    },
+    {
+      "source": "inventory/mobile-photo-recheck-v3.json",
+      "method": "사용자 재개 후 모바일 사진 탭 재확인",
+      "status": "source_network_error",
+      "security_challenge_visible": false
+    },
+    {
+      "source": "inventory/desktop-photo-recheck-v3.json",
+      "method": "PC photo gallery 11 pages through terminal cursor",
+      "photos": 438,
+      "new_urls": 0,
+      "missing_saved_files": 0,
+      "status": "enumeration_exhausted"
+    },
+    {
+      "source": "inventory/home-source-recheck-v3.json",
+      "method": "Fresh home review10/GRID10 response comparison",
+      "body_or_media_differences": 0,
+      "missing_saved_originals": 0
+    }
+  ],
+  "latest_rechecked_at": "2026-10-28T23:56:21.135835+00:00"
+}

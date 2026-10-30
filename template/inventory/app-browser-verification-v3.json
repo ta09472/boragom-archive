@@ -1,0 +1,167 @@
+{
+  "tested_at": "2026-10-28T23:46:40.971Z",
+  "browser": "Ego Lite / Chromium",
+  "mode": "file:// without application server",
+  "bundle_sha256": "b74ee81a47e2be11cc1235bc69ccd269d51a007ea77bb1eae7b1782093ad9d5d",
+  "css_sha256": "7ae6133cb7ec91bcded7bbc39b1153665961a42989d663efd659270acb9f207c",
+  "checks": [
+    {
+      "name": "Home source order and card counts",
+      "pass": true,
+      "observed": {
+        "headings": [
+          "메뉴\n9\n메뉴판 이미지",
+          "클립",
+          "방문자 사진·영상",
+          "방문자 리뷰\n238",
+          "블로그 리뷰\n28",
+          "관련 링크\n2"
+        ],
+        "menus": 4,
+        "menuOverflow": true,
+        "reviewAuthors": [
+          "민교이캉",
+          "아보카도새싹",
+          "Azure1129"
+        ],
+        "photos": [
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/8563159a3899487b6f21.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f231f7637dd5df2b2acb.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/5a5a77b8e26dfc5b052c.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a46d24a93faa75cd42a2.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/0b2a32eebd704ffdee18.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/cd424c8ada0fba8197d4.jpg",
+          "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/f778b2d71759781f434b.jpg"
+        ],
+        "blogs": 3,
+        "related": 2
+      }
+    },
+    {
+      "name": "Home photo viewer and keyboard navigation",
+      "pass": true,
+      "observed": {
+        "first": {
+          "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg",
+          "counter": "1 / 9"
+        },
+        "second": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg"
+      }
+    },
+    {
+      "name": "Home clip plays local full video",
+      "pass": true,
+      "observed": {
+        "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/videos/clip-90004EE37D46166DDFF2DEE11D67F75BD088-1080p.mp4",
+        "duration": 27.021995,
+        "currentTime": 3.80701,
+        "width": 1080,
+        "height": 1920,
+        "error": null
+      }
+    },
+    {
+      "name": "Home review text and keyword expansion",
+      "pass": true,
+      "observed": {
+        "body": "true",
+        "keywords": "true",
+        "keywordCount": 3
+      }
+    },
+    {
+      "name": "Home blog opens saved full body",
+      "pass": true,
+      "observed": {
+        "title": "[홍대맛집] 홍대 레터링 케이크 추천 보라곰케이크",
+        "bodyLength": 12148,
+        "images": 19,
+        "externalSrc": []
+      }
+    },
+    {
+      "name": "Home menu opens actual menu detail",
+      "observed": {
+        "hash": "#/menu/NmkLQKMzFzCq7gL79WFH",
+        "open": true,
+        "title": "2호(18cm)-인물케이크",
+        "src": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg"
+      },
+      "pass": true
+    },
+    {
+      "name": "All 9 menu entries and menu-board image",
+      "observed": {
+        "menus": 9,
+        "board": "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/70ddfa74ace1c0c6a990.png"
+      },
+      "pass": true
+    },
+    {
+      "name": "Visitor review search",
+      "observed": {
+        "cards": 1,
+        "text": "민교이캉\n리뷰 79\n\n예약 후 이용 · 바로 입장 · 연인・배우자 · 부모님\n\n너무너무 이쁜 케이크였습니다....\n어머님의 웨딩사진으로 문의드렸"
+      },
+      "pass": true
+    },
+    {
+      "name": "Blog review list exposes saved total",
+      "observed": {
+        "heading": "리뷰 28",
+        "cards": 10
+      },
+      "pass": true
+    },
+    {
+      "name": "Photo filter and pagination",
+      "observed": {
+        "before": 45,
+        "after": 105,
+        "more": "사진 더보기\n105 / 444",
+        "initial": 45
+      },
+      "pass": true
+    },
+    {
+      "name": "Information and archived details disclosure",
+      "observed": {
+        "intro": "8월까지 영업합니다 찾아주셔서 감사했습니다^_^",
+        "expanded": true,
+        "hours": 7,
+        "keywords": 5,
+        "text": "보관된 추가 정보\n대표 키워드\n#홍대주문제작케이크\n#홍대레터링케이크\n#홍대그림케이크\n#연남레터링케이크\n#애니케이크\n주소\n\n서울 마포구 신촌로2안길 12 1층 102호 보라곰케이크\n\n지번 서울 마포구 동교동 176-17\n\n영업시간\n\n수\n11:00 - 20:00\n\n목\n11:00 - 20:00\n\n금\n11:00 - 20:00\n\n토\n11:00 - 20:00\n\n일\n11:00 - 20:00\n\n월\n정기휴무 (매주 월요일)\n\n화\n11:00 - 20:00\n\n전화번호\n\n0507-1381-1971"
+      },
+      "pass": true
+    },
+    {
+      "name": "Closure announcement remains readable",
+      "observed": {
+        "count": 1,
+        "text": "B\n보라곰 주문제작&레터링케이크\n2026.08.25.\n알림\n8월 31일까지 영업합니다(예약마감)\n\n안녕하세요 보라곰케이크입니다\n\n보라곰케이크는 2026년 8월 31일을 마지막으로 영업을 마무리하게 되었습니다\n\n2022년 처음 문을 열고 지금까지\n참 많은 분들이 저희 가게를 찾아주시고\n소중한 순간을 함께 맡겨주셨어요\n\n그동안 보라곰케이크를 찾아주시고\n케이크를 통해 소중한 마음을 전해주신 모든 분들께\n진심으로 감사드립니다\n\n4년이라는 시간 동안 보내주신 사랑과 응원 덕분에\n저에게도 참 오래 기억에 남을 소중한 시간이었습니다\n\n앞으로도 여러분의 모든 날이\n건강하고 행복하기를 진심으로 바라겠습니다\n\n그동안 보라곰케이크를 사랑해주셔서\n정말 감사했습니다💜💜\n\n보라곰케이크 드림"
+      },
+      "pass": true
+    },
+    {
+      "name": "File-mode final home with no remote requests or broken loaded images",
+      "observed": {
+        "hash": "#/",
+        "remoteResources": [],
+        "brokenImages": [],
+        "openDialogs": 0
+      },
+      "pass": true
+    }
+  ],
+  "scope": "Home structure and representative offline interactions; not a claim of exact visual fidelity or exhaustive browser coverage.",
+  "test_assumption_corrections": [
+    "Information uses a compact original layout. Additional archived address, hours and contact details are under the observed disclosure; the earlier minimum visible text length assertion did not reflect that layout."
+  ],
+  "notes": [
+    "Initial browser pointer attempts timed out or aligned an offscreen card under the sticky header. Final trusted pointer checks center targets in their scroll container.",
+    "Menu details use the visible back button; the original-style hidden close button is not an actionable test target."
+  ],
+  "completed_at": "2026-10-28T23:55:26.699Z"
+}

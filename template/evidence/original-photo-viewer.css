@@ -1,0 +1,41 @@
+.dmuWeX .viewer_area { position: fixed; inset: 0px; background-color: rgba(0, 0, 0, 0.8); z-index: 1000; }
+.dmuWeX .viewer_area::before { position: absolute; left: 0px; right: 0px; bottom: 0px; z-index: 1; height: 300px; background: linear-gradient(rgba(0, 0, 0, 0) 3.6%, rgba(0, 0, 0, 0.7) 100%); content: ""; }
+.dmuWeX .viewer_content { position: relative; height: 100%; margin: 0px 100px; }
+.dmuWeX .content_inner { position: relative; height: 100%; padding: 163px 0px; box-sizing: border-box; }
+.dmuWeX .content_inner .photo_area { position: relative; height: 100%; }
+.dmuWeX .content_inner .photo_area img { background-color: rgb(247, 247, 247); }
+.dmuWeX .content_inner .video_area { position: relative; height: 100%; z-index: 2; }
+.dmuWeX .content_inner img { position: absolute; inset: 0px; margin: auto; max-width: 100%; max-height: 100%; }
+.dmuWeX .review_area { display: flex; flex-wrap: wrap; position: absolute; right: 100px; top: calc(100% - 150px); left: 100px; z-index: 10; max-width: 620px; margin: auto; }
+.dmuWeX .review_area .user_info_area { display: flex; align-items: center; flex: 1 0 0px; margin-bottom: 8px; }
+.dmuWeX .review_area .user_info_area .thumbnail_area { flex-shrink: 0; position: relative; height: 44px; margin-right: 14px; background-color: rgb(255, 255, 255); border: 2px solid rgb(255, 255, 255); border-radius: 50%; box-sizing: border-box; }
+.dmuWeX .review_area .user_info_area .thumbnail_area .border_box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.dmuWeX .review_area .user_info_area .thumbnail_area .thumbnail { border-radius: 50%; }
+.dmuWeX .review_area .user_info_area .text_info_area { white-space: nowrap; }
+.dmuWeX .review_area .user_info_area .item_nickname { display: block; margin-bottom: 2px; font-size: 16px; font-weight: 700; color: rgb(255, 255, 255); line-height: 21px; letter-spacing: -0.2px; }
+.dmuWeX .review_area .user_info_area .item_info { display: inline-block; font-size: 13px; color: rgba(255, 255, 255, 0.6); line-height: 18px; letter-spacing: -0.2px; vertical-align: top; }
+.dmuWeX .review_area .user_info_area .item_info + .item_info::before { display: inline-block; width: 2px; height: 2px; margin: 8px 5px 0px; border-radius: 50%; background-color: rgba(255, 255, 255, 0.6); vertical-align: top; content: ""; }
+.dmuWeX .review_area .text_area { flex-basis: 100%; min-width: 0px; }
+.dmuWeX .review_area .text_area .main_text { overflow: hidden; display: block; margin-bottom: 3px; font-weight: 700; font-size: 18px; line-height: 23px; color: rgb(255, 255, 255); text-overflow: ellipsis; white-space: nowrap; }
+.dmuWeX .review_area .text_area .sub_text { overflow: hidden; max-height: 42px; font-size: 14px; line-height: 21px; color: rgba(255, 255, 255, 0.7); text-overflow: ellipsis; white-space: nowrap; }
+.dmuWeX .review_area .text_area .btn_content { margin-top: 9px; font-size: 14px; font-weight: 600; line-height: 21px; color: rgb(255, 255, 255); }
+.dmuWeX .btn_prev, .dmuWeX .btn_next { overflow: hidden; display: inline-block; font-size: 1px; line-height: 1px; color: transparent; vertical-align: top; background-image: url("https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/entry.png"); background-size: 191px 216px; background-position: 0px -101px; width: 100px; height: 100px; mask-image: none; position: absolute; top: 0px; bottom: 0px; margin: auto; z-index: 2; }
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .dmuWeX .btn_prev, .dmuWeX .btn_next { background-image: url("https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/entry@2x.png"); background-size: 191px 216px; background-position: 0px -101px; width: 100px; height: 100px; }
+}
+.dmuWeX .btn_prev { left: 0px; transform: rotate(180deg); }
+.dmuWeX .btn_next { right: 0px; }
+.dmuWeX .btn_close { overflow: hidden; display: inline-block; font-size: 1px; line-height: 1px; color: transparent; vertical-align: top; background-image: url("https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/entry.png"); background-size: 191px 216px; background-position: 0px 0px; width: 100px; height: 100px; mask-image: none; position: absolute; top: 0px; right: 0px; }
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .dmuWeX .btn_close { background-image: url("https://maps-service.pstatic.net/pcweb_navermap_v5/261025-5059ff3/assets/sprites/entry@2x.png"); background-size: 191px 216px; background-position: 0px 0px; width: 100px; height: 100px; }
+}
+.dmuWeX .btn_zoom { position: absolute; bottom: 30px; right: 30px; border-radius: 2px; background-color: rgba(0, 0, 0, 0.3); z-index: 1; }
+.dmuWeX .btn_zoom .btn_plus, .dmuWeX .btn_zoom .btn_minus { display: block; position: relative; width: 39px; height: 35px; }
+.dmuWeX .btn_zoom .btn_plus::before, .dmuWeX .btn_zoom .btn_minus::before, .dmuWeX .btn_zoom .btn_plus::after, .dmuWeX .btn_zoom .btn_minus::after { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-color: rgb(255, 255, 255); content: ""; }
+.dmuWeX .btn_zoom .btn_plus:active::before, .dmuWeX .btn_zoom .btn_minus:active::before, .dmuWeX .btn_zoom .btn_plus:active::after, .dmuWeX .btn_zoom .btn_minus:active::after { background-color: rgb(4, 117, 244); }
+.dmuWeX .btn_zoom .btn_plus:disabled::before, .dmuWeX .btn_zoom .btn_minus:disabled::before, .dmuWeX .btn_zoom .btn_plus:disabled::after, .dmuWeX .btn_zoom .btn_minus:disabled::after { background-color: rgb(92, 92, 92); }
+.dmuWeX .btn_zoom .btn_plus { border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.dmuWeX .btn_zoom .btn_plus::before { width: 11px; height: 1px; }
+.dmuWeX .btn_zoom .btn_plus::after { width: 1px; height: 11px; }
+.dmuWeX .btn_zoom .btn_minus::before { width: 13px; height: 1px; }
+.dmuWeX .btn_zoom .btn_minus::after { display: none; }

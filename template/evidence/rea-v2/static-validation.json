@@ -1,0 +1,43 @@
+{
+  "verificationType": "static evidence and delivery file validation; browser not exercised after CAPTCHA stop",
+  "homeSectionOrder": [
+    "메뉴",
+    "클립",
+    "방문자 사진·영상",
+    "방문자 리뷰",
+    "블로그 리뷰"
+  ],
+  "previewCounts": {
+    "menu": 4,
+    "clip": 1,
+    "visitorPhotos": 9,
+    "visitorReviews": 3,
+    "blogs": 3
+  },
+  "pendingHomeReviewIDs": [
+    "6934450122b54fc9e956e155",
+    "6900736d0401f2d4da6ad44c",
+    "68f1f68d3f43d74566b402cd"
+  ],
+  "pendingHomePhotoPaths": [
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/038820f23f196c83358c.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/9a3d1699da314eeed9ff.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a71be5261ad412721da1.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/bb8fedadd274a1037554.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/bb1567b8e3eb67c02415.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/829e920b8aeb9dc0b48b.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/85a168841a5cb3356490.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/5a5a77b8e26dfc5b052c.jpg",
+    "https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/a46d24a93faa75cd42a2.jpg"
+  ],
+  "sourceSynchronized": true,
+  "newSourceJSONs": [
+    "source-icons.json",
+    "home-evidence.json",
+    "reference-thumbnails.json"
+  ],
+  "thumbnailLocalFilesExist": true,
+  "rootHtmlRetainsRelativeAssets": true,
+  "missingSourceURLs": 2,
+  "noHardcoded19MissingNotice": true
+}

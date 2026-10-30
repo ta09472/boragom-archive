@@ -1,0 +1,52 @@
+{
+  "typecheck": "passed",
+  "biome": "passed, 3 files, no diagnostics",
+  "npm_ci": "passed, 0 vulnerabilities",
+  "build_from_delivered_source": "passed",
+  "output": "IIFE + local CSS + relative HTML, emptyOutDir false",
+  "file_url_test": {
+    "menu_detail_hash": true,
+    "original_menu_image_width": 2616,
+    "gallery_initial_height": 460,
+    "gallery_zoom_height": 506,
+    "nested_escape": true
+  },
+  "files": {
+    "index.html": {
+      "bytes": 643,
+      "sha256": "58c64bcc381aa199f22f0cfacf9ef6d6ac69266b4b4e89b8331742a414034470"
+    },
+    "assets/app.js": {
+      "bytes": 4332543,
+      "sha256": "6f2255e7370f67089d29b5058ade19458931369c9b7f6ebfd70f9cd3b947bd61"
+    },
+    "assets/archive.css": {
+      "bytes": 447442,
+      "sha256": "1a36d1d95972da06883bce167b74969f3b10461e6d1645b98a41a0f346393f86"
+    },
+    "source/src/main.tsx": {
+      "bytes": 47822,
+      "sha256": "67a9f1ce5fa3ab1a276662d7b698badb0d25d4e90b458d42fd914316e2f6c819"
+    },
+    "source/src/style.css": {
+      "bytes": 32203,
+      "sha256": "9af4cd00e16bc61c7a81baa27f15e457c357ecd9de51ddeadd41f1703d80aacd"
+    },
+    "source/src/data.json": {
+      "bytes": 3892049,
+      "sha256": "157b9ad550dc4dd1028664c727c614138886dd6af5d9696da034f798eb3ebf25"
+    },
+    "source/package-lock.json": {
+      "bytes": 107682,
+      "sha256": "beae0e7255ddba3f4e72429db3c8d51c1b5c7baba4b23eb3a8deea54774700bf"
+    }
+  },
+  "final_changes": [
+    "First menu related archived blog link added",
+    "Menu header overlays original-height image",
+    "HTML entities in blog titles decoded for display"
+  ],
+  "final_check_log": "evidence/validation/final-check.log",
+  "final_build_log": "evidence/validation/final-build.log",
+  "source_matches_checked_worktree": true
+}

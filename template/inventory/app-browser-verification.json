@@ -1,0 +1,67 @@
+{
+  "tested_at": "2026-10-29T00:34:25.981204+09:00",
+  "browser": "Ego Lite / Chromium",
+  "mode": "file:// opened directly, no application server",
+  "checks": [
+    {
+      "name": "Initial render and hash route navigation",
+      "result": "pass"
+    },
+    {
+      "name": "Visitor review author search",
+      "result": "pass",
+      "query": "민교이캉",
+      "results": 1
+    },
+    {
+      "name": "Saved blog original content",
+      "result": "pass",
+      "title": "[홍대맛집] 홍대 레터링 케이크 추천 보라곰케이크"
+    },
+    {
+      "name": "Blog GIF MP4 playback",
+      "result": "pass",
+      "currentTime": 0.1991,
+      "duration": 4.56,
+      "width": 368,
+      "height": 654
+    },
+    {
+      "name": "Full clip playback",
+      "result": "pass",
+      "currentTime": 0.253472,
+      "browserDuration": 27.021995,
+      "width": 1080,
+      "height": 1920,
+      "error": null
+    },
+    {
+      "name": "Escape closes video viewer",
+      "result": "pass",
+      "remainingOpenDialogs": 0
+    },
+    {
+      "name": "External resource src on blog view",
+      "result": "pass",
+      "count": 0
+    },
+    {
+      "name": "Mobile width390 height844",
+      "result": "pass",
+      "documentWidth": 390,
+      "panelWidth": 340,
+      "screenshot": "evidence/app-mobile-home.png"
+    },
+    {
+      "name": "Final menu related blog opens locally",
+      "result": "pass",
+      "menu_route": "#/menu/NmkLQKMzFzCq7gL79WFH",
+      "blog": "홍순이 / 보라곰케이크",
+      "images": 29,
+      "external_resource_requests": 0
+    }
+  ],
+  "scope": "Representative functional smoke checks; not exhaustive testing of every file or browser.",
+  "tested_bundle_sha256": "6f2255e7370f67089d29b5058ade19458931369c9b7f6ebfd70f9cd3b947bd61",
+  "version_scope": "First delivered version. These runtime checks do not certify the later v2 home/UI changes; see v2 validation when available."
+}

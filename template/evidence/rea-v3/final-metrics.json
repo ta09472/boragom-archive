@@ -1,0 +1,44 @@
+[
+  {
+    "state": "full",
+    "changedPercent": 25.02545084351367,
+    "meanAbsoluteChannelDelta": 2.4506787649069226,
+    "evidenceId": "ev_6b3d8a848ca1e3eef620ec94bf6f7ac5b23179784aafa67b01b019d565b402af"
+  },
+  {
+    "state": "top",
+    "changedPercent": 42.164206917113894,
+    "meanAbsoluteChannelDelta": 4.096411001788908,
+    "evidenceId": "ev_2f5de5f81246cae19e8d194bac30ff980dbac1b325b46b7dfec075a7f9a6dbd9"
+  },
+  {
+    "state": "menu",
+    "changedPercent": 49.08951997614788,
+    "meanAbsoluteChannelDelta": 9.680573568872987,
+    "evidenceId": "ev_a28dd3dc741c5ab2df9818ae56303ab5970c076029155d5ccbb9735a2d66542a"
+  },
+  {
+    "state": "clip",
+    "changedPercent": 38.81820214669052,
+    "meanAbsoluteChannelDelta": 7.92856477340489,
+    "evidenceId": "ev_7898f41000eeb174a21b7baae90aa9911aabf503e5778a6d09ccc7eb147b588b"
+  },
+  {
+    "state": "photos",
+    "changedPercent": 60.360390578413835,
+    "meanAbsoluteChannelDelta": 7.351062164579607,
+    "evidenceId": "ev_5c4614c4f7dcc209ffcf8420a183e44b90a00d043ca09e35bec4082423a7ba4a"
+  },
+  {
+    "state": "reviews",
+    "changedPercent": 49.560971973762676,
+    "meanAbsoluteChannelDelta": 8.689302884615385,
+    "evidenceId": "ev_1218ad2cb3e76fa073dd83c6b55b0c9bf5648f9ac800d1115a4ea5814d20693d"
+  },
+  {
+    "state": "blogs",
+    "changedPercent": 27.975924269528925,
+    "meanAbsoluteChannelDelta": 9.125047517889088,
+    "evidenceId": "ev_6171711c3240ef6753fe47dac352b4d5e4719a2329a74eae6bc7999c57444a96"
+  }
+]

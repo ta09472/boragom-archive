@@ -1,0 +1,36 @@
+{
+  "before": {
+    "url": "https://pcmap.place.naver.com/restaurant/1581469411/review/visitor",
+    "scrollY": 1413,
+    "expanded": "false",
+    "body": "너무너무 이쁜 케이크였습니다....\n어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...\n사장님은 그저 갓.. 능력치 무엇입니까\n너무 감사해요 ㅎㅎ\n더보기",
+    "html": "<div class=\"pui__vn15t2\"><a href=\"#\" target=\"_self\" role=\"button\" class=\"pui__GStJHb\" tabindex=\"0\" style=\"line-height:2.4rem;word-break:break-all;display:-webkit-box;overflow:hidden;text-overflow:ellipsis;-webkit-box-orient:vertical;line-clamp:3;-webkit-line-clamp:3\" data-pui-click-code=\"rvshowmore\" data-nlog-area=\"plc_rrv.rvshowmore\" data-nlog-params=\"{&quot;item_type&quot;:&quot;place_type&quot;,&quot;item_name&quot;:&quot;restaurant&quot;,&quot;place_id&quot;:&quot;1581469411&quot;}\">너무너무 이쁜 케이크였습니다....<br>어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...<br>사장님은 그저 갓.. 능력치 무엇입니까<br>너무 감사해요 ㅎㅎ</a><a href=\"#\" target=\"_self\" role=\"button\" class=\"pui__GStJHb pui__wFzIYl\" tabindex=\"0\" aria-expanded=\"false\" data-pui-click-code=\"rvshowmore\" data-nlog-area=\"plc_rrv.rvshowmore\" data-nlog-params=\"{&quot;item_type&quot;:&quot;place_type&quot;,&quot;item_name&quot;:&quot;restaurant&quot;,&quot;place_id&quot;:&quot;1581469411&quot;}\" style=\"line-height: 2.4rem;\">더보기</a></div>",
+    "bounds": {
+      "x": 16,
+      "y": 548,
+      "width": 352,
+      "height": 96,
+      "top": 548,
+      "right": 368,
+      "bottom": 644,
+      "left": 16
+    }
+  },
+  "after": {
+    "url": "https://pcmap.place.naver.com/restaurant/1581469411/review/visitor",
+    "scrollY": 1413,
+    "expanded": "true",
+    "body": "너무너무 이쁜 케이크였습니다....\n어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...\n사장님은 그저 갓.. 능력치 무엇입니까\n너무 감사해요 ㅎㅎ\n접기",
+    "html": "<div class=\"pui__vn15t2\"><a href=\"#\" target=\"_self\" role=\"button\" class=\"pui__GStJHb\" tabindex=\"0\" style=\"line-height: 2.4rem; word-break: break-all; display: inherit;\" data-pui-click-code=\"rvshowless\" data-nlog-area=\"plc_rrv.rvshowless\" data-nlog-params=\"{&quot;item_type&quot;:&quot;place_type&quot;,&quot;item_name&quot;:&quot;restaurant&quot;,&quot;place_id&quot;:&quot;1581469411&quot;}\">너무너무 이쁜 케이크였습니다....<br>어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요...<br>사장님은 그저 갓.. 능력치 무엇입니까<br>너무 감사해요 ㅎㅎ</a><a href=\"#\" target=\"_self\" role=\"button\" class=\"pui__GStJHb pui__wFzIYl\" tabindex=\"0\" aria-expanded=\"true\" data-pui-click-code=\"rvshowless\" data-nlog-area=\"plc_rrv.rvshowless\" data-nlog-params=\"{&quot;item_type&quot;:&quot;place_type&quot;,&quot;item_name&quot;:&quot;restaurant&quot;,&quot;place_id&quot;:&quot;1581469411&quot;}\" style=\"line-height: 2.4rem;\">접기</a></div>",
+    "bounds": {
+      "x": 16,
+      "y": 570,
+      "width": 352,
+      "height": 144,
+      "top": 570,
+      "right": 368,
+      "bottom": 714,
+      "left": 16
+    }
+  }
+}

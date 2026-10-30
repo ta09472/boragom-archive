@@ -1,0 +1,26 @@
+[
+  {
+    "path": "source/src/source-icons.json",
+    "sha256": "7c5ffcfeddebbdfda9c1ac57b83a891be232b16a235cf8a83a9adfaa7afacd91"
+  },
+  {
+    "path": "source/src/main.tsx",
+    "sha256": "0a67cbd19bc40c5420926ebc57aef3bd4fc2c3e4bfa11ab949ca290ebca7722c"
+  },
+  {
+    "path": "source/src/home-evidence.json",
+    "sha256": "65ad0c1b6675da32d687f267c546d4e4ed5cd81de7cef6747178061d683cbf43"
+  },
+  {
+    "path": "source/src/data.json",
+    "sha256": "8bac64dd6c1819c6596acad717debf0cc140dc23e33f62cd1862b527ce74295c"
+  },
+  {
+    "path": "source/src/style.css",
+    "sha256": "ee57c8db8f24d96b82a4caa9cec8cfff12c58d6b77c3470c96a8ebbb82f29698"
+  },
+  {
+    "path": "source/src/reference-thumbnails.json",
+    "sha256": "a34287a55ccebcb65ff49b0094fbec7a8cd7092601c72d1816dbec8c9b088f8d"
+  }
+]

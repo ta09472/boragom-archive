@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-28T23:30:12.509759+00:00",
+  "status": "incomplete_source_network_error",
+  "previous_attempt": "inventory/mobile-photo-recheck-v2.json",
+  "previous_photos_observed": 200,
+  "previous_new_urls": 0,
+  "current_attempt": {
+    "security_challenge_visible": false,
+    "photo_response_count": 0,
+    "error": "AbortError: signal is aborted without reason",
+    "ui_reload_attempts_after_error": 1,
+    "evidence": "raw/audit-v3/mobile-network-error.json",
+    "sha256": "2118d5334a127ce2f388a3bf1ae2a8331468ae4b91802d60ffcfeeca410486cd"
+  },
+  "notes": [
+    "User resumed browser verification. No CAPTCHA was visible; no challenge was solved by the agent.",
+    "The mobile page rendered its own transient network error both before and after one UI reload. Further retries were stopped.",
+    "The earlier 200-photo mobile pass remains partial. Desktop full-gallery and review audits remain separately recorded."
+  ]
+}

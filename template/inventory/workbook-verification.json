@@ -1,0 +1,13 @@
+{
+  "text_rows": 338,
+  "media_rows": 1631,
+  "media_status_counts": {
+    "saved": 1629,
+    "failed": 2
+  },
+  "unique_saved_file_paths": 1613,
+  "blog_full_body_exact_matches": 28,
+  "all_text_records_exact_matches": 338,
+  "structured_business_text_rows_verified": 28,
+  "export_full_text_verified": true
+}

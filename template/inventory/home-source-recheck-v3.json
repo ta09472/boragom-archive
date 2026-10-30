@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-28T23:31:37.925520+00:00",
+  "source": "evidence/rea-v3/home-public-network.json",
+  "source_sha256": "fbc1b2f0ef6bd5f72697f97c7e362ac89e0763fb5c9373d675be3f292a36b5fe",
+  "checks": [
+    {
+      "collection": "home visitor review response",
+      "source_total": 238,
+      "page_size": 10,
+      "body_or_media_differences": [],
+      "note": "Home requests 10 records but renders the first 3 cards; not a new full enumeration."
+    },
+    {
+      "collection": "home GRID photos",
+      "response_count": 10,
+      "missing_saved_originals": [],
+      "ordered_view_ids": [
+        "userimage_69344502776f31df0a48199b",
+        "userimage_69344502776f31df0a48199c",
+        "userimage_6919bc40ace7461d191292fb",
+        "userimage_6918ad09d4ecc49b7c54d620",
+        "userimage_6918ad09d4ecc49b7c54d61e",
+        "userimage_6918ad09d4ecc49b7c54d61f",
+        "userimage_6910bc9936cb1f8c64f97516",
+        "userimage_6910bc9936cb1f8c64f97515",
+        "userimage_69104f3c51ea149e804e5b05",
+        "userimage_690ddd5e8d8dbbde2d82eb36"
+      ],
+      "note": "Home renders the first 9 of these 10; no total or terminal pagination cursor is exposed by this response."
+    }
+  ],
+  "limitations": [
+    "Fresh home records add no explanation for the aggregate 462 vs 432 discrepancy.",
+    "Photo identities are checked against the existing original URL manifest; this is a bounded home preview, not evidence of full-gallery completeness."
+  ]
+}

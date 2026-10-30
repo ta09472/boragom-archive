@@ -1,0 +1,42 @@
+[
+  {
+    "path": "outputs/boragom-archive/source/src/data.json",
+    "bytes": 3894513,
+    "sha256": "8bac64dd6c1819c6596acad717debf0cc140dc23e33f62cd1862b527ce74295c"
+  },
+  {
+    "path": "outputs/boragom-archive/source/src/home-evidence.json",
+    "bytes": 15896,
+    "sha256": "7b7790fe0936f03cb3f35aaede4ca2f3cdddbb2018218ca1014966e133f8fa2b"
+  },
+  {
+    "path": "outputs/boragom-archive/source/src/main.tsx",
+    "bytes": 64353,
+    "sha256": "dc622f054ea1811aa769a1614c3dc1df67123cdcfa9cb7bed7c9b728ee98ac0c"
+  },
+  {
+    "path": "outputs/boragom-archive/source/src/reference-thumbnails.json",
+    "bytes": 6526,
+    "sha256": "a34287a55ccebcb65ff49b0094fbec7a8cd7092601c72d1816dbec8c9b088f8d"
+  },
+  {
+    "path": "outputs/boragom-archive/source/src/source-icons.json",
+    "bytes": 14599,
+    "sha256": "7c5ffcfeddebbdfda9c1ac57b83a891be232b16a235cf8a83a9adfaa7afacd91"
+  },
+  {
+    "path": "outputs/boragom-archive/source/src/style.css",
+    "bytes": 51005,
+    "sha256": "95a7c666fa64e8eebe1c58c22807b17121cf28aed173771cd66d94aaf9b1d23a"
+  },
+  {
+    "path": "outputs/boragom-archive/assets/app.js",
+    "bytes": 4372644,
+    "sha256": "b74ee81a47e2be11cc1235bc69ccd269d51a007ea77bb1eae7b1782093ad9d5d"
+  },
+  {
+    "path": "outputs/boragom-archive/assets/archive.css",
+    "bytes": 462426,
+    "sha256": "7ae6133cb7ec91bcded7bbc39b1153665961a42989d663efd659270acb9f207c"
+  }
+]

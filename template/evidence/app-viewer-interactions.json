@@ -1,0 +1,45 @@
+{
+  "before": {
+    "url": "http://127.0.0.1:8765/#/menu/NmkLQKMzFzCq7gL79WFH",
+    "open": true,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg",
+        "bounds": {
+          "x": 484,
+          "y": 161.5,
+          "width": 460,
+          "height": 460,
+          "top": 161.5,
+          "right": 944,
+          "bottom": 621.5,
+          "left": 484
+        }
+      }
+    ]
+  },
+  "zoom": {
+    "url": "http://127.0.0.1:8765/#/menu/NmkLQKMzFzCq7gL79WFH",
+    "open": true,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/https://ik.imagekit.io/validation-only/tr:orig-true/boragom-archive/media/images/06364c2e84fe125a3df6.jpg",
+        "bounds": {
+          "x": 461,
+          "y": 138.5,
+          "width": 506,
+          "height": 506,
+          "top": 138.5,
+          "right": 967,
+          "bottom": 644.5,
+          "left": 461
+        }
+      }
+    ]
+  },
+  "escape": {
+    "url": "http://127.0.0.1:8765/#/menu/NmkLQKMzFzCq7gL79WFH",
+    "open": false,
+    "images": []
+  }
+}

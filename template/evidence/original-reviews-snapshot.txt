@@ -1,0 +1,777 @@
+[p4 "네이버 플레이스" | space "케이크 가게 네이버 플레이스 보관"(2): 4 managed, 0 untracked — p1 "보라곰 주문제작&레터링케이크 - 네이버지도", p2 "보라곰 수집 목록", p3 "네이버 플레이스", p4* "네이버 플레이스"]
+root
+  container
+    svg_root
+    container
+      banner
+        button [ref=647, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+          svg_root
+          text "이전 페이지"
+        heading
+          text "보라곰 주문제작&레터링케이크"
+        button [ref=648, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+          svg_root
+          text "저장"
+        button [ref=649, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+          svg_root
+          text "페이지 닫기"
+      main
+        container
+          text "보라곰 주문제작&레터링케이크"
+          text "케이크전문"
+          button [ref=650, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor]
+            text "리뷰 266"
+          text "영업 종료"
+          text "11:00에 영업 시작"
+          text "친절함으로 완성되는 완벽한 생일 선물"
+          button [ref=651, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+            text "AI 요약"
+            svg_root
+          unordered_list [ref=652]
+            list_item
+              button [ref=653, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EC%97%85%EC%B2%B4]
+                image
+            list_item
+              button [ref=654, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EC%97%85%EC%B2%B4]
+                image
+            list_item
+              button [ref=655, loc=href:/restaurant/1581469411/photo?filterType=%ED%81%B4%EB%A6%BD, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%ED%81%B4%EB%A6%BD]
+                image
+                video
+                image
+                text "Asha Life"
+            list_item
+              button [ref=656, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EC%97%85%EC%B2%B4]
+                image
+            list_item
+              button [ref=657, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EC%97%85%EC%B2%B4]
+                image
+            list_item
+              button [ref=658, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EB%A6%AC%EB%B7%B0]
+                image
+                image
+                text "심체리"
+            list_item
+              button [ref=659, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EB%A6%AC%EB%B7%B0]
+                image
+                image
+                text "심체리"
+            list_item
+              button [ref=660, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EB%A6%AC%EB%B7%B0]
+                image
+                image
+                text "심체리"
+            list_item
+              button [ref=661, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EB%A6%AC%EB%B7%B0]
+                image
+                image
+                text "심체리"
+            list_item
+              button [ref=662, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EB%A6%AC%EB%B7%B0]
+                image
+                image
+                text "심체리"
+            list_item
+              button [ref=663, url=https://pcmap.place.naver.com/restaurant/1581469411/photo]
+                svg_root
+                text "더보기"
+          container
+            button [ref=664, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "출발"
+            button [ref=665, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "도착"
+            button [ref=666, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              svg_root
+              text "거리뷰"
+            anchor [ref=667, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              svg_root
+              text "공유"
+            button [ref=668, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              svg_root
+              text "알림받기"
+        tablist
+          container
+            tab [ref=669, loc=href:/restaurant/1581469411/home, url=https://pcmap.place.naver.com/restaurant/1581469411/home]
+              text "홈"
+            tab [ref=670, loc=href:/restaurant/1581469411/feed, url=https://pcmap.place.naver.com/restaurant/1581469411/feed]
+              text "소식"
+            tab [ref=671, loc=href:/restaurant/1581469411/menu, url=https://pcmap.place.naver.com/restaurant/1581469411/menu]
+              text "메뉴"
+            tab [ref=672, loc=href:/restaurant/1581469411/review, url=https://pcmap.place.naver.com/restaurant/1581469411/review]
+              text "리뷰"
+            tab [ref=673, url=https://pcmap.place.naver.com/restaurant/1581469411/photo]
+              text "사진"
+            tab [ref=674, loc=href:/restaurant/1581469411/information, url=https://pcmap.place.naver.com/restaurant/1581469411/information]
+              text "정보"
+        container
+          iframe [ref=801]
+            root
+              button [ref=802]
+                text "광고 옵션"
+              anchor [ref=803, url=https://ader.naver.com/collection/gfa/3Y20SgxB2hT6rWeoZIfa2guhtKak9g_aVlPrqGPPNpbR4nq_eA97uu4-6pCl6Ai9xOHzL-k0bDr7LoXj6sdnaSn0ATklk7nf7H6gDM8rFhwN56DW0361nAece785V23w2nuQpSEocx5Rp8LEBA2uCda1Bd68tRLzEoy7B915vh3upuToL4h8jRANjR30Lkzv1uxWoEZzfO6-YwvFdhc61cVJr9LkJqYLc4ULZrw3vqKC2lJKstQYxJCy0Y0aL_qN_HBcK484nhtmQ6b8wsDfJqhdd_WYr1Osa2si-Xor34A=]
+                text "새 창"
+                container
+                  image
+                  container
+                    text "에리살롱 탈색+염색 20% 할인이벤트"
+                    paragraph
+                      text "에리살롱 가을 이벤트 탈색+염색 20%할인 이벤트!"
+          tablist
+            tab [ref=675, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor]
+              svg_root
+              text "방문자 리뷰"
+            tab [ref=676, loc=href:/restaurant/1581469411/review/ugc, url=https://pcmap.place.naver.com/restaurant/1581469411/review/ugc]
+              text "블로그 리뷰"
+          container
+            container
+              heading
+                text "이런 점이 좋았어요"
+                button [ref=677, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "안내"
+              container
+                container
+                  svg_root
+                  text "237회"
+                  text "230명 참여"
+                container
+                  unordered_list
+                    list_item
+                      container
+                        image
+                        container
+                          text """
+                          text "주문제작을 잘해줘요"
+                          text """
+                        container
+                          text "이 키워드를 선택한 인원"
+                          text "209"
+                    list_item
+                      container
+                        image
+                        container
+                          text """
+                          text "디저트가 맛있어요"
+                          text """
+                        container
+                          text "이 키워드를 선택한 인원"
+                          text "138"
+                    list_item
+                      container
+                        image
+                        container
+                          text """
+                          text "친절해요"
+                          text """
+                        container
+                          text "이 키워드를 선택한 인원"
+                          text "120"
+                    list_item
+                      container
+                        image
+                        container
+                          text """
+                          text "선물하기 좋아요"
+                          text """
+                        container
+                          text "이 키워드를 선택한 인원"
+                          text "93"
+                    list_item
+                      container
+                        image
+                        container
+                          text """
+                          text "특별한 메뉴가 있어요"
+                          text """
+                        container
+                          text "이 키워드를 선택한 인원"
+                          text "85"
+                  button [ref=678, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    svg_root
+                    text "더보기"
+            container
+              heading
+                text "사진·영상 리뷰"
+              unordered_list [ref=679]
+                list_item
+                  button [ref=680, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=681, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=682, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=683, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=684, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=685, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=686, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=687, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=688, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=689, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                    image
+                list_item
+                  button [ref=690, url=https://pcmap.place.naver.com/restaurant/1581469411/photo?filterType=%EB%A6%AC%EB%B7%B0]
+                    svg_root
+                    text "더보기"
+            heading
+              container
+                text "리뷰"
+                text "238"
+                button [ref=691, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "안내"
+              checkbox [ref=692, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                svg_root
+                text "사진/영상 리뷰만"
+            container [ref=693]
+              text "메뉴"
+              button [ref=694, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "케이크"
+                text "144"
+              button [ref=695, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "주문제작케이크"
+                text "25"
+              button [ref=696, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "레터링케이크"
+                text "13"
+              button [ref=697, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "안심"
+                text "3"
+              button [ref=698, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "수제케이크"
+                text "2"
+              button [ref=699, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "초코케이크"
+                text "2"
+              button [ref=700, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "과일"
+                text "1"
+              button [ref=701, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "도시락"
+                text "1"
+              button [ref=702, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "도시락케이크"
+                text "1"
+              button [ref=703, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "아이스크림"
+                text "1"
+              button [ref=704, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "아이스크림케이크"
+                text "1"
+              button [ref=705, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "초코볼"
+                text "1"
+              button [ref=706, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "초콜릿"
+                text "1"
+              button [ref=707, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "치즈"
+                text "1"
+              button [ref=708, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "쿠키"
+                text "1"
+            container
+              text "특징"
+              button [ref=709, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "만족도"
+                text "227"
+              button [ref=710, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "서비스"
+                text "83"
+              button [ref=711, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "목적"
+                text "67"
+              button [ref=712, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "맛"
+                text "59"
+              button [ref=713, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "분위기"
+                text "5"
+              button [ref=714, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "위치"
+                text "3"
+              button [ref=715, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "가격"
+                text "3"
+              button [ref=716, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "배달"
+                text "2"
+              button [ref=717, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "예약"
+                text "1"
+              button [ref=718, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                text "대기시간"
+                text "1"
+            button [ref=719, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "추천순"
+            listboxoption [ref=720, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "최신순"
+            button [ref=721, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "리뷰 제공 기준"
+              svg_root
+            button [ref=722, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "리뷰 클렌징 시스템"
+              text "작동중입니다"
+              svg_root
+            unordered_list
+              list_item
+                button [ref=723, url=https://m.place.naver.com/my/5d424c2587dd4055c2142f5a/review?v=2]
+                  image
+                button [ref=724, url=https://m.place.naver.com/my/5d424c2587dd4055c2142f5a/review?v=2]
+                  text "민교이캉"
+                  text "리뷰 79"
+                  text "사진 89"
+                  text "팔로워 1"
+                button [ref=725, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                text "네이버페이 전용 결제창"
+                button [ref=726, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "점심에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "연인・배우자, 부모님"
+                button [ref=727, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "너무너무 이쁜 케이크였습니다...."
+                  text "어머님의 웨딩사진으로 문의드렸는데 생각보다 더 멋지게 완성해주셨어요..."
+                  text "사장님은 그저 갓.. 능력치 무엇입니까"
+                  text "너무 감사해요 ㅎㅎ"
+                button [ref=728, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "더보기"
+                button [ref=729, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "특별한 메뉴가 있어요"
+                button [ref=730, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.11.22.토"
+                text "2025년 11월 22일 토요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "예약"
+              list_item
+                button [ref=731, url=https://m.place.naver.com/my/5c28bf29f2e4e88e450c3784/review?v=2]
+                  image
+                button [ref=732, url=https://m.place.naver.com/my/5c28bf29f2e4e88e450c3784/review?v=2]
+                  text "아보카도새싹"
+                  text "리뷰 54"
+                  text "사진 52"
+                button [ref=733, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                text "네이버페이 전용 결제창"
+                button [ref=734, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "점심에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "친목"
+                  text "친구"
+                button [ref=735, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "친구 결혼 축하케이크로 주문했어요~~ 원래 아카자 대사이긴 하지만 칭구가 렌고쿠를 좋아해서 렌고쿠 사진으로 주문했는데, 친구가 정말 좋아했어요 ..."
+                  text "디자인 설명두 개떡(?)같이 했는데… 사장님이 찰떡같이 알아들으시고 짱예쁜 케이크 만들어주십니다🥹🩵"
+                  text "금손 사장님 감사합니다~~~"
+                button [ref=736, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "친절해요"
+                    list_item
+                      image
+                      text "선물하기 좋아요"
+                button [ref=737, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.10.25.토"
+                text "2025년 10월 25일 토요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "예약"
+              list_item
+                button [ref=738, url=https://m.place.naver.com/my/5efecebe493ad9a9a0ec3d55/review?v=2]
+                  image
+                button [ref=739, url=https://m.place.naver.com/my/5efecebe493ad9a9a0ec3d55/review?v=2]
+                  text "Azure1129"
+                  text "리뷰 27"
+                  text "사진 35"
+                button [ref=740, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=741, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "점심에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "기념일"
+                  text "혼자"
+                button [ref=742, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "제 단골 주문제작 케이크 가게,,진짜 너무너무 이쁘게 만들어주세요ㅜㅜㅜ캐릭터 사진이랑 원하는 느낌 인스타계정에서 찾아가지구 예시 사진 드리면..."
+                button [ref=743, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "특별한 메뉴가 있어요"
+                    list_item
+                      image
+                      text "친절해요"
+                    list_item
+                      image
+                      text "특별한 날 가기 좋아요"
+                button [ref=744, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.10.16.목"
+                text "2025년 10월 16일 목요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=745, url=https://m.place.naver.com/my/64c4e0511438fc3a9c463552/review?v=2]
+                  image
+                button [ref=746, url=https://m.place.naver.com/my/64c4e0511438fc3a9c463552/review?v=2]
+                  text "23s****"
+                  text "리뷰 58"
+                  text "사진 128"
+                button [ref=747, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=748, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "밤에 방문"
+                  text "포장·배달 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "친목"
+                  text "친구"
+                button [ref=749, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "친구 생일이라 주문제작 했어요!"
+                  text "초록색을 좋아하고 춤 추는걸 좋아하는 친구라고 말씀드리니 알아서 예쁘게 잘 만들어 주셨어요"
+                  text "덕분에 파티 잘 끝냈습니다 감사합니다~"
+                button [ref=750, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "특별한 메뉴가 있어요"
+                    list_item
+                      image
+                      text "가성비가 좋아요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "비싼 만큼 가치있어요"
+                button [ref=751, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.11.14.금"
+                text "2025년 11월 14일 금요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=752, url=https://m.place.naver.com/my/5da44f0b8f87a842bcf1c9fe/review?v=2]
+                  image
+                button [ref=753, url=https://m.place.naver.com/my/5da44f0b8f87a842bcf1c9fe/review?v=2]
+                  text "반가워어엉"
+                  text "리뷰 58"
+                  text "사진 48"
+                button [ref=754, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=755, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "점심에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "친목"
+                  text "친구"
+                button [ref=756, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "친한 언니 생일 기념해서 언니네 고양이로 케이크를 제작하였는데 생각했던 것보다 더더 이쁘게 나와서 너무 만족스러웟고 맛있었습니다!! 다음에도 �..."
+                button [ref=757, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "비싼 만큼 가치있어요"
+                    list_item
+                      image
+                      text "음식이 맛있어요"
+                button [ref=758, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.11.2.일"
+                text "2025년 11월 2일 일요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=759, url=https://m.place.naver.com/my/5eae43308f87a842bc68520c/review?v=2]
+                  image
+                button [ref=760, url=https://m.place.naver.com/my/5eae43308f87a842bc68520c/review?v=2]
+                  text "민초딩로딩"
+                  text "리뷰 13"
+                  text "사진 24"
+                  text "팔로워 1"
+                button [ref=761, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=762, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "저녁에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "기념일"
+                  text "혼자"
+                button [ref=763, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "덕분에 케이크 받은 분과 가족들이 엄청 기뻐하셨습니다~~!! 퀄도 너무 좋고 친절하셔서 너무 감사했어요!! 역이랑도 가깝고 앞으로도 레터링 케잌 필�..."
+                button [ref=764, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "특별한 메뉴가 있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "특별한 날 가기 좋아요"
+                    list_item
+                      image
+                      text "친절해요"
+                button [ref=765, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.11.5.수"
+                text "2025년 11월 5일 수요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=766, url=https://m.place.naver.com/my/5da3c58d8f87a842bc5c1f87/review?v=2]
+                  image
+                button [ref=767, url=https://m.place.naver.com/my/5da3c58d8f87a842bc5c1f87/review?v=2]
+                  text "ㅋㅇㅇㅇㅁㅁ"
+                  text "리뷰 20"
+                  text "사진 31"
+                button [ref=768, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=769, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "저녁에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "친목"
+                  text "친구"
+                button [ref=770, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "도안까지 그려서 예약했는데 센스있게 도안 그대로 적용해서 더 이쁘게 만들어주셨어요 사장님도 친절하시고 친구 울릴정도로 이쁜 케이크였습니다!"
+                button [ref=771, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "특별한 메뉴가 있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "친절해요"
+                button [ref=772, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.11.7.금"
+                text "2025년 11월 7일 금요일"
+                text "5번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=773, url=https://m.place.naver.com/my/61652063004deb5b85ce94a4/review?v=2]
+                  image
+                button [ref=774, url=https://m.place.naver.com/my/61652063004deb5b85ce94a4/review?v=2]
+                  text "좽쟁"
+                  text "리뷰 27"
+                  text "사진 26"
+                button [ref=775, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=776, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "점심에 방문"
+                  text "예약 후 이용"
+                  text "데이트"
+                  text "연인・배우자"
+                button [ref=777, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "케이크 제작 주문은 처음이라 이상하면 어떡하지?했는데 받자마자 너무너무 이뻐서 놀랐구 너모 행복했습니다🥺💗 받기전에 카톡도 친절하게 답변�..."
+                button [ref=778, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "선물하기 좋아요"
+                button [ref=779, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.9.25.목"
+                text "2025년 9월 25일 목요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=780, url=https://m.place.naver.com/my/5f0586542b24071c70655c90/review?v=2]
+                  image
+                button [ref=781, url=https://m.place.naver.com/my/5f0586542b24071c70655c90/review?v=2]
+                  text "htd****"
+                  text "리뷰 43"
+                  text "사진 41"
+                button [ref=782, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                button [ref=783, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "점심에 방문"
+                  text "예약 없이 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "데이트"
+                  text "연인・배우자"
+                button [ref=784, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "여자친구가 너무너무 좋아했어요~ 주문제작 너무 예쁘게 해주시는거 같아요~!! 다음에 또 오겠습니다~"
+                button [ref=785, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "가성비가 좋아요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                    list_item
+                      image
+                      text "비싼 만큼 가치있어요"
+                    list_item
+                      image
+                      text "특별한 메뉴가 있어요"
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                button [ref=786, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.11.9.일"
+                text "2025년 11월 9일 일요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "영수증"
+              list_item
+                button [ref=787, url=https://m.place.naver.com/my/5b9d9558edd0d602ec5cdda7/review?v=2]
+                  image
+                button [ref=788, url=https://m.place.naver.com/my/5b9d9558edd0d602ec5cdda7/review?v=2]
+                  text "yongjin9712"
+                  text "리뷰 31"
+                  text "사진 39"
+                button [ref=789, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "팔로우"
+                text "네이버페이 전용 결제창"
+                button [ref=790, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "저녁에 방문"
+                  text "예약 후 이용"
+                  text "대기 시간"
+                  text "바로 입장"
+                  text "기념일"
+                  text "친구"
+                button [ref=791, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "친구들의 공연 기념 레터링 케이크를 제작하고 싶어서 찾아보던 중 알게된 곳입니다! Gpt로 시안을 만들어서 다소 부족했을 수도 있었는데 너무 친절하..."
+                  text "그리고 다른 곳도 이용해보았지만 가격도 합리적이고 퀄리티도 너무 좋은거 같아요!"
+                  text "친구들에게 선물해주었더니 너무 만족하네요! 다음에도 홍대-연남에서 픽업할 일 있으면 이용하겠습니다"
+                button [ref=792, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  text "더보기"
+                button [ref=793, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  unordered_list
+                    list_item
+                      image
+                      text "디저트가 맛있어요"
+                    list_item
+                      image
+                      text "주문제작을 잘해줘요"
+                button [ref=794, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+                  svg_root
+                  text "반응 남기기"
+                text "방문일"
+                text "25.10.19.일"
+                text "2025년 10월 19일 일요일"
+                text "1번째 방문"
+                text "인증 수단"
+                text "예약"
+            button [ref=795, url=https://pcmap.place.naver.com/restaurant/1581469411/review/visitor#]
+              text "펼쳐서 더보기"
+              svg_root
+      contentinfo
+        button [ref=796, loc=href:https://policy.naver.com/policy/service.html, url=https://policy.naver.com/policy/service.html]
+          text "이용약관"
+        button [ref=797, loc=href:https://help.naver.com/alias/NSP_M/NSPM_1.naver, url=https://help.naver.com/alias/NSP_M/NSPM_1.naver]
+          text "고객센터"
+        button [ref=798, loc=href:https://m.place.naver.com/my/policy/visitorReview, url=https://m.place.naver.com/my/policy/visitorReview]
+          text "리뷰운영정책"
+        button [ref=799, loc=href:https://help.naver.com/alias/myplace/myplace_70.naver, url=https://help.naver.com/alias/myplace/myplace_70.naver]
+          text "신고센터"
+        button [ref=800, loc=href:https://naver.com/, url=https://naver.com/]
+          text "네이버"
+          svg_root
