@@ -36,7 +36,6 @@ for (const entry of await readdir(archive, { withFileTypes: true })) {
   if (['media', 'raw', 'source'].includes(entry.name)) continue;
   await cp(path.join(archive, entry.name), path.join(template, entry.name), {
     recursive: true,
-    filter: (file) => !file.endsWith('.mhtml'),
   });
 }
 await cp(path.join(archive, 'source'), path.join(root, 'app'), { recursive: true });

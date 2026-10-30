@@ -1025,7 +1025,11 @@ function Gallery({
         </span>
         <div>
           <a
-            href={item.src}
+            href={
+              item.src.startsWith("https://ik.imagekit.io/")
+                ? `${item.src}?ik-attachment=true`
+                : item.src
+            }
             download={mediaName(item)}
             aria-label="원본 파일 저장"
           >

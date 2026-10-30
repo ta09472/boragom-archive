@@ -1,4 +1,4 @@
-import { cp, readdir, readFile, writeFile, rm } from 'node:fs/promises';
+import { cp, readdir, readFile, writeFile, rm, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -24,7 +24,7 @@ async function rewrite(dir) {
     if (entry.isDirectory()) { await rewrite(file); continue; }
     if (!/\.(js|css|html|json|csv|md|txt)$/i.test(entry.name)) continue;
     const original = await readFile(file, 'utf8');
-    const transformed = original.replace(/(?<![A-Za-z0-9_:/.-])(?:\.\.\/|\.\/)*media\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|gif|webp|svg|avif|ico|mp4|webm|mov)/gi, (match) => {
+    const transformed = original.replace(/(?<![A-Za-z0-9_:/.-])(?:\.\.\/|\.\/)*media\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|gif|webp|svg|avif|ico|mp4|webm|mov|php)/gi, (match) => {
       const relative = match.replace(/^(?:\.\.\/|\.\/)+/, '');
       if (!known.has(relative)) { missing.add(relative); return match; }
       referenced.add(relative);
@@ -39,10 +39,26 @@ async function rewrite(dir) {
 await rewrite(site);
 await writeFile(path.join(site, '.nojekyll'), '');
 await writeFile(path.join(site, '404.html'), await readFile(path.join(site, 'index.html')));
-const report = { endpoint: endpoint.href, originalDelivery: true, mediaFiles: inventory.files, mediaBytes: inventory.bytes, rewrittenMediaFiles: referenced.size, unresolvedReferences: [...missing].sort() };
+const localTargets = new Set();
+const missingLocalLinks = [];
+for (const name of await readdir(site)) {
+  if (!name.endsWith('.html')) continue;
+  const html = await readFile(path.join(site, name), 'utf8');
+  for (const match of html.matchAll(/(?:href|src)=["']([^"']+)["']/g)) {
+    if (match[1].startsWith('#')) continue;
+    const url = new URL(match[1], `https://archive.test/${encodeURIComponent(name)}`);
+    if (url.origin !== 'https://archive.test') continue;
+    const target = decodeURIComponent(url.pathname).slice(1);
+    localTargets.add(target);
+    try { await stat(path.join(site, target)); }
+    catch { missingLocalLinks.push({ page: name, target }); }
+  }
+}
+const report = { endpoint: endpoint.href, originalDelivery: true, mediaFiles: inventory.files, mediaBytes: inventory.bytes, rewrittenMediaFiles: referenced.size, unresolvedReferences: [...missing].sort(), localLinkTargets: localTargets.size, missingLocalLinks };
 await writeFile(path.join(root, 'build-verification.json'), JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify(report));
+if (missingLocalLinks.length) throw new Error('Broken local links in static deployment');
 // Historical evidence can contain paths for known missing source files; the application must not.
 const app = await readFile(path.join(site, 'assets/app.js'), 'utf8');
-const unresolvedApp = [...app.matchAll(/(?<![A-Za-z0-9/_-])media\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|gif|webp|svg|mp4|webm)/gi)].map((m) => m[0]);
+const unresolvedApp = [...app.matchAll(/(?<![A-Za-z0-9/_-])media\/[A-Za-z0-9_./-]+\.(?:jpe?g|png|gif|webp|svg|mp4|webm|php)/gi)].map((m) => m[0]);
 if (unresolvedApp.length) throw new Error(`Unresolved application media: ${unresolvedApp.join(', ')}`);
